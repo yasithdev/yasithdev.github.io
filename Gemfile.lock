@@ -257,7 +257,7 @@ PLATFORMS
   universal-darwin-20
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 209)
 
 BUNDLED WITH
    2.2.4
