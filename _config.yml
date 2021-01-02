@@ -18,4 +18,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+sass:
+    sass_dir: _sass
 theme: minima
