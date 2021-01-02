@@ -4,7 +4,6 @@ description: >-
   Personal Web Page of Yasith Jayawardana
 source: src
 destination: .dist
-incremental: true
 header_pages:
   - education.md
   - experience.md

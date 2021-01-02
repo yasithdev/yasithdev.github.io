@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{%- if page.title -%}
+{% if page.title %}
   <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%}
+{% endif %}
 
 <header style="display: flex; align-items: flex-start; margin-bottom: 1em;">
   <div style="width: 10em; height: 10em; padding: 0.5em; margin-left: 0; padding-left: 0;">

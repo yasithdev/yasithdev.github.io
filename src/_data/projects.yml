@@ -1,0 +1,93 @@
+- title: StreamingHub
+  term: Ongoing
+  description: >-
+    A stream-oriented framework for scientific workflows, based on the concepts of visual programming and flow-based programming.
+    It provides a web interface to create scientific workflows, connect to sensory data streams, pipe sensory data through workflows, and visualize analytics in real-time.
+    A repository of preset workflows is also provided for common use cases.
+    Additionally, it supports re-streaming of stored data into workflows, and generating synthetic data using stored data.
+  technologies:
+    - Node-RED
+    - WebSockets
+    - NodeJS
+    - TF.js
+
+- title: HACS
+  term: 2020
+  description: >-
+    A framework to estimate the rate of change of the academic web using archived copies of web pages.
+    It first obtaines archived copies of web pages from the Internet Archive through its CDX Server API, analyzes each archived copy, and detects when changes have occurred.
+    Next, it models this change information as a poisson process, and predicts when each webpage is likely to change in the future.
+  technologies:
+    - Python
+    - Internet Archive
+    - SciPy
+    - NumPy
+    - Pandas
+
+- title: ASD-Detection
+  term: 2019
+  description: >-
+    Data Processing workflows and Machine Learning models to predict a diagnosis of ASD using EEG data.
+  technologies:
+    - TensorFlow
+    - Python
+    - Numpy
+    - Pandas
+    - PyWavelets
+
+- title: MSstack
+  term: 2018
+  description: >-
+    A full-stack, event-driven, microservices framework for Java.
+    It aims to abstract the complexities of microservices architecture, while providing a clean interface to implement business logic.
+    It handles microservice choreography, data partitioning, and auto-scaling at framework-level, and supports boilerplate code generation from Business Process Models.
+  technologies:
+    - Java
+    - Netty
+    - Apache Kafka
+    - Apache Zookeeper
+    - Apache Curator
+    - Git
+
+- title: TourMate
+  term: 2017
+  description: >-
+    A platform for seamless tour service discovery and reservation, aimed at tourists and tour providers.
+    Tourists can book tour services from tour providers, while tour providers can advertise and attract customers.
+  technologies:
+    - Express.JS
+    - MongoDB
+    - React
+    - Git
+
+- title: Raven
+  term: 2016
+  description: >-
+    A realtime facial recognition and emotion detection system (prototype) for the hospitality industry.
+    It uses camera feeds to analyze customer reactions and provide a rating of satisfaction in areas of interest such as dining area, lounge, etc.
+  technologies:
+    - Microsoft Emotion API
+    - C#
+    - Git
+
+- title: Onion
+  term: 2016
+  description: >-
+    A Point-of-Sales, Reporting, Loan, and Payroll System for Dambulla Dedicated Economic Centre, Sri Lanka
+  technologies:
+    - C#
+    - WPF
+    - MySQL
+    - Dapper ORM
+    - VSTS
+
+- title: GoldLine
+  term: 2016
+  description: >-
+    A Point-of-Sales, Inventory, and Payroll System for Gold Line Tours and Tyre Center, Dehiwala, Sri Lanka.
+  technologies:
+    - C#
+    - WPF
+    - SQLite
+    - Dapper ORM
+    - Git

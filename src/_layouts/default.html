@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: " en-US" }}">
+{%- if page.title -%}
+<title>{{page.title}}</title>
+{%- else -%}
+<title>{{site.title}}</title>
+{%- endif -%}
 
 {%- include head.html -%}
 
@@ -9,6 +14,9 @@
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
+      {%- if page.title -%}
+      <h2>{{page.title}}</h2>
+      {%- endif -%}
       {{ content }}
     </div>
   </main>
