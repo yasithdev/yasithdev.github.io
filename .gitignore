@@ -1,4 +1,4 @@
 .vendor/
-.dist/
+_site
 src/.jekyll-metadata
 src/.jekyll-cache

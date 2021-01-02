@@ -3,7 +3,6 @@ title: Yasith Jayawardana
 description: >-
   PhD student at @oduwsdl @nirdslab, Interned at @wso2, @apache contributor
 source: src
-destination: .dist
 header_pages:
   - education.html
   - work.html
