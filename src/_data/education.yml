@@ -3,8 +3,8 @@
   major: Computer Science
   term: Jan 2019 - Present
   description: |-
-    I studied and collaborated on research involving Data Science, Signal Processing, and Machine Learning.
-    I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neurodevelopmental conditions like ASD and ADHD.
+    I study and collaborate on research involving Data Science, Signal Processing, and Machine Learning.
+    I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ASD and ADHD.
     As my dissertation project, I'm building a stream-oriented framework to create scientific workflows through visual programming and flow-based programming (Project:&nbsp;StreamingHub).
   extra:
     - key: GPA
@@ -19,8 +19,8 @@
   major: Computer Science and Engineering
   term: Jan 2015 - Dec 2018
   description: |-
-    Here, I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
-    As my thesis project, I built a full-stack, event-driven, microservices framework for Java, with business modeling (Project:&nbsp;MSstack).
+    I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
+    As my thesis project I built a full-stack, event-driven, microservices framework for Java, with business modeling (Project:&nbsp;MSstack).
   extra:
     - key: GPA
       value: 3.84

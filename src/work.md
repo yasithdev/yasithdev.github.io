@@ -3,10 +3,18 @@ layout: default
 title: Experience
 ---
 {% for work in site.data.work %}
-## {{ work.affiliation }}
-**({{ work.term }}) | {{ work.designation }}**
+<table><tbody>
 
-{: style="text-align: justify" }
+<tr class="header"><td>
+<strong>{{ work.affiliation }}</strong>
+<span>({{ work.term }})</span>
+<br/>
+<small><strong>{{ work.designation }}</strong></small>
+</td></tr>
+
+<tr><td style="text-align: justify">
 {{ work.description | markdownify }}
+</td></tr>
 
+</tbody></table>
 {% endfor %}

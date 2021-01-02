@@ -2,11 +2,22 @@
 layout: default
 title: Projects
 ---
+
 {% for project in site.data.projects %}
-## {{ project.title }}
-**({{ project.term }})** | {% for t in project.technologies %} ```{{ t }}``` {% endfor %}
+<table><tbody>
 
-{: style="text-align: justify" }
+<tr class="header"><td>
+<strong>{{ project.title }}</strong>
+<span>({{ project.term }})</span>
+<br/>
+{% for t in project.technologies %}
+<code class="language-plaintext" style="font-size: smaller">{{ t }}</code>
+{% endfor %}
+</td></tr>
+
+<tr><td style="text-align: justify">
 {{ project.description | markdownify }}
+</td></tr>
 
+</tbody></table>
 {% endfor %}
