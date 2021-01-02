@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.title %}
-  <h1 class="page-heading">{{ page.title }}</h1>
+<h1 class="page-heading">{{ page.title }}</h1>
 {% endif %}
 
 <header style="display: flex; align-items: flex-start; margin-bottom: 1em;">
@@ -14,14 +14,18 @@ layout: default
     <div style="font-size: 1.5em;">{{ site.data.info.name }}</div>
     <div style="font-size: 1.2em;">{{ site.data.info.designation }}</div>
     <address>
-    {% for line in site.data.info.address %}
-    {{ line }}<br/>
-    {% endfor %}
+      {% for line in site.data.info.address %}
+      {{ line }}<br />
+      {% endfor %}
     </address>
     <a href="mailto:{{ site.data.info.email }}">{{ site.data.info.email }}</a>
   </div>
 </header>
 
 <section style="text-align: justify;">
-{{ site.data.info.about }}
+  {{ site.data.info.about }}
+</section>
+
+<section>
+  <a target="_blank" href="{{ site.data.info.cv | relative_url }}"><button>View CV</button></a>
 </section>

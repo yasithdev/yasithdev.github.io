@@ -4,8 +4,9 @@ title: Education
 ---
 {% for education in site.data.education %}
 ## {{education.name}}
-**{{education.degree}} - {{education.major}} ({{education.term}})**
+**({{education.term}}) | {{education.degree}} - {{education.major}}**
 
+{: style="text-align: justify" }
 {{education.description}}
 
 {% endfor %}

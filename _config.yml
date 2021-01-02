@@ -1,11 +1,11 @@
 url: https://about.yasith.dev
 title: Yasith Jayawardana
 description: >-
-  Personal Web Page of Yasith Jayawardana
+  PhD student at @oduwsdl @nirdslab, Interned at @wso2, @apache contributor
 source: src
 destination: .dist
 header_pages:
   - education.md
-  - experience.md
+  - work.md
   - projects.md
   - publications.md

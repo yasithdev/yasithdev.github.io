@@ -5,14 +5,15 @@ about: >-
   I received my B.Sc. in Computer Science and Engineering from University of Moratuwa, Sri Lanka.
   My research interests are on Machine Learning, Data Science and Distributed Systems.
   My current work involve building visual scientific workflows for experimental collection, analysis, and reuse of EEG and Eye Tracking data.
-designation: PhD Student
+designation: Ph.D. Student
 affiliation: Old Dominion University
 address:
-  - Department of Computer Science
+  - E&CS 3110, Computer Science
   - Old Dominion University
   - Norfolk, VA 23529
 email: yasith@cs.odu.edu
 image: /assets/img/dp.jpg
+cv: /assets/cv.pdf
 social:
   facebook_username: yasithmilinda
   github_username: yasithmilinda

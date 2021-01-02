@@ -1,33 +1,42 @@
 - title: StreamingHub
   term: Ongoing
-  description: >-
-    A stream-oriented framework for scientific workflows, based on the concepts of visual programming and flow-based programming.
+  description: |-
+    A stream-oriented framework to create scientific workflows through visual programming and flow-based programming.
     It provides a web interface to create scientific workflows, connect to sensory data streams, pipe sensory data through workflows, and visualize analytics in real-time.
     A repository of preset workflows is also provided for common use cases.
     Additionally, it supports re-streaming of stored data into workflows, and generating synthetic data using stored data.
   technologies:
     - Node-RED
-    - WebSockets
-    - NodeJS
-    - TF.js
-
-- title: HACS
-  term: 2020
-  description: >-
-    A framework to estimate the rate of change of the academic web using archived copies of web pages.
-    It first obtaines archived copies of web pages from the Internet Archive through its CDX Server API, analyzes each archived copy, and detects when changes have occurred.
-    Next, it models this change information as a poisson process, and predicts when each webpage is likely to change in the future.
-  technologies:
     - Python
-    - Internet Archive
-    - SciPy
-    - NumPy
-    - Pandas
+    - Liblsl
+    - WebSockets
+    - Node
+    - TF.js
+    - Docker
+    - Kubernetes
+    - HTML
+    - JS
+    - CSS
 
-- title: ASD-Detection
+- title: MGaze
+  term: Ongoing
+  description: |-
+    
+  technologies:
+    - MediaPipe
+    - TF.js
+    - Node
+    - Parcel
+
+
+- title: ASDetection
   term: 2019
-  description: >-
-    Data Processing workflows and Machine Learning models to predict a diagnosis of ASD using EEG data.
+  description: |-
+    Using EEG and Thermography data to predict a diagnosis of ASD.
+    Here, EEG signals were first pre-processed.
+    Simultaneously, features were extracted from Thermography data.
+    Next, a wavelet transformation was applied on each EEG signal to generate features.
+    Machine learning models were then trained from these features to predict a diagnosis of ASD.
   technologies:
     - TensorFlow
     - Python
@@ -35,36 +44,108 @@
     - Pandas
     - PyWavelets
 
+- title: HACS
+  term: 2019
+  description: |-
+    Estimating the rate of change of the academic web using archived copies of web pages.
+    Here, archived copies of web pages are first obtained from the Internet Archive through its CDX Server API.
+    Next, for each web page, archived copies are analyzed to detect when changes have occurred.
+    These changes are then modeled as a poisson process, and used to predict when a page is likely to change in the future.
+  technologies:
+    - Python
+    - Internet Archive
+    - SciPy
+    - NumPy
+    - Pandas
+
+- title: TheGPService
+  term: 2017
+  description: |-
+    Built a mobile application for making doctor consultations.
+    Re-structured cloud infrastructure on AWS to reduce costs.
+    Set up unified logging using AWS CloudWatch.
+    Created Dockerfiles and BitBucket Pipelines to build, test, and push build artifacts to AWS.
+    Provided development and production support for the web apps of The GP Service (UK) Ltd.
+      * Added single-sign-on capability to web portal.
+      * Upgraded web portal from Angular 2.x to 4.x.
+  technologies:
+    - React Native
+    - AWS
+    - Docker
+    - Docker-Compose
+    - Angular
+    - Spring Boot
+    - PostgreSQL
+    - OpenID Connect
+    - OAuth2
+    - BitBucket Pipelines
+    - HTML
+    - JS
+    - CSS
+
+- title: Containerized Deployment of Apache OODT
+  term: 2019
+  description: |-
+    Created Dockerfiles for each core component in Apache OODT.
+    Added a Maven Archetype to auto-generate Dockerfiles and a Docker-Compose file when creating a new Apache OODT project.
+    Issue tracking was handled using JIRA, and documentation was written using Confluence.
+  technologies:
+    - Java
+    - Maven
+    - Docker
+    - Docker-Compose
+    - Avro
+    - Solr
+    - SLF4J
+    - JIRA
+    - Confluence
+
+- title: Semantic-KB
+  term: 2017
+  description: |-
+    Internship project at WSO2 Lanka (PVT) Ltd to automate question answering in WSO2 Support portal.
+    Created a document index using ElasticSearch, a reinforcement learning model using TensorFlow to predict document-query relevance, and a search interface using HTML, JS, and CSS.
+  technologies:
+    - ElasticSearch
+    - TensorFlow
+    - PostgreSQL
+    - Flask
+    - Python
+    - HTML
+    - JS
+    - CSS
+
 - title: MSstack
   term: 2018
-  description: >-
-    A full-stack, event-driven, microservices framework for Java.
-    It aims to abstract the complexities of microservices architecture, while providing a clean interface to implement business logic.
-    It handles microservice choreography, data partitioning, and auto-scaling at framework-level, and supports boilerplate code generation from Business Process Models.
+  description: |-
+    A full-stack, event-driven, microservices framework for Java, with business modeling.
+    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
+    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
+    It also facilitates generating boilerplate code from Business Process Models.
   technologies:
     - Java
     - Netty
-    - Apache Kafka
-    - Apache Zookeeper
-    - Apache Curator
+    - Kafka
+    - Zookeeper
+    - Curator
     - Git
 
-- title: TourMate
+- title: DengAI
   term: 2017
-  description: >-
-    A platform for seamless tour service discovery and reservation, aimed at tourists and tour providers.
-    Tourists can book tour services from tour providers, while tour providers can advertise and attract customers.
+  description: |-
+    A competition hosted by DrivenData, to model the spread of Dengue using weather and geographical information.
+    Built a machine learning model that ranked #1 in 2017.
   technologies:
-    - Express.JS
-    - MongoDB
-    - React
-    - Git
+    - Python
+    - Scikit-Learn
+    - Pandas
+    - WEKA
 
 - title: Raven
   term: 2016
-  description: >-
-    A realtime facial recognition and emotion detection system (prototype) for the hospitality industry.
-    It uses camera feeds to analyze customer reactions and provide a rating of satisfaction in areas of interest such as dining area, lounge, etc.
+  description: |-
+    A real-time customer satisfaction monitoring framework for the hospitality industry.
+    It uses camera feeds to detect customer faces, analyze their emotions, and provide satisfaction ratings and dissatisfaction alerts in real-time.
   technologies:
     - Microsoft Emotion API
     - C#
@@ -72,8 +153,8 @@
 
 - title: Onion
   term: 2016
-  description: >-
-    A Point-of-Sales, Reporting, Loan, and Payroll System for Dambulla Dedicated Economic Centre, Sri Lanka
+  description: |-
+    A Point-of-Sales, Inventory, Reporting, Loan, and Payroll System for Dambulla Dedicated Economic Centre, Sri Lanka
   technologies:
     - C#
     - WPF
@@ -81,13 +162,31 @@
     - Dapper ORM
     - VSTS
 
-- title: GoldLine
-  term: 2016
-  description: >-
-    A Point-of-Sales, Inventory, and Payroll System for Gold Line Tours and Tyre Center, Dehiwala, Sri Lanka.
+- title: TourMate
+  term: 2017
+  description: |-
+    A web platform aimed at tourists and tour providers.
+    Tourists can discover tour services and make reservations, while tour providers can post and advertise their services.
   technologies:
-    - C#
-    - WPF
-    - SQLite
-    - Dapper ORM
+    - Express.JS
+    - Node
+    - MongoDB
+    - React
     - Git
+    - HTML
+    - JS
+    - CSS
+
+- title: MusicSchool
+  term: 2017
+  description: |-
+    A web platform to manage information of a medium sized music school.
+    It supports classroom management, progress tracking, attendance, and payroll.
+  technologies:
+    - PHP
+    - Laravel
+    - jQuery
+    - MySQL
+    - HTML
+    - JS
+    - CSS

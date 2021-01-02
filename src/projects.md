@@ -6,6 +6,7 @@ title: Projects
 ## {{project.title}}
 **({{project.term}})** | {% for t in project.technologies %} ```{{t}}``` {% endfor %}
 
+{: style="text-align: justify" }
 {{project.description}}
 
 {% endfor %}

@@ -1,0 +1,32 @@
+- affiliation: Old Dominion University, USA
+  designation: Graduate Assistant, Department of Computer Science
+  term: Jan 2019 - Present
+  description: |-
+    I collaborated with Indiana University-Purdue University Columbus (IUPUC) to predict a diagnosis of ASD from EEG data (Project:&nbsp;ASDetection).
+    I also collaborated with University of California, San Diego (UCSD) to build webcam-based eye tracking models (Project:&nbsp;MGaze).
+    I also built models to estimate the rate of change of the academic web using archived copies of web pages (Project:&nbsp;HACS).
+    
+    I was also a Teaching Assistant for the following courses.
+    * CS361:&nbsp;Data Structures & Algorithms (Spring 2020, Summer 2020)
+    * CS355:&nbsp;Principles of Programming Languages (Summer 2020)
+    * CS300T:&nbsp;Computers in Society (Fall 2020)
+
+- affiliation: DesignBoo (PVT) Ltd, Sri Lanka
+  designation: Freelance Software Developer
+  term: Jun 2018 - Dec 2018
+  description: |-
+    I developed a mobile application for making doctor consultations.
+    I re-structured the cloud infrastructure on AWS to reduce costs, set up unified logging, and configured CI/CD.
+    I also provided development and production support for web and mobile apps (Project:&nbsp;TheGPService).
+
+- affiliation: University of Moratuwa, Sri Lanka
+  designation: Teaching Assistant, Department of Computer Science and Engineering
+  term: Jan 2018 - Jun 2018
+  description: |-
+    I prepared course materials, conducted lectures, and graded student assignments for the course CS2963:&nbsp;Presentation Skills
+
+- affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
+  designation: Intern Software Developer
+  term: 2017
+  description: |-
+    I developed a semantic knowledge base to automate question answering in WSO2 Support portal (Project:&nbsp;Semantic-KB).

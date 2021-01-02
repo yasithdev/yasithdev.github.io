@@ -1,16 +1,31 @@
 - name: Old Dominion University, USA
   degree: Ph.D.
   major: Computer Science
-  term: 2019 - Present
-  description: >-
-    I'm collaborating on research in the areas of Machine Learning and Data Science.
-    I work with EEG and eye tracking data to create machine learning models for predicting neurodevelopmental conditions like ASD and ADHD.
-    My work also includes creating a unified metadata representation for datasets across multiple disciplines.
+  term: Jan 2019 - Present
+  description: |-
+    I studied and collaborated on research involving Data Science, Signal Processing, and Machine Learning.
+    I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neurodevelopmental conditions like ASD and ADHD.
+    As my dissertation project, I'm building a stream-oriented framework to create scientific workflows through visual programming and flow-based programming (Project:&nbsp;StreamingHub).
+  extra:
+    - key: GPA
+      value: 4.00
+    - key: Advisor
+      value: Dr. Sampath Jayarathna
+    - key: Key Courses
+      value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
 
 - name: University of Moratuwa, Sri Lanka
   degree: B.Sc.
   major: Computer Science and Engineering
-  term: 2014 - 2018
-  description: >-
-    My key study areas were Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
-    My Final Year Project was based on Distributed Systems, and was targeted towards building a Full-Stack Microservice Framework for Java.
+  term: Jan 2015 - Dec 2018
+  description: |-
+    Here, I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
+    As my thesis project, I built a full-stack, event-driven, microservices framework for Java, with business modeling (Project:&nbsp;MSstack).
+  extra:
+    - key: GPA
+      value: 3.84
+    - key: Advisor
+      value: Dr. Indika Perera
+    - key: Key Courses
+      value: Human Computer Interaction, Machine Learning, Advanced Algorithms, Data Mining & Information Retrieval, Distributed Systems
+
