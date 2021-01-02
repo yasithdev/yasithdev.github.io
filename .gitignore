@@ -1,3 +1,4 @@
 .vendor/
 .dist/
 src/.jekyll-metadata
+src/.jekyll-cache

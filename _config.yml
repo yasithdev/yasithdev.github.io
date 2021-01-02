@@ -1,8 +1,12 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-
+url: https://about.yasith.dev
+title: Yasith Jayawardana
+description: >-
+  Personal Web Page of Yasith Jayawardana
 source: src
 destination: .dist
-safe: true
 incremental: true
+header_pages:
+  - education.md
+  - experience.md
+  - projects.md
+  - publications.md
