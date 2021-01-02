@@ -2,7 +2,6 @@ url: https://about.yasith.dev
 title: Yasith Jayawardana
 description: >-
   PhD student at @oduwsdl @nirdslab, Interned at @wso2, @apache contributor
-source: src
 header_pages:
   - education.html
   - work.html
@@ -18,6 +17,4 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-sass:
-    sass_dir: _sass
 theme: minima

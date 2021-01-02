@@ -1,4 +1,4 @@
 vendor/
 _site
-src/.jekyll-metadata
-src/.jekyll-cache
+.jekyll-metadata
+.jekyll-cache
