@@ -9,3 +9,13 @@ header_pages:
   - work.html
   - projects.html
   - publications.html
+
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
