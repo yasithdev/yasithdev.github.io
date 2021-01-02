@@ -21,7 +21,8 @@
 - title: MGaze
   term: Ongoing
   description: |-
-    
+    Collaborative project for webcam-based, multi-user eye tracking on the browser.
+    It eliminates the need for additional eye-tracking equipment by performing facial detection, facial landmarks detection, iris detection, and gaze estimation through webcam feeds.
   technologies:
     - MediaPipe
     - TF.js
