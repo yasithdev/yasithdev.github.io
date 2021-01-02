@@ -1,4 +1,5 @@
 - name: Old Dominion University, USA
+  logo: /assets/img/odu.png
   degree: Ph.D.
   major: Computer Science
   term: Jan 2019 - Present
@@ -8,13 +9,16 @@
     As my dissertation project, I'm building a stream-oriented framework to create scientific workflows through visual programming and flow-based programming (Project:&nbsp;StreamingHub).
   extra:
     - key: GPA
-      value: 4.00
+      value: 4.0
+    - key: Awards
+      value: Dominion Graduate Scholar (2019)
     - key: Advisor
       value: Dr. Sampath Jayarathna
     - key: Key Courses
       value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
 
 - name: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
   degree: B.Sc.
   major: Computer Science and Engineering
   term: Jan 2015 - Dec 2018
@@ -24,6 +28,8 @@
   extra:
     - key: GPA
       value: 3.84
+    - key: Awards
+      value: Dean’s List (Semester 1,2,4,6-8)
     - key: Advisor
       value: Dr. Indika Perera
     - key: Key Courses

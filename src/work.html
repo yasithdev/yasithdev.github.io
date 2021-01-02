@@ -1,0 +1,24 @@
+---
+layout: default
+title: Experience
+---
+{% for work in site.data.work %}
+<table>
+  <tbody>
+    <tr class="header">
+      <td width="40px"><img style="width: 40px; height: 40px; object-fit: contain;" src="{{work.logo | relative_url}}"></td>
+      <td>
+        <strong>{{ work.affiliation }}</strong>
+        <span>({{ work.term }})</span>
+        <br />
+        <small><strong>{{ work.designation }}</strong></small>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify" colspan="2">
+        {{ work.description | markdownify }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Publications
+---
+{% for group in site.data.publications %}
+<table>
+  <tbody>
+    <tr class="header">
+      <td>
+        <strong>{{ group.type }}</strong>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify">
+        <ul>
+          {% for pub in group.publications %}
+          <li style="font-size: smaller; letter-spacing: -0.5px;">
+            {{pub.authors}}, "{{pub.title}}", in <i>{{pub.in}}&nbsp;</i>
+            {%- if pub.extra -%}
+            ({{pub.extra}})&nbsp;
+            {%- endif -%}
+            {%- if pub.arxiv -%}
+            <a href="https://arxiv.org/abs/{{pub.arxiv}}" target="_blank">[Preprint]</a>&nbsp;
+            {%- endif -%}
+          </li>
+          {% endfor %}
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}

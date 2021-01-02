@@ -5,7 +5,7 @@ description: >-
 source: src
 destination: .dist
 header_pages:
-  - education.md
-  - work.md
-  - projects.md
-  - publications.md
+  - education.html
+  - work.html
+  - projects.html
+  - publications.html

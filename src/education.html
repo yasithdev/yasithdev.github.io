@@ -1,0 +1,27 @@
+---
+layout: default
+title: Education
+---
+{% for education in site.data.education %}
+<table>
+  <tbody>
+    <tr class="header">
+      <td width="40px"><img style="width: 40px; height: 40px; object-fit: contain;" src="{{education.logo | relative_url}}"></td>
+      <td>
+        <strong>{{ education.name }}</strong>
+        <span>({{ education.term }})</span>
+        <br />
+        <small><strong>{{ education.degree }} - {{ education.major }}</strong></small>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify" colspan="2">
+        {{ education.description | markdownify }}
+        {%- for extra in education.extra -%}
+        <small style="letter-spacing: -0.5px;"><strong>{{ extra.key }}</strong> - {{ extra.value }}.</small>
+        {% endfor %}
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}

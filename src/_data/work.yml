@@ -1,4 +1,5 @@
 - affiliation: Old Dominion University, USA
+  logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Present
   description: |-
@@ -12,6 +13,7 @@
     * CS300T:&nbsp;Computers in Society (Fall 2020)
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
+  logo: /assets/img/designboo.png
   designation: Freelance Software Developer
   term: Jun 2018 - Dec 2018
   description: |-
@@ -20,12 +22,14 @@
     I also provided development and production support for web and mobile apps (Project:&nbsp;TheGPService).
 
 - affiliation: University of Moratuwa, Sri Lanka
+  logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
     I prepared course materials, conducted lectures, and graded student assignments for the course CS2963:&nbsp;Presentation Skills
 
 - affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
+  logo: /assets/img/wso2.png
   designation: Intern Software Developer
   term: Jul 2017 - Dec 2017
   description: |-
