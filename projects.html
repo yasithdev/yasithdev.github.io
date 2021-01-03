@@ -8,7 +8,7 @@ title: Projects
     <tr class="header">
       <td>
         <strong>{{ project.title }}</strong>
-        <span>({{ project.term }})</span>
+        <span style="font-weight: 400;"><small>({{ project.term }})</small></span>
         <br />
         {% for t in project.technologies %}
         <code class="language-plaintext" style="font-size: smaller; letter-spacing: -0.5px;">{{ t }}</code>
