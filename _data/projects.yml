@@ -28,6 +28,9 @@
     - TF.js
     - Node
     - Parcel
+    - HTML
+    - JS
+    - CSS
 
 
 - title: ASDetection
@@ -110,8 +113,11 @@
     - ElasticSearch
     - TensorFlow
     - PostgreSQL
+    - NLTK
+    - Scrapy
     - Flask
     - Python
+    - DialogFlow
     - HTML
     - JS
     - CSS
