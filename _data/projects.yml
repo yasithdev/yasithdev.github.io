@@ -103,6 +103,21 @@
     - SLF4J
     - JIRA
     - Confluence
+    
+- title: MSstack
+  term: 2018
+  description: |-
+    A full-stack, event-driven, microservices framework for Java, with business modeling.
+    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
+    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
+    It also facilitates generating boilerplate code from Business Process Models.
+  technologies:
+    - Java
+    - Netty
+    - Kafka
+    - Zookeeper
+    - Curator
+    - Git
 
 - title: Semantic-KB
   term: 2017
@@ -122,21 +137,6 @@
     - JS
     - CSS
 
-- title: MSstack
-  term: 2018
-  description: |-
-    A full-stack, event-driven, microservices framework for Java, with business modeling.
-    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
-    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
-    It also facilitates generating boilerplate code from Business Process Models.
-  technologies:
-    - Java
-    - Netty
-    - Kafka
-    - Zookeeper
-    - Curator
-    - Git
-
 - title: DengAI
   term: 2017
   description: |-
@@ -147,6 +147,21 @@
     - Scikit-Learn
     - Pandas
     - WEKA
+    
+- title: TourMate
+  term: 2017
+  description: |-
+    A web platform aimed at tourists and tour providers.
+    Tourists can discover tour services and make reservations, while tour providers can post and advertise their services.
+  technologies:
+    - Express.JS
+    - Node
+    - MongoDB
+    - React
+    - Git
+    - HTML
+    - JS
+    - CSS
 
 - title: Raven
   term: 2016
@@ -169,23 +184,8 @@
     - Dapper ORM
     - VSTS
 
-- title: TourMate
-  term: 2017
-  description: |-
-    A web platform aimed at tourists and tour providers.
-    Tourists can discover tour services and make reservations, while tour providers can post and advertise their services.
-  technologies:
-    - Express.JS
-    - Node
-    - MongoDB
-    - React
-    - Git
-    - HTML
-    - JS
-    - CSS
-
 - title: MusicSchool
-  term: 2017
+  term: 2016
   description: |-
     A web platform to manage information of a medium sized music school.
     It supports classroom management, progress tracking, attendance, and payroll.
