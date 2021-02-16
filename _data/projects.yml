@@ -52,7 +52,7 @@
   term: 2019
   description: |-
     Estimating the rate of change of the academic web using archived copies of web pages.
-    Here, archived copies of web pages are first obtained from the Internet Archive through its CDX Server API.
+    Here, archived copies are first obtained from the Internet Archive through its CDX Server API.
     Next, for each web page, archived copies are analyzed to detect when changes have occurred.
     These changes are then modeled as a poisson process, and used to predict when a page is likely to change in the future.
   technologies:
