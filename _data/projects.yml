@@ -68,7 +68,7 @@
     Built a mobile application for making doctor consultations.
     Re-structured cloud infrastructure on AWS to reduce costs.
     Set up unified logging using AWS CloudWatch.
-    Created Dockerfiles and BitBucket Pipelines to build, test, and push build artifacts to AWS.
+    Created Dockerfiles and BitBucket Pipelines to build, test, and push build artifacts into AWS.
     Provided development and production support for the web apps of The GP Service (UK) Ltd.
       * Added single-sign-on capability to web portal.
       * Upgraded web portal from Angular 2.x to 4.x.
