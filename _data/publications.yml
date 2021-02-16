@@ -5,12 +5,28 @@
       in: Computational Models for Biomedical Reasoning and Problem Solving, 2019, IGI Global. pp-34-65.
       arxiv: 1907.01515
 
-- type: Peer-Reviewed Conferernce Publications
+- type: Peer-Reviewed Conference Publications
   publications:
+    - authors: Yasith Jayawardana, Gavindya Jayawardena, Andrew Duchowski, Sampath Jayarathna
+      title: "Eye Movement Replay Simulation and Synthesis for Real-time Analysis"
+      in: SIGSIM Conference on Principles of Advanced Discrete Simulation (PADS), 2021, ACM.
+      extra: In Review
+      
+    - authors: Yasith Jayawardana, Alexander C. Nwala, Gavindya Jayawardena, Jian Wu, Sampath Jayarathna, Michael L. Nelson, C. Lee Giles
+      title: Modeling Updates of Scholarly Webpages Using Archived Data
+      in: 5th Computational Archival Science (CAS) Workshop at IEEE BigData, 2020, IEEE.
+      extra: In Press
+      arxiv: 2012.03397
+
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sampath Jayarathna
       title: "Gaze-Net: Appearance-Based Gaze Estimation using Capsule Networks"
       in: 11th Augmented Human International Conference (AH), 2020, ACM. pp. 1-4.
       arxiv: 2004.07777
+
+    - authors: Yasith Jayawardana, Sampath Jayarathna
+      title: Streaming Analytics and Workflow Automation for DFS
+      in: 20th ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2020, ACM. pp. 513-514.
+      extra: Nominated for Best Poster
 
     - authors: Dilantha Haputhanthri, Gunavaran Brihadiswaran, Sahan Gunathilaka, Dulani Meedeniya, Yasith Jayawardana, Sampath Jayarathna, Mark Jaime
       title: An EEG based Channel Optimized Classification Approach for Autism Spectrum Disorder
@@ -20,26 +36,15 @@
       title: Analysis of Temporal Relationships between ASD and Brain Activity through EEG and Machine Learning
       in: 20th International Conference on Information Reuse and Integration for Data Science (IRI), 2019, IEEE. pp. 151-158.
       extra: Best Student Paper
-
-    - authors: Yasith Jayawardana, Alexander C. Nwala, Gavindya Jayawardena, Jian Wu, Sampath Jayarathna, Michael L. Nelson, C. Lee Giles
-      title: Modeling Updates of Scholarly Webpages Using Archived Data
-      in: 5th Computational Archival Science (CAS) Workshop at IEEE BigData, 2020, IEEE.
-      extra: In Press
-      arxiv: 2012.03397
-
-    - authors: Yasith Jayawardana, Randil Fernando, Gavindya Jayawardena, Dileka Weerasooriya, Indika Perera
-      title: A Full Stack Microservices Framework with Business Modelling
-      in: 18th International Conference on Advances in ICT for Emerging Regions (ICTer), 2018, IEEE. pp. 78-85.
-
-    - authors: Yasith Jayawardana, Sampath Jayarathna
-      title: Streaming Analytics and Workflow Automation for DFS
-      in: 20th ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2020, ACM. pp. 513-514.
-      extra: Nominated for Best Student Paper
-
+      
     - authors: Yasith Jayawardana, Sampath Jayarathna
       title: "DFS: A Dataset File System for Data Discovering Users"
       in: 19th ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2019, ACM. pp. 355-356.
       arxiv: 1905.13363
+
+    - authors: Yasith Jayawardana, Randil Fernando, Gavindya Jayawardena, Dileka Weerasooriya, Indika Perera
+      title: A Full Stack Microservices Framework with Business Modelling
+      in: 18th International Conference on Advances in ICT for Emerging Regions (ICTer), 2018, IEEE. pp. 78-85.
 
 - type: Doctoral Consortiums (Not in Proceedings)
   publications:
