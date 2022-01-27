@@ -1,3 +1,9 @@
+- type: Journal Articles
+  publications:
+    - authors: Bhanuka Mahanama, Yasith Jayawardana, Sundararaman Rengarajan, Gavindya Jayawardena, Leanne Chukoskie, Joseph Snider, Sampath Jayarathna
+      title: "Eye Movement and Pupil Measures: A Review"
+      in: Frontiers in Computer Science 3:733531, 2022, Frontiers Media.
+
 - type: Book Chapters
   publications:
     - authors: Sampath Jayarathna, Yasith Jayawardana, Mark Jaime, Sashi Thapaliya
@@ -5,17 +11,15 @@
       in: Computational Models for Biomedical Reasoning and Problem Solving, 2019, IGI Global. pp-34-65.
       arxiv: 1907.01515
 
-- type: Peer-Reviewed Conference Publications
+- type: Conference Proceedings
   publications:
     - authors: Yasith Jayawardana, Gavindya Jayawardena, Andrew Duchowski, Sampath Jayarathna
-      title: "Eye Movement Replay Simulation and Synthesis for Real-time Analysis"
-      in: SIGSIM Conference on Principles of Advanced Discrete Simulation (PADS), 2021, ACM.
-      extra: In Review
+      title: "Metadata-Driven Eye Tracking for Real-Time Applications"
+      in: ACM Symposium on Document Engineering (DocEng), 2021, ACM. pp. 1-4.
       
     - authors: Yasith Jayawardana, Alexander C. Nwala, Gavindya Jayawardena, Jian Wu, Sampath Jayarathna, Michael L. Nelson, C. Lee Giles
       title: Modeling Updates of Scholarly Webpages Using Archived Data
       in: 5th Computational Archival Science (CAS) Workshop at IEEE BigData, 2020, IEEE.
-      extra: In Press
       arxiv: 2012.03397
 
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sampath Jayarathna
