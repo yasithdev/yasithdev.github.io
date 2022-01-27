@@ -3,8 +3,9 @@
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Present
   description: |-
-    I collaborated with Indiana University-Purdue University Columbus (IUPUC) to predict a diagnosis of ASD from EEG data (Project:&nbsp;ASDetection).
-    I also collaborate with University of California, San Diego (UCSD) to build webcam-based eye tracking models (Project:&nbsp;MGaze).
+    I currently collaborate with Harvard University to build interpretable deep learning algorithms for early detection of antibiotic drug resistant bacteria (Project:&nbsp;XAIBacteria).
+    I also collaborated with Indiana University-Purdue University Columbus (IUPUC) to predict a diagnosis of ASD from EEG data (Project:&nbsp;ASDetection).
+    I also collaborated with University of California, San Diego (UCSD) to build webcam-based eye tracking models (Project:&nbsp;MGaze).
     I also built models to estimate the rate of change of the academic web using archived copies of web pages (Project:&nbsp;HACS).
     
     I was also a Teaching Assistant for the following courses.
@@ -13,6 +14,13 @@
     * CS300T:&nbsp;Computers in Society (Fall 2020)
     * CS250:&nbsp;Problem Solving & Programming II (Spring 2021)
     * CS620:&nbsp;Introduction to Data Science & Analytics (Spring 2021)
+
+- affiliation: Los Alamos National Laboratory
+  logo: /assets/img/lanl.png
+  designation: Summer Graduate Research Intern
+  term: Jun 2021 - Aug 2021
+  description: |-
+    I built a web service to robustify links in PDF documents by extracting their URLs, preserving the URL content in web archives, and announcing this robustification via Linked Data (Project:&nbsp;RobustPDFLinks).
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
@@ -33,6 +41,6 @@
 - affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
-  term: Jul 2017 - Dec 2017
+  term: Jun 2017 - Dec 2017
   description: |-
     I developed a semantic knowledge base to automate question answering in WSO2 Support portal (Project:&nbsp;Semantic-KB).

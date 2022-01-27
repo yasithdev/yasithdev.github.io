@@ -1,5 +1,16 @@
+- title: XAI-Bacteria
+  term: 2021-Present
+  description: |-
+    Building interpretable deep learning algorithms for culture-free early detection of antibiotic drug resistant bacteria using Computer Vision and Quantitative Phase Microscopy (QPM).
+    Microscopic images of different bacteria strains are used to train Capsule-Network models with a smooth latent space representation.
+  technologies:
+    - Python
+    - TensorFlow
+    - SciPy
+    - NumPy
+
 - title: StreamingHub
-  term: Ongoing
+  term: 2019-Present
   description: |-
     A stream-oriented framework to create scientific workflows through visual programming and flow-based programming.
     It provides a web interface to create scientific workflows, connect to sensory data streams, pipe sensory data through workflows, and visualize analytics in real-time.
@@ -18,8 +29,27 @@
     - JS
     - CSS
 
+- title: Robust PDFLinks
+  term: 2021
+  description: |-
+    A web service to generate robust links for web  resources.
+    It allows to upload PDF documents, extract URLs from PDF annotations/text, invoke the Robust Links Service on URLs to preserve their content in web archives, and thereby generate robust links.
+    Upon generating robust links, their availability can be announced to external systems via Linked Data Notifications.
+    It also allows to view PDF documents side-by-side with robust links.
+  technologies:
+    - Python
+    - PyPDF2
+    - PDFIUM
+    - GRPBiD
+    - PDFMiner
+    - Flask
+    - Linked Data
+    - HTML
+    - JS
+    - CSS
+
 - title: MGaze
-  term: Ongoing
+  term: 2020
   description: |-
     Collaborative project for webcam-based, multi-user eye tracking on the browser.
     It eliminates the need for additional eye-tracking equipment by performing facial detection, facial landmarks detection, iris detection, and gaze estimation through webcam feeds.
@@ -31,7 +61,6 @@
     - HTML
     - JS
     - CSS
-
 
 - title: ASDetection
   term: 2019
@@ -103,7 +132,7 @@
     - SLF4J
     - JIRA
     - Confluence
-    
+
 - title: MSstack
   term: 2018
   description: |-
@@ -147,7 +176,7 @@
     - Scikit-Learn
     - Pandas
     - WEKA
-    
+
 - title: TourMate
   term: 2017
   description: |-
