@@ -1,4 +1,4 @@
-- title: XAI-Bacteria
+- title: Robust-ML
   term: 2021-Present
   description: |-
     Building interpretable deep learning algorithms for culture-free early detection of antibiotic drug resistant bacteria using Computer Vision and Quantitative Phase Microscopy (QPM).
@@ -12,22 +12,17 @@
 - title: StreamingHub
   term: 2019-Present
   description: |-
-    A stream-oriented framework to create scientific workflows through visual programming and flow-based programming.
-    It provides a web interface to create scientific workflows, connect to sensory data streams, pipe sensory data through workflows, and visualize analytics in real-time.
-    A repository of preset workflows is also provided for common use cases.
-    Additionally, it supports re-streaming of stored data into workflows, and generating synthetic data using stored data.
+    A data access framework to simplify the development of real-time bio-signal analysis workflows.
+    It provides (1) a metadata schema to describe datasets and streams, (2) language-bindings to parse metadata, (3) a web app to package datasets with metadata, and (4) a unified API to stream data from bio-sensors, datasets, and simulations alike.
+    Streaminghub was succesfully used to develop eye movement analysis workflows and EEG analysis workflows.
   technologies:
-    - Node-RED
     - Python
-    - Liblsl
-    - WebSockets
     - Node
-    - TF.js
-    - Docker
-    - Kubernetes
-    - HTML
-    - JS
-    - CSS
+    - WebSockets
+    - Flask
+    - LabStreamingLayer
+    - JSON Schema
+    - HTML/JS/CSS
 
 - title: Robust PDFLinks
   term: 2021
@@ -44,9 +39,7 @@
     - PDFMiner
     - Flask
     - Linked Data
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS
 
 - title: MGaze
   term: 2020
@@ -58,9 +51,7 @@
     - TF.js
     - Node
     - Parcel
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS
 
 - title: ASDetection
   term: 2019
@@ -112,9 +103,7 @@
     - OpenID-Connect
     - OAuth2
     - BitBucket
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS
 
 - title: Containerized Deployment of Apache OODT
   term: 2019
@@ -162,9 +151,7 @@
     - Flask
     - Python
     - DialogFlow
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS
 
 - title: DengAI
   term: 2017
@@ -188,9 +175,7 @@
     - MongoDB
     - React
     - Git
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS
 
 - title: Raven
   term: 2016
@@ -223,6 +208,4 @@
     - Laravel
     - jQuery
     - MySQL
-    - HTML
-    - JS
-    - CSS
+    - HTML/JS/CSS

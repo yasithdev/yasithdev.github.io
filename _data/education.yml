@@ -6,7 +6,7 @@
   description: |-
     I study and collaborate on research involving Data Science, Signal Processing, and Machine Learning.
     I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ASD and ADHD.
-    As my dissertation project, I'm building a stream-oriented framework to create scientific workflows through visual programming and flow-based programming (Project:&nbsp;StreamingHub).
+    As my dissertation project, I'm building a data access framework to simplify the development of real-time bio-signal analysis workflows (Project:&nbsp;StreamingHub).
   extra:
     - key: GPA
       value: 4.0
