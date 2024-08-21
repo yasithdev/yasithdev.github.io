@@ -1,12 +1,12 @@
 - name: Old Dominion University, USA
   logo: /assets/img/odu.png
-  degree: Ph.D.
+  degree: PhD
   major: Computer Science
-  term: Jan 2019 - Present
+  term: Jan 2019 - Aug 2024
   description: |-
-    I study and collaborate on research involving Data Science, Signal Processing, and Machine Learning.
-    I also used EEG and Eye-Tracking data to build machine learning models to predict a diagnosis of neuro-developmental conditions like ASD and ADHD.
-    As my dissertation project, I'm building a data access framework to simplify the development of real-time bio-signal analysis workflows (Project:&nbsp;StreamingHub).
+    Studied Biosensors, Digital Signal Processing, Deep Learning, and Streaming Analytics.
+    Built ML models to diagnose ASD using EEG and IRT data, and to diagnose ADHD using Eye-Tracking data.
+    Developed a framework to build realtime experiments with multimodal biosignal streams.
   extra:
     - key: GPA
       value: 4.0
@@ -19,12 +19,13 @@
 
 - name: University of Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
-  degree: B.Sc.
+  degree: BSc
   major: Computer Science and Engineering
   term: Jan 2015 - Dec 2018
   description: |-
-    I studied Distributed Systems, Database Systems, Algorithms, Object Oriented Software Development, Data Science, and Machine Learning.
-    As my thesis project I built a full-stack, event-driven, microservices framework for Java, with business modeling (Project:&nbsp;MSstack).
+    Studied Distributed Systems, Software Development, and Mathematics.
+    Developed an event-driven microservices framework using Java, with boilerplate code generation from business models.
+    Performed live at Yathra 2017 Musical Event.
   extra:
     - key: GPA
       value: 3.84

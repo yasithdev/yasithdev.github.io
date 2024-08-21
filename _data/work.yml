@@ -1,46 +1,48 @@
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
-  term: Jan 2019 - Present
+  term: Jan 2019 - Aug 2024
   description: |-
-    I currently collaborate with Harvard University to build interpretable deep learning algorithms for early detection of antibiotic drug resistant bacteria (Project:&nbsp;XAIBacteria).
-    I also collaborated with Indiana University-Purdue University Columbus (IUPUC) to predict a diagnosis of ASD from EEG data (Project:&nbsp;ASDetection).
-    I also collaborated with University of California, San Diego (UCSD) to build webcam-based eye tracking models (Project:&nbsp;MGaze).
-    I also built models to estimate the rate of change of the academic web using archived copies of web pages (Project:&nbsp;HACS).
-    
-    I was also a Teaching Assistant for the following courses.
-    * CS361:&nbsp;Data Structures & Algorithms (Spring 2020, Summer 2020)
-    * CS355:&nbsp;Principles of Programming Languages (Summer 2020)
-    * CS300T:&nbsp;Computers in Society (Fall 2020)
-    * CS250:&nbsp;Problem Solving & Programming II (Spring 2021)
-    * CS620:&nbsp;Introduction to Data Science & Analytics (Spring 2021)
+    Developed ML methods to diagnose ASD from EEG data (w/IUPUC), perform webcam-based eye tracking (w/UCSD), and estimate cognitive load from real-time gaze data.
+    Built statistical models to estimate change in the academic web, using archived copies of web pages.
+    Worked as a TA for core CS courses, including Data Structures, Algorithms, Principles of Programming, and Computers in Society.
+
+- affiliation: Harvard University, USA
+  logo: /assets/img/harvard.png
+  designation: Graduate Research Fellow, Center for Advanced Imaging
+  term: Feb 2022 - Aug 2022
+  description: |-
+    Explored robust, interpretable deep learning methods for antimicrobial resistance prediction from single-cell bacteria images.
+    Developed a hypothesis-driven outlier detection method for reliable use of deep neural networks as classifiers.
 
 - affiliation: Los Alamos National Laboratory
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    I built a web service to robustify links in PDF documents by extracting their URLs, preserving the URL content in web archives, and announcing this robustification via Linked Data (Project:&nbsp;RobustPDFLinks).
+    Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    I developed a mobile application for making doctor consultations.
-    I re-structured the cloud infrastructure on AWS to reduce costs, set up unified logging, and configured CI/CD.
-    I also provided development and production support for web and mobile apps (Project:&nbsp;TheGPService).
+    Developed a mobile app for video-based doctor consultations.
+    Restructured cloud services on AWS to reduce costs, set up unified logging, and configured CI/CD.
+    Co-led development for web and mobile apps.
 
 - affiliation: University of Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
-    I prepared course materials, conducted lectures, and graded student assignments for the course CS2963:&nbsp;Presentation Skills
+    Prepared course materials, conducted lectures, and graded student assignments for the CS2963 Presentation Skills course.
 
 - affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    I developed a semantic knowledge base to automate question answering in WSO2 Support portal (Project:&nbsp;Semantic-KB).
+    Created a knowledge base for WSO2 Support by scraping and vectorizing WSO2 docs.
+    Created a document retrieval API for support questions, wrapped it with DialogFlow Conversation API, and integrated with Facebook Chat.
+

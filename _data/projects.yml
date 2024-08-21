@@ -1,5 +1,5 @@
 - title: Robust-ML
-  term: 2021-Present
+  term: 2022-2024
   description: |-
     Building interpretable deep learning algorithms for culture-free early detection of antibiotic drug resistant bacteria using Computer Vision and Quantitative Phase Microscopy (QPM).
     Microscopic images of different bacteria strains are used to train Capsule-Network models with a smooth latent space representation.
@@ -10,7 +10,7 @@
     - NumPy
 
 - title: StreamingHub
-  term: 2019-Present
+  term: 2019-2024
   description: |-
     A data access framework to simplify the development of real-time bio-signal analysis workflows.
     It provides (1) a metadata schema to describe datasets and streams, (2) language-bindings to parse metadata, (3) a web app to package datasets with metadata, and (4) a unified API to stream data from bio-sensors, datasets, and simulations alike.
