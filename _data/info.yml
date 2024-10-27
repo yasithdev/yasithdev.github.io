@@ -1,12 +1,11 @@
-name: Yasith Jayawardana
+name: Yasith Jayawardana, PhD
 about: >-
-  I’m passionate about building interactive AI solutions, robust ML methods, and research-enabling software.
-  I’ve built open-source tools for streaming bio-sensory data, real-time analysis, microservice prototyping, and seamless workflow transition between local and HPC runtimes.
-  I’ve developed hypothesis-driven outlier detection methods for reliable use of deep neural networks.
-designation: PhD
+  I am passionate about interactive AI, robust ML, biomedical data analysis, and research software development.
+  I've developed open-source software for analyzing bio-signal streams, prototyping microservices, and transitioning research workloads between local and HPC environments.
+  I've proposed hypothesis-driven outlier detection methods for reliable use of deep neural networks.
 affiliation: Old Dominion University
 address:
-  - E&CS 3110, Computer Science
+  - Department of Computer Science
   - Old Dominion University
   - Norfolk, VA 23529
 email: yasith@cs.odu.edu
