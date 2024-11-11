@@ -25,11 +25,11 @@ layout: default
 
 <table>
   <tr>
-    <td style="display: flex; align-items: flex-start; padding-bottom: 1em;">
+    <td style="display: flex; flex-flow: row wrap; padding-bottom: 1em;">
       <div style="width: 10em; height: 10em; padding: 0.5em; margin-left: 0; padding-left: 0;">
-        <img style="width: 100%; height: 100%;" src="{{ site.data.info.image | relative_url }}">
+        <img style="width: 100%; object-fit: contain;" src="{{ site.data.info.image | relative_url }}">
       </div>
-      <div style="padding: 0.5em;">
+      <div style="padding: 0.5em; min-width: 18em;">
         <div style="font-size: 1.5em;">{{ site.data.info.name }}</div>
         <address>
           {% for line in site.data.info.address %}
