@@ -1,0 +1,11 @@
+- name: Amateur Music Producer
+  description: |- 
+    Performed live (Keyboardist) at Yathra 2017 musical event.
+    Started as a cover artist, and recently transitioned to making original music.
+  links:
+    - key: YouTube
+      link: https://www.youtube.com/@yasithdev
+    - key: Spotify
+      link: https://open.spotify.com/artist/13QNJSaGuciwzHPaIMjqOj
+    - key: Apple Music
+      link: https://music.apple.com/us/artist/yasith-jayawardana/1675938591

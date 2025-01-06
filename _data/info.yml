@@ -1,8 +1,10 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  I am passionate about interactive AI, robust ML, biomedical data analysis, and research software development.
-  I've developed open-source software for analyzing bio-signal streams, prototyping microservices, and transitioning research workloads between local and HPC environments.
-  I've proposed hypothesis-driven outlier detection methods for reliable use of deep neural networks.
+  Driven by a passion to bridge technology and human potential.
+  Co-founder of Marketrix.ai (agentic in-app guidance).
+  Developer of StreamingHub (real-time biosignal analysis) and MSstack (microservice prototyping).
+  Researcher in Computer Aided Diagnostics, Deep Learning, Computational Modeling, and HPC.
+  Contributor to Apache OODT, Apache Airavata, and Cybershuttle.
 affiliation: Old Dominion University
 address:
   - Department of Computer Science

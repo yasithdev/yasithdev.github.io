@@ -1,10 +1,17 @@
+- affiliation: Marketrix AI, USA
+  logo: /assets/img/marketrix.png
+  designation: Co-founder
+  term: Aug 2024 - Present
+  description: |-
+    Designed agentic AI systems that self-explore app interfaces to gain spatial knowledge and identify user journeys.
+    Developed RAG pipelines with spatial reasoning for contextual in-app guidance.
+
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    Developed ML methods to diagnose ASD from EEG data (w/IUPUC), perform webcam-based eye tracking (w/UCSD), and estimate cognitive load from real-time gaze data.
-    Built statistical models to estimate change in the academic web, using archived copies of web pages.
+    Developed methods to diagnose ASD through EEG and IRT (w/IUPUC), diagnose ADHD through Eye Tracking (w/ODU), perform webcam-based eye tracking (w/UCSD), estimate cognitive load from real-time gaze data (w/ODU), and estimate webpage changes from archived crawl data (w/PSC).
     Worked as a TA for core CS courses, including Data Structures, Algorithms, Principles of Programming, and Computers in Society.
 
 - affiliation: Harvard University, USA
@@ -12,15 +19,16 @@
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    Explored robust, interpretable deep learning methods for antimicrobial resistance prediction from single-cell bacteria images.
-    Developed a hypothesis-driven outlier detection method for reliable use of deep neural networks as classifiers.
+    Explored interpretable methods to predict antimicrobial resistance from single-cell bacteria images.
+    Trained Neural ODEs to approximate the dynamics of wave propagation in multimode fibers.
+    Developed hypothesis testing methods to detect out-of-distribution inputs to deep neural networks.
 
 - affiliation: Los Alamos National Laboratory
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.
+    Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png

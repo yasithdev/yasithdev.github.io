@@ -5,7 +5,6 @@
   term: Jan 2019 - Aug 2024
   description: |-
     Studied Biosensors, Digital Signal Processing, Deep Learning, and Streaming Analytics.
-    Built ML models to diagnose ASD using EEG and IRT data, and to diagnose ADHD using Eye-Tracking data.
     Developed a framework to build realtime experiments with multimodal biosignal streams.
   extra:
     - key: GPA
@@ -24,8 +23,7 @@
   term: Jan 2015 - Dec 2018
   description: |-
     Studied Distributed Systems, Software Development, and Mathematics.
-    Developed an event-driven microservices framework using Java, with boilerplate code generation from business models.
-    Performed live at Yathra 2017 Musical Event.
+    Developed an event-driven microservice framework (Java) that transforms business models to boilerplate code.
   extra:
     - key: GPA
       value: 3.84
