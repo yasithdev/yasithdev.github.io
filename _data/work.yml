@@ -1,10 +1,17 @@
+- affiliation: Georgia Institute of Technology, USA
+  logo: /assets/img/marketrix.jpg
+  designation: Research Scientist II
+  term: Sep 2024 - Present
+  description: |-
+    Developing Cybershuttle — a platform to connect your data and code to HPC, cloud, and local resources and run experiments anywhere.
+
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
   designation: Co-founder
-  term: Aug 2024 - Present
+  term: Sep 2024 - Present
   description: |-
-    Designed agentic AI systems that self-explore app interfaces to gain spatial knowledge and identify user journeys.
-    Developed RAG pipelines with spatial reasoning for contextual in-app guidance.
+    Designing bots that navigate software and learn to perform complex tasks.
+    Building RAG pipelines that use this learning to make software self-supporting.
 
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
