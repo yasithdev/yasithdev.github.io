@@ -3,61 +3,66 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    Developing Cybershuttle — a platform to connect your data and code to HPC, cloud, and local resources and run experiments anywhere.
+    Building Cybershuttle — a platform for researchers to connect data + code with compute resources (HPC, Cloud, Local) and run experiments from anywhere.Building Cybershuttle — a platform for researchers to connect data + code with compute resources (HPC, Cloud, Local) and run experiments from anywhere.
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
   designation: Co-founder
   term: Sep 2024 - Present
   description: |-
-    Designing bots that navigate software and learn to perform complex tasks.
-    Building RAG pipelines that use this learning to make software self-supporting.
+    Building AI super-agents for SaaS companies.
+    These agents learn software UIs and become power users capable of providing tech support, auto-completing tasks, and more.
 
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    Developed methods to diagnose ASD through EEG and IRT (w/IUPUC), diagnose ADHD through Eye Tracking (w/ODU), perform webcam-based eye tracking (w/UCSD), estimate cognitive load from real-time gaze data (w/ODU), and estimate webpage changes from archived crawl data (w/PSC).
-    Worked as a TA for core CS courses, including Data Structures, Algorithms, Principles of Programming, and Computers in Society.
+    Proposed eye movement-based methods to detect ADHD, quantify visual attention, and estimate cognitive load;
+    Built webcam-based eye trackers for UCSD;
+    Developed a 90%-accurate EEG-based autism detector (ASDtect) for IUPUC;
+    Developed Python SDKs to analyze real-time biosignals (StreamingHub);
+    Proposed a hyper-efficient academic crawl-scheduler (HACS);
+    TA’d core CS courses.
 
 - affiliation: Harvard University, USA
   logo: /assets/img/harvard.png
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    Explored interpretable methods to predict antimicrobial resistance from single-cell bacteria images.
-    Trained Neural ODEs to approximate the dynamics of wave propagation in multimode fibers.
-    Developed hypothesis testing methods to detect out-of-distribution inputs to deep neural networks.
+    Developed a novel outlier detector for reliable use of ML models in clinical settings;
+    Trained models to detect antimicrobial-resistant bacteria from single-cell images;
+    Approximated the wave propagation dynamics of multimode fiber with Neural ODEs.
 
 - affiliation: Los Alamos National Laboratory
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    Developed ML based solutions to extract URLs from PDF documents, archive their content for posterity, and generate robust links.
+    Built a PDF archiver that extracts URLs, snapshots their content in Web archives, and preserves the original references, despite broken links and content updates.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    Developed a mobile app for video-based doctor consultations.
-    Restructured cloud services on AWS to reduce costs, set up unified logging, and configured CI/CD.
-    Co-led development for web and mobile apps.
+    Built web/mobile apps for TheGPService UK doctor-consultation platform;
+    Setup CI/CD and log monitoring;
+    Cut AWS infra costs by 30%.
 
 - affiliation: University of Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
-    Prepared course materials, conducted lectures, and graded student assignments for the CS2963 Presentation Skills course.
+    Prepared course materials, conducted lectures, and graded students.
 
 - affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    Created a knowledge base for WSO2 Support by scraping and vectorizing WSO2 docs.
-    Created a document retrieval API for support questions, wrapped it with DialogFlow Conversation API, and integrated with Facebook Chat.
+    Built WSO2 Suzy, an AI chatbot to resolve WSO2 support queries;
+    Designed crawlers, vectorizers, and indexers for WSO2 docs;
+    Integrated Suzy with Facebook Chat using DialogFlow.
 
