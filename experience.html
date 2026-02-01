@@ -1,0 +1,24 @@
+---
+layout: default
+title: Experience
+---
+{% for experience in site.data.experience %}
+<table>
+  <tbody>
+    <tr class="header">
+      <td width="40px"><img style="width: 40px; height: 40px; object-fit: contain;" src="{{experience.logo | relative_url}}"></td>
+      <td>
+        <strong>{{ experience.affiliation }}</strong>
+        <span style="font-weight: 400;"><small>({{ experience.term }})</small></span>
+        <br />
+        <small><strong>{{ experience.designation }}</strong></small>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: justify" colspan="2">
+        {{ experience.description | markdownify }}
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endfor %}
