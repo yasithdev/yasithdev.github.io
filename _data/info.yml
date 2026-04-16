@@ -1,8 +1,10 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  Building the Future with Agentic AI and Scientific Computing.
-  Co-founder of Marketrix.ai, Research Scientist at GATech, Creator of StreamingHub and MSstack, Apache Airavata PMC, Contributor to Cybershuttle and Browser Use, Aspiring Music Producer.
-affiliation: Old Dominion University
+  I’m a researcher/engineer/founder focused on human-sensing at scale.
+  I’ve built algorithms to infer human attention and state-of-mind via eye tracking; to find one's place in the autism spectrum via EEG; to detect distribution-shifts during clinical application of biological data; and to train ODEs on spatiotemporal data.
+  Previously built research software for bio-signal processing (StreamingHub).
+  Currently building user-simulation agents to test and validate web apps (Marketrix), and research software for any-scale scientific computing (Airavata, Cybershuttle).
+affiliation: Georgia Institute of Technology
 address:
   - Center for AI in Science and Engineering (ARTISAN)
   - Georgia Institute of Technology
