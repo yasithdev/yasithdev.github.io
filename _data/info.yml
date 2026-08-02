@@ -1,9 +1,10 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  I’m a researcher/engineer/founder focused on human-sensing at scale.
-  I’ve built algorithms to infer human attention and state-of-mind via eye tracking; to find one's place in the autism spectrum via EEG; to detect distribution-shifts during clinical application of biological data; and to train ODEs on spatiotemporal data.
-  Previously built research software for bio-signal processing (StreamingHub).
-  Currently building user-simulation agents to test and validate web apps (Marketrix), and research software for any-scale scientific computing (Airavata, Cybershuttle).
+  I model human behavior from biological signals and user interactions, and simulate it on HPC.
+  I hold a PhD (CS) from Old Dominion University (USA) on modeling behavior and neurodivergence from eye tracking, and a BS (CSE) from the University of Moratuwa (Sri Lanka) on designing distributed systems.
+  I've built algorithms to estimate attention and cognitive load from eye movements, detect autistic traits from EEG, compress waveforms into ODEs, and infer distribution shift with combinatorics.
+  I've built tools for synthetic user research (Marketrix), biosignal stream processing (StreamingHub), and interactive scientific computing (Apache Airavata, Cybershuttle).
+  When time permits, I make music (YT @yasithdev).
 affiliation: Georgia Institute of Technology
 address:
   - Center for AI in Science and Engineering (ARTISAN)
