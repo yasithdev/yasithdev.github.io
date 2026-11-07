@@ -1,8 +1,5 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  I make AI agents think and act like humans.
-
-
   Human sensing researcher (PhD, CS) and systems engineer (BS, CSE).
   I turn what people say and do into AI buyer personas.
   As a researcher, I've developed algorithms to estimate attention and mental effort from eye movements, identify EEG markers of autistic traits, compress signals into ODEs, and detect distribution shift.
@@ -17,6 +14,19 @@ email: yasith@gatech.edu
 image: /assets/img/dp.jpg
 gs: tY4R8rYAAAAJ
 cv: /assets/cv.pdf
+now:
+  - name: Marketrix
+    link: https://marketrix.ai
+    role: Co-founder
+    description: Ask what-if questions from 259M U.S. personas built from real conversations and calibrated to census data.
+  - name: Cybershuttle
+    link: https://github.com/cyber-shuttle
+    role: Georgia Tech ARTISAN
+    description: Connect your data and code to HPC, cloud, and local machines to run experiments anywhere.
+  - name: Apache Airavata
+    link: https://github.com/apache/airavata
+    role: Contributor
+    description: Run scientific experiments across HPC and cloud from one framework.
 social:
   facebook_username: yasithdev
   github_username: yasithdev

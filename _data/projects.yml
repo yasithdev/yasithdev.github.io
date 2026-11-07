@@ -1,3 +1,34 @@
+- title: Marketrix Personas
+  term: 2024-Present
+  description: |-
+    AI buyer personas that answer what-if questions about products and messaging.
+    259M U.S. personas built from real conversations and calibrated to census data.
+  technologies:
+    - LLMs
+    - Python
+
+- title: Cybershuttle
+  term: 2024-Present
+  description: |-
+    A platform for researchers to connect data and code with compute resources (HPC, cloud, local) and run experiments from anywhere.
+    Includes a notebook gateway that links personal devices to HPC resources, and federated HPC account provisioning via CILogon, COmanage, and OAuth2 device flow.
+  technologies:
+    - Python
+    - Java
+    - Jupyter
+    - HPC / Slurm
+    - OAuth2 / OIDC
+    - Docker
+
+- title: Thinking in Groups
+  term: 2024
+  description: |-
+    Permutation tests over groups of inputs to detect near-out-of-distribution data, for reliable use of ML models in settings like clinical imaging.
+  technologies:
+    - Python
+    - PyTorch
+    - SciPy
+
 - title: Robust-ML
   term: 2022-2024
   description: |-

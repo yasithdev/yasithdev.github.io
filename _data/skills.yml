@@ -1,0 +1,4 @@
+- name: Research
+  items: [Agentic AI, Retrieval-Augmented Generation (RAG), Deep Learning, Computer Aided Diagnosis, Human Sensing, Eye Tracking, EEG, Out-of-Distribution Detection, Neural ODEs]
+- name: Engineering
+  items: [Python, TypeScript, Java, PyTorch, TensorFlow, Docker, AWS, HPC / Slurm, OAuth2 / OIDC, Kafka, PostgreSQL]

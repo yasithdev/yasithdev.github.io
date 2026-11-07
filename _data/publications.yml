@@ -1,54 +1,119 @@
 - type: Journal Articles
   publications:
+    - authors: Gavindya Jayawardena, Yasith Jayawardana, Jacek Gwizdka
+      title: "Measuring Mental Effort in Real Time Using Pupillometry"
+      in: Journal of Eye Movement Research 18(6), 2025, MDPI.
+      doi: 10.3390/jemr18060070
+
+    - authors: Yasasi Abeysinghe, Bhanuka Mahanama, Gavindya Jayawardena, Yasith Jayawardana, Mohan Sunkara, Andrew T. Duchowski, Vikas Ashok, Sampath Jayarathna
+      title: "A-DisETrac Advanced Analytic Dashboard for Distributed Eye Tracking"
+      in: International Journal of Multimedia Data Engineering and Management (IJMDEM), 2024, IGI Global.
+      doi: 10.4018/ijmdem.341792
+
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sundararaman Rengarajan, Gavindya Jayawardena, Leanne Chukoskie, Joseph Snider, Sampath Jayarathna
       title: "Eye Movement and Pupil Measures: A Review"
       in: Frontiers in Computer Science 3:733531, 2022, Frontiers Media.
+      doi: 10.3389/fcomp.2021.733531
 
 - type: Book Chapters
   publications:
     - authors: Sampath Jayarathna, Yasith Jayawardana, Mark Jaime, Sashi Thapaliya
       title: "Electroencephalogram (EEG) for Delineating Objective Measure of Autism Spectrum Disorder"
-      in: Computational Models for Biomedical Reasoning and Problem Solving, 2019, IGI Global. pp-34-65.
+      in: Computational Models for Biomedical Reasoning and Problem Solving, 2019, IGI Global. pp. 34-65.
+      doi: 10.4018/978-1-5225-7467-5.ch002
       arxiv: 1907.01515
 
 - type: Conference Proceedings
   publications:
+    - authors: Lahiru Jayathilake, Yasith Jayawardana, Dimuthu Wannipurage, Suresh Marru
+      title: "Federated HPC Account Provisioning Using CILogon, COmanage, and PAM-Based OAuth2 Device Flow"
+      in: Practice and Experience in Advanced Research Computing (PEARC), 2026, ACM.
+      doi: 10.1145/3785462.3815896
+
+    - authors: Gavindya Jayawardena, Yasith Jayawardana, Yasasi Abeysinghe, Bhanuka Mahanama, Sampath Jayarathna, Jacek Gwizdka
+      title: "A Real-Time Approach to Capture Ambient and Focal Attention in Visual Search"
+      in: ACM Symposium on Eye Tracking Research and Applications (ETRA), 2025, ACM. pp. 1-7.
+      doi: 10.1145/3715669.3723111
+
+    - authors: Yasith Jayawardana, Dimuthu Wannipurage, Eroma Abeysinghe, Suresh Marru
+      title: "Enhancing Research Productivity: Seamless Integration of Personal Devices and HPC Resources with the Cybershuttle Notebook Gateway"
+      in: Practice and Experience in Advanced Research Computing (PEARC), 2024, ACM.
+      doi: 10.1145/3626203.3670623
+
+    - authors: H. Kariyawasam, S. Jayasinghe, Yasith Jayawardana, Dushan Wadduwage
+      title: "Differentiable Modeling of Nonlinear Dynamics in Multimode Fibers"
+      in: IEEE Photonics Conference (IPC), 2023, IEEE. pp. 1-2.
+      doi: 10.1109/ipc57732.2023.10360586
+
+    - authors: Gavindya Jayawardena, Yasith Jayawardana, Sampath Jayarathna, Jonas Högström, Thomas Papa, Deepak Akkil, Andrew T. Duchowski, Vsevolod Peysakhovich, Izabela Krejtz, Nina Gehrer, Krzysztof Krejtz
+      title: "Toward a Real-Time Index of Pupillary Activity as an Indicator of Cognitive Load"
+      in: 26th International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), Procedia Computer Science 207, 2022, Elsevier. pp. 1331-1340.
+      doi: 10.1016/j.procs.2022.09.189
+
+    - authors: Yasith Jayawardana, Vikas G. Ashok, Sampath Jayarathna
+      title: "StreamingHub: Interactive Stream Analysis Workflows"
+      in: 22nd ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2022, ACM. pp. 1-10.
+      doi: 10.1145/3529372.3530936
+
     - authors: Yasith Jayawardana, Gavindya Jayawardena, Andrew Duchowski, Sampath Jayarathna
       title: "Metadata-Driven Eye Tracking for Real-Time Applications"
       in: ACM Symposium on Document Engineering (DocEng), 2021, ACM. pp. 1-4.
-      
+      doi: 10.1145/3469096.3474935
+
     - authors: Yasith Jayawardana, Alexander C. Nwala, Gavindya Jayawardena, Jian Wu, Sampath Jayarathna, Michael L. Nelson, C. Lee Giles
       title: Modeling Updates of Scholarly Webpages Using Archived Data
       in: 5th Computational Archival Science (CAS) Workshop at IEEE BigData, 2020, IEEE.
+      doi: 10.1109/bigdata50022.2020.9377796
       arxiv: 2012.03397
 
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sampath Jayarathna
       title: "Gaze-Net: Appearance-Based Gaze Estimation using Capsule Networks"
       in: 11th Augmented Human International Conference (AH), 2020, ACM. pp. 1-4.
+      doi: 10.1145/3396339.3396393
       arxiv: 2004.07777
 
     - authors: Yasith Jayawardana, Sampath Jayarathna
       title: Streaming Analytics and Workflow Automation for DFS
       in: 20th ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2020, ACM. pp. 513-514.
+      doi: 10.1145/3383583.3398589
       extra: Nominated for Best Poster
 
     - authors: Dilantha Haputhanthri, Gunavaran Brihadiswaran, Sahan Gunathilaka, Dulani Meedeniya, Yasith Jayawardana, Sampath Jayarathna, Mark Jaime
       title: An EEG based Channel Optimized Classification Approach for Autism Spectrum Disorder
       in: 5th International Multidisciplinary Engineering Research Conference (MERCon), 2019, IEEE. pp. 123-128.
+      doi: 10.1109/mercon.2019.8818814
 
     - authors: Yasith Jayawardana, Mark Jaime, Sampath Jayarathna
       title: Analysis of Temporal Relationships between ASD and Brain Activity through EEG and Machine Learning
       in: 20th International Conference on Information Reuse and Integration for Data Science (IRI), 2019, IEEE. pp. 151-158.
+      doi: 10.1109/iri.2019.00035
       extra: Best Student Paper
-      
+
     - authors: Yasith Jayawardana, Sampath Jayarathna
       title: "DFS: A Dataset File System for Data Discovering Users"
       in: 19th ACM/IEEE Joint Conference on Digital Libraries (JCDL), 2019, ACM. pp. 355-356.
+      doi: 10.1109/jcdl.2019.00068
       arxiv: 1905.13363
 
     - authors: Yasith Jayawardana, Randil Fernando, Gavindya Jayawardena, Dileka Weerasooriya, Indika Perera
       title: A Full Stack Microservices Framework with Business Modelling
       in: 18th International Conference on Advances in ICT for Emerging Regions (ICTer), 2018, IEEE. pp. 78-85.
+      doi: 10.1109/icter.2018.8615473
+
+- type: Preprints, Theses, and Reports
+  publications:
+    - authors: Yasith Jayawardana, D. Jayakody, Sampath Jayarathna, Dushan N. Wadduwage
+      title: "Thinking in Groups: Permutation Tests Reveal Near-Out-of-Distribution"
+      in: arXiv preprint, 2024.
+      arxiv: 2403.14058
+
+    - authors: Yasith Jayawardana
+      title: "StreamingHub: A Realtime Biosignal Processing Framework for Lab Scale Experimentation"
+      in: PhD Dissertation, Old Dominion University, 2024.
+
+    - authors: Yasith Jayawardana, B. J. Cain, Martin Klein, Shawn M. Jones
+      title: "PDF Server: \"Robustifying\" URL References in PDF Documents"
+      in: Technical Report, Los Alamos National Laboratory (LANL), 2022.
 
 - type: Doctoral Consortiums (Not in Proceedings)
   publications:
