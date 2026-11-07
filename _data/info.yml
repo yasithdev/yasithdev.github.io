@@ -25,7 +25,7 @@ now:
     description: Connect your data and code to HPC, cloud, and local machines to run experiments anywhere.
   - name: Apache Airavata
     link: https://github.com/apache/airavata
-    role: Contributor
+    role: Georgia Tech ARTISAN
     description: Run scientific experiments across HPC and cloud from one framework.
 social:
   facebook_username: yasithdev
