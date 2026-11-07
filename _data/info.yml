@@ -15,24 +15,24 @@ image: /assets/img/dp.jpg
 gs: tY4R8rYAAAAJ
 cv: /assets/cv.pdf
 active:
-  - name: Marketrix
-    link: https://marketrix.ai
-    description: AI buyer personas. 259M U.S. personas built from real conversations and calibrated to census data.
   - name: CS Bridge
     link: https://github.com/cyber-shuttle/cs-bridge
     description: Launch VS Code sessions on Slurm compute nodes from your local editor.
+  - name: CS Jupyter
+    link: https://github.com/cyber-shuttle/cs-jupyter
+    description: Run JupyterLab on a Slurm compute node, from your browser.
   - name: Linkspan
     link: https://github.com/cyber-shuttle/linkspan
     description: Turn a Slurm job into Jupyter, VS Code, and terminal servers you can reach from your laptop.
   - name: Apache Airavata
     link: https://github.com/apache/airavata
-    description: Run scientific experiments across HPC and cloud from one framework.
+    description: Run experiments across HPC and cloud. Also the control plane for Cybershuttle sessions.
   - name: Airavata Custos
     link: https://github.com/apache/airavata-custos
     description: Provision HPC accounts from federated identities with CILogon, COmanage, and OAuth2.
-  - name: cs-plane
-    link: https://github.com/cyber-shuttle/cs-plane
-    description: Cybershuttle's control plane. Signs users in, tracks sessions, and launches Linkspan jobs through Slurm.
+  - name: PersonaOS
+    link: https://marketrix.ai
+    description: Generate AI buyer personas and chat with them. Part of Marketrix.
 social:
   facebook_username: yasithdev
   github_username: yasithdev

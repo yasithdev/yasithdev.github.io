@@ -1,28 +1,18 @@
-- category: AI Agents & Human Behavior
-  projects:
-    - title: Marketrix Personas
-      term: 2024-Present
-      description: |-
-        AI buyer personas that answer what-if questions about products and messaging.
-        259M U.S. personas built from real conversations and calibrated to census data.
-      technologies: [LLMs, Python, TypeScript]
-      links:
-        - key: Website
-          link: https://marketrix.ai
-
 - category: Research Computing
   projects:
     - title: Cybershuttle
       term: 2024-Present
       description: |-
         Run Jupyter and VS Code sessions on HPC compute nodes, reachable from a browser or editor, with no inbound ports on the cluster.
-        Built the control plane (cs-plane), the in-job agent (Linkspan), the CS Bridge VS Code extension, and CS Jupyter.
-      technologies: [Go, TypeScript, Python, Slurm, CILogon, VS Code API, JupyterLab]
+        Built the CS Bridge VS Code extension, CS Jupyter, and the in-job agent (Linkspan). The control plane now lives in Apache Airavata.
+      technologies: [TypeScript, Go, Python, Slurm, CILogon, VS Code API, JupyterLab]
       links:
         - key: GitHub
           link: https://github.com/cyber-shuttle
         - key: CS Bridge
           link: https://github.com/cyber-shuttle/cs-bridge
+        - key: CS Jupyter
+          link: https://github.com/cyber-shuttle/cs-jupyter
         - key: Linkspan
           link: https://github.com/cyber-shuttle/linkspan
         - key: Paper
@@ -31,7 +21,7 @@
     - title: Apache Airavata
       term: 2024-Present
       description: |-
-        Science gateway middleware to run experiments across HPC and cloud from one framework.
+        Science gateway middleware to run experiments across HPC and cloud from one framework. Also the control plane for Cybershuttle sessions.
         290+ commits: token-based auth with Keycloak, access-scoped APIs, a generated Python SDK, Slurm execution fixes, and dev-stack tooling.
       technologies: [Java, Python, Keycloak, Slurm]
       links:
@@ -66,6 +56,18 @@
       links:
         - key: GitHub
           link: https://github.com/yasithdev/cybercomp
+
+- category: AI Agents & Human Behavior
+  projects:
+    - title: Marketrix Personas
+      term: 2024-Present
+      description: |-
+        AI buyer personas that answer what-if questions about products and messaging.
+        259M U.S. personas built from real conversations and calibrated to census data.
+      technologies: [LLMs, Python, TypeScript]
+      links:
+        - key: Website
+          link: https://marketrix.ai
 
 - category: Human Sensing & Machine Learning
   projects:
