@@ -14,19 +14,25 @@ email: yasith@gatech.edu
 image: /assets/img/dp.jpg
 gs: tY4R8rYAAAAJ
 cv: /assets/cv.pdf
-now:
+active:
   - name: Marketrix
     link: https://marketrix.ai
-    role: Co-founder
-    description: Ask what-if questions from 259M U.S. personas built from real conversations and calibrated to census data.
-  - name: Cybershuttle
-    link: https://github.com/cyber-shuttle
-    role: Georgia Tech ARTISAN
-    description: Connect your data and code to HPC, cloud, and local machines to run experiments anywhere.
+    description: AI buyer personas. 259M U.S. personas built from real conversations and calibrated to census data.
+  - name: CS Bridge
+    link: https://github.com/cyber-shuttle/cs-bridge
+    description: Launch VS Code sessions on Slurm compute nodes from your local editor.
+  - name: Linkspan
+    link: https://github.com/cyber-shuttle/linkspan
+    description: Turn a Slurm job into Jupyter, VS Code, and terminal servers you can reach from your laptop.
   - name: Apache Airavata
     link: https://github.com/apache/airavata
-    role: Georgia Tech ARTISAN
     description: Run scientific experiments across HPC and cloud from one framework.
+  - name: Airavata Custos
+    link: https://github.com/apache/airavata-custos
+    description: Provision HPC accounts from federated identities with CILogon, COmanage, and OAuth2.
+  - name: cs-plane
+    link: https://github.com/cyber-shuttle/cs-plane
+    description: Cybershuttle's control plane. Signs users in, tracks sessions, and launches Linkspan jobs through Slurm.
 social:
   facebook_username: yasithdev
   github_username: yasithdev

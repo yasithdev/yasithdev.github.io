@@ -18,12 +18,11 @@ layout: default
   <a class="button" href="https://scholar.google.com/citations?user={{ info.gs }}" target="_blank">Google Scholar</a>
 </p>
 
-<h2>Currently</h2>
+<h2>Most Active Projects</h2>
 <div class="cards">
-  {% for item in info.now %}
+  {% for item in info.active %}
   <div class="card">
     <h4><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h4>
-    <div class="muted">{{ item.role }}</div>
     <p>{{ item.description }}</p>
   </div>
   {% endfor %}
