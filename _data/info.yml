@@ -38,7 +38,7 @@ active:
   - name: PersonaOS
     icon: /assets/img/projects/marketrix.png
     link: https://marketrix.ai
-    description: Generate AI buyer personas and chat with them. Part of Marketrix.
+    description: Generate AI buyer personas and chat with them.
 social:
   facebook_username: yasithdev
   github_username: yasithdev
