@@ -7,17 +7,14 @@ layout: default
   <div>
     <div class="name">{{ info.name }}</div>
     <div class="headline">{{ site.description }}</div>
-    <address>
-      {% for line in info.address %}{{ line }}<br />{% endfor %}
-    </address>
+    <address>{{ info.address | join: " · " }}</address>
     <a href="mailto:{{ info.email }}">{{ info.email }}</a>
   </div>
 </div>
 
-<h2>About Me</h2>
 {{ info.about | markdownify }}
 <p>
-  <a class="button" href="{{ info.cv | relative_url }}" target="_blank">See My CV</a>
+  <a class="button" href="{{ info.cv | relative_url }}" target="_blank">CV</a>
   <a class="button" href="https://scholar.google.com/citations?user={{ info.gs }}" target="_blank">Google Scholar</a>
 </p>
 
@@ -25,8 +22,8 @@ layout: default
 <div class="cards">
   {% for item in info.now %}
   <div class="card">
-    <h3><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h3>
-    <strong>{{ item.role }}</strong>
+    <h4><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h4>
+    <div class="muted">{{ item.role }}</div>
     <p>{{ item.description }}</p>
   </div>
   {% endfor %}

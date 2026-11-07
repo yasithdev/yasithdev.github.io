@@ -3,65 +3,66 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    Building Cybershuttle — a platform for researchers to connect data + code with compute resources (HPC, Cloud, Local) and run experiments from anywhere.
+    - Building Cybershuttle: connect data and code to HPC, cloud, and local compute, and run experiments from anywhere.
+    - Contributor to Apache Airavata and Custos.
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
   designation: Co-founder
-  term: Est 2024
+  term: 2024 - Present
   description: |-
-    Building AI buyer personas: 259M U.S. personas built from real conversations and calibrated to census data, for asking what-if questions about purchase decisions.
+    - Building AI buyer personas that answer what-if questions.
+    - 259M U.S. personas, built from real conversations and calibrated to census data.
 
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    Proposed eye movement-based methods to detect ADHD, quantify visual attention, and estimate cognitive load;
-    Built webcam-based eye trackers for UCSD;
-    Developed a 90%-accurate EEG-based autism detector (ASDtect) for IUPUC;
-    Developed Python SDKs to analyze real-time biosignals (StreamingHub);
-    Proposed a hyper-efficient academic crawl-scheduler (HACS);
-    TA’d core CS courses.
+    - Proposed eye-movement methods to detect ADHD and estimate attention and mental effort.
+    - Built webcam eye trackers for UCSD.
+    - Built ASDtect, a 90%-accurate EEG autism detector, for IUPUC.
+    - Built StreamingHub, Python SDKs for real-time biosignals.
+    - Built HACS, an efficient crawl scheduler for academic web pages.
+    - Taught core CS courses as a TA.
 
 - affiliation: Harvard University, USA
   logo: /assets/img/harvard.png
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    Developed a novel outlier detector for reliable use of ML models in clinical settings;
-    Trained models to detect antimicrobial-resistant bacteria from single-cell images;
-    Approximated the wave propagation dynamics of multimode fiber with Neural ODEs.
+    - Built an outlier detector so ML models can be trusted in clinics.
+    - Trained models to spot antimicrobial-resistant bacteria in single-cell images.
+    - Modeled light in multimode fibers with Neural ODEs.
 
 - affiliation: Los Alamos National Laboratory
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    Built a PDF archiver that extracts URLs, snapshots their content in Web archives, and preserves the original references, despite broken links and content updates.
+    - Built a PDF archiver that saves cited web pages, so references survive broken links and content changes.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    Built web/mobile apps for TheGPService UK doctor-consultation platform;
-    Setup CI/CD and log monitoring;
-    Cut AWS infra costs by 30%.
+    - Built web and mobile apps for TheGPService, a UK doctor-consultation platform.
+    - Set up CI/CD and log monitoring.
+    - Cut AWS costs by 30%.
 
 - affiliation: University of Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
-    Prepared course materials, conducted lectures, and graded students.
+    - Prepared course materials, lectured, and graded.
 
 - affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    Built WSO2 Suzy, an AI chatbot to resolve WSO2 support queries;
-    Designed crawlers, vectorizers, and indexers for WSO2 docs;
-    Integrated Suzy with Facebook Chat using DialogFlow.
-
+    - Built Suzy, an AI chatbot for WSO2 support questions.
+    - Built crawlers, vectorizers, and indexers for WSO2 docs.
+    - Connected Suzy to Facebook Chat via DialogFlow.

@@ -2,16 +2,18 @@
 layout: default
 title: Publications
 ---
-<p>Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p>
+<p class="muted">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p>
 {% for group in site.data.publications %}
 <h3>{{ group.type }}</h3>
 <ul class="pubs">
   {% for pub in group.publications %}
   <li>
-    {{ pub.authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}, "{{ pub.title }}", in <i>{{ pub.in }}</i>
-    {% if pub.extra %}<strong>({{ pub.extra }})</strong>{% endif %}
-    {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank">[DOI]</a>{% endif %}
-    {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">[Preprint]</a>{% endif %}
+    <span class="title">{{ pub.title }}</span>
+    {{ pub.authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}<br />
+    <span class="venue">{{ pub.in }}</span>
+    {% if pub.extra %}<span class="award">· {{ pub.extra }}</span>{% endif %}
+    {% if pub.doi %}<a class="tag" href="https://doi.org/{{ pub.doi }}" target="_blank">DOI</a>{% endif %}
+    {% if pub.arxiv %}<a class="tag" href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">arXiv</a>{% endif %}
   </li>
   {% endfor %}
 </ul>

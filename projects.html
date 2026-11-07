@@ -2,24 +2,16 @@
 layout: default
 title: Projects
 ---
-{% for project in site.data.projects %}
-<table>
-  <tbody>
-    <tr class="header">
-      <td>
-        <strong>{{ project.title }}</strong>
-        <span class="term">({{ project.term }})</span>
-        <br />
-        {% for t in project.technologies %}
-        <span class="tag">{{ t }}</span>
-        {% endfor %}
-      </td>
-    </tr>
-    <tr>
-      <td>
-        {{ project.description | markdownify }}
-      </td>
-    </tr>
-  </tbody>
-</table>
+{% for group in site.data.projects %}
+<h3>{{ group.category }}</h3>
+<div class="cards wide">
+  {% for p in group.projects %}
+  <div class="card">
+    <div class="card-head"><h4>{{ p.title }}</h4><span class="term">{{ p.term }}</span></div>
+    {{ p.description | markdownify }}
+    <div class="tags">{% for t in p.technologies %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+    {% if p.links %}<div class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }} &rarr;</a>{% endfor %}</div>{% endif %}
+  </div>
+  {% endfor %}
+</div>
 {% endfor %}

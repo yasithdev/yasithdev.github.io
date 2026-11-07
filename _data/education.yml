@@ -4,8 +4,8 @@
   major: Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    Studied Biosensors, Digital Signal Processing, Deep Learning, and Streaming Analytics.
-    Developed StreamingHub, a framework to build realtime experiments with multimodal biosignal streams.
+    - Focus: biosensors, signal processing, deep learning, streaming analytics.
+    - Dissertation: StreamingHub, real-time experiments with multimodal biosignals.
   extra:
     - key: GPA
       value: 4.0
@@ -22,8 +22,8 @@
   major: Computer Science and Engineering
   term: Jan 2015 - Dec 2018
   description: |-
-    Studied Distributed Systems, Software Development, and Mathematics.
-    Developed MSstack, an event-driven microservice framework to transform business models to boilerplate Java code.
+    - Focus: distributed systems, software engineering, mathematics.
+    - Final-year project: MSstack, a microservice framework that turns business models into Java code.
   extra:
     - key: GPA
       value: 3.84
