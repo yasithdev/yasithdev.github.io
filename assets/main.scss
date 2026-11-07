@@ -101,6 +101,8 @@ ul { margin-left: 1.2em; }
   .links a { margin-right: 0.8em; }
 }
 .cards.wide { grid-template-columns: repeat(auto-fill, minmax(22em, 1fr)); }
+.card-title { display: flex; align-items: center; gap: 0.5em; }
+.card-title .icon { width: 28px; height: 28px; object-fit: contain; border-radius: 6px; flex-shrink: 0; }
 .card-head { display: flex; justify-content: space-between; gap: 0.5em; align-items: baseline; margin-bottom: 0.25em; }
 
 /* Timeline (experience, education) */

@@ -7,7 +7,7 @@ title: Projects
 <div class="cards wide">
   {% for p in group.projects %}
   <div class="card">
-    <div class="card-head"><h4>{{ p.title }}</h4><span class="term">{{ p.term }}</span></div>
+    <div class="card-head"><h4 class="card-title">{% if p.icon %}<img class="icon" src="{{ p.icon | relative_url }}" alt="">{% endif %}{{ p.title }}</h4><span class="term">{{ p.term }}</span></div>
     {{ p.description | markdownify }}
     <div class="tags">{% for t in p.technologies %}<span class="tag">{{ t }}</span>{% endfor %}</div>
     {% if p.links %}<div class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }} &rarr;</a>{% endfor %}</div>{% endif %}

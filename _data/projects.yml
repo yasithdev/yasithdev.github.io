@@ -1,6 +1,7 @@
 - category: Research Computing
   projects:
     - title: Cybershuttle
+      icon: /assets/img/projects/cybershuttle.png
       term: 2024-Present
       description: |-
         Run Jupyter and VS Code sessions on HPC compute nodes, reachable from a browser or editor, with no inbound ports on the cluster.
@@ -19,6 +20,7 @@
           link: https://doi.org/10.1145/3626203.3670623
 
     - title: Apache Airavata
+      icon: /assets/img/projects/airavata.png
       term: 2024-Present
       description: |-
         Science gateway middleware to run experiments across HPC and cloud from one framework. Also the control plane for Cybershuttle sessions.
@@ -29,6 +31,7 @@
           link: https://github.com/apache/airavata
 
     - title: Federated HPC Accounts (Airavata Custos)
+      icon: /assets/img/projects/custos.svg
       term: 2026
       description: |-
         Provision HPC accounts from federated identities, using CILogon, COmanage, and a PAM module for the OAuth2 device flow.
@@ -60,6 +63,7 @@
 - category: AI Agents & Human Behavior
   projects:
     - title: Marketrix Personas
+      icon: /assets/img/projects/marketrix.png
       term: 2024-Present
       description: |-
         AI buyer personas that answer what-if questions about products and messaging.
