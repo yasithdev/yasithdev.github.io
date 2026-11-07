@@ -1,4 +1,12 @@
-- name: Research
-  items: [Agentic AI, Retrieval-Augmented Generation (RAG), Deep Learning, Computer Aided Diagnosis, Human Sensing, Eye Tracking, EEG, Out-of-Distribution Detection, Neural ODEs]
-- name: Engineering
-  items: [Python, TypeScript, Java, PyTorch, TensorFlow, Docker, AWS, HPC / Slurm, OAuth2 / OIDC, Kafka, PostgreSQL]
+- name: AI & Agents
+  items: [LLM Agents, Model Context Protocol (MCP), LiteLLM, Retrieval-Augmented Generation (RAG), Behavior Simulation, OpenTelemetry / Arize Phoenix]
+- name: Human Sensing & ML
+  items: [Eye Tracking, Pupillometry, EEG, Computer-Aided Diagnosis, Deep Learning, PyTorch, TensorFlow, Out-of-Distribution Detection, Neural ODEs]
+- name: Research Computing
+  items: [HPC / Slurm, Science Gateways, Jupyter, VS Code Extensions, CILogon, Keycloak, OAuth2 / OIDC]
+- name: Languages
+  items: [TypeScript, Python, Java, Go, SQL]
+- name: Web & Backend
+  items: [React, Next.js, Bun, Express, oRPC, gRPC, Apache Thrift, Drizzle, PostgreSQL, Redis / Valkey, BullMQ]
+- name: Cloud & DevOps
+  items: [Kubernetes, Argo CD, Helm, Terraform, Docker, Tilt, GitHub Actions, Azure, AWS, SOPS]
