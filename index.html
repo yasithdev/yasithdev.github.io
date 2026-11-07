@@ -38,7 +38,6 @@ layout: default
 
 <h2>Music</h2>
 {% for hobby in site.data.hobbies %}
-{{ hobby.description | markdownify }}
 <p>
   {% for l in hobby.links %}<a class="button" href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}
 </p>
