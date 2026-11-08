@@ -1,68 +1,68 @@
-- affiliation: Georgia Institute of Technology, USA
+- affiliation: Georgia Institute of Technology, Atlanta, GA
   logo: /assets/img/gt.png
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Building Cybershuttle, to run experiments on HPC, cloud, or local compute from anywhere.
-    - Build and maintain Apache Airavata and Custos.
+    - Build Cybershuttle, a research computing platform (TypeScript, Go, Python) to run experiments on HPC, cloud, or local compute.
+    - Build and maintain Apache Airavata and Custos (Java, Go, Keycloak, OAuth 2.0).
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
   designation: Co-founder
   term: Est. 2024
   description: |-
-    - Building AI buyer personas that answer what-if questions.
+    - Build AI buyer personas that answer what-if questions, using LLMs and AI agents.
     - 259M U.S. personas from real conversations, calibrated to census data.
 
-- affiliation: Old Dominion University, USA
+- affiliation: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    - Proposed eye-movement methods to detect ADHD and estimate attention and mental effort.
-    - Built webcam eye trackers for UCSD.
-    - Built ASDtect, a 90%-accurate EEG autism detector, for IUPUC.
-    - Built StreamingHub, Python SDKs for real-time biosignals.
-    - Built HACS, a crawl scheduler for academic web pages.
+    - Proposed eye-tracking methods to detect ADHD and estimate attention and mental effort.
+    - Built webcam eye trackers for UCSD, using computer vision.
+    - Built ASDtect, a 90%-accurate EEG machine learning model for autism, for IUPUC.
+    - Built StreamingHub, Python SDKs for real-time biosignal processing.
+    - Built HACS, a web crawl scheduler for academic pages.
     - Taught core CS courses as a TA.
 
-- affiliation: Harvard University, USA
+- affiliation: Harvard University, Cambridge, MA
   logo: /assets/img/harvard.png
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
     - Built an outlier detector so clinics can trust ML models.
-    - Trained models to spot antimicrobial-resistant bacteria in single-cell images.
+    - Trained deep learning models to spot antimicrobial-resistant bacteria in single-cell images.
     - Modeled light in multimode fibers with Neural ODEs.
 
-- affiliation: Los Alamos National Laboratory
+- affiliation: Los Alamos National Laboratory, Los Alamos, NM
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    - Built a PDF archiver that saves cited web pages before links break or content changes.
+    - Built a Python service that archives web pages cited in PDFs, before links break or content changes.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    - Built web and mobile apps for TheGPService, a UK doctor-consultation platform.
+    - Built web and mobile apps for TheGPService, a UK doctor-consultation platform (React Native, Angular, Java, AWS).
     - Set up CI/CD and log monitoring.
     - Cut AWS costs by 30%.
 
-- affiliation: University of Moratuwa, Sri Lanka
+- affiliation: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
     - Prepared course materials, lectured, and graded.
 
-- affiliation: WSO2 Lanka (Pvt) Ltd, Sri Lanka
+- affiliation: WSO2, Colombo, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    - Built Suzy, an AI chatbot for support questions.
-    - Built crawlers, vectorizers, and indexers for the docs.
+    - Built Suzy, an NLP chatbot for support questions.
+    - Built crawlers, vectorizers, and Elasticsearch indexers for the docs.
     - Connected Suzy to Facebook Chat via DialogFlow.

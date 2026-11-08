@@ -6,7 +6,7 @@
       description: |-
         Jupyter and VS Code on HPC compute nodes, from a browser or editor. No inbound ports.
         Built CS Bridge, CS Jupyter, and Linkspan.
-      technologies: [TypeScript, Go, Python, Slurm, CILogon, VS Code API, JupyterLab]
+      technologies: [TypeScript, Go, Python, High-Performance Computing (HPC), Slurm, Jupyter, OAuth 2.0]
       links:
         - key: GitHub
           link: https://github.com/cyber-shuttle
@@ -25,7 +25,7 @@
       description: |-
         Science gateway middleware to run experiments across HPC and cloud. Control plane for Cybershuttle.
         290+ commits: Keycloak auth, scoped APIs, a Python SDK, Slurm fixes, and dev tooling.
-      technologies: [Java, Python, Keycloak, Slurm]
+      technologies: [Java, Python, Distributed Systems, High-Performance Computing (HPC), Slurm, Keycloak]
       links:
         - key: GitHub
           link: https://github.com/apache/airavata
@@ -35,7 +35,7 @@
       term: 2026
       description: |-
         Provision HPC accounts from federated identities, via CILogon, COmanage, and a PAM module for the OAuth2 device flow.
-      technologies: [Go, C++, PAM, OAuth2 / OIDC, CILogon]
+      technologies: [Go, C++, OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC)]
       links:
         - key: GitHub
           link: https://github.com/apache/airavata-custos
@@ -47,7 +47,7 @@
       term: 2026
       description: |-
         A Dockerized Slurm 24.05 cluster with REST, plus nexusctl, a Go CLI for accounts, users, and limits.
-      technologies: [Go, Slurm, Docker Compose]
+      technologies: [Go, Slurm, REST APIs, Docker]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/slurmrest
@@ -57,36 +57,36 @@
       term: 2019
       description: |-
         Dockerfiles for each Apache OODT component, and a Maven archetype that generates Dockerfiles and a Compose file.
-      technologies: [Java, Maven, Docker]
+      technologies: [Java, Docker]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/oodt-dmb
 
     - title: MSstack
-      icon: /assets/img/projects/msstack.svg
+      icon: /assets/img/projects/msstack.png
       term: 2018
       description: |-
         An event-driven Java microservices framework.
         It generates code from business process models and handles lifecycle, partitioning, and scaling.
-      technologies: [Java, Netty, Kafka, Zookeeper]
+      technologies: [Java, Microservices, Distributed Systems]
       links:
         - key: Paper
           link: https://doi.org/10.1109/icter.2018.8615473
 
     - title: TheGPService
-      icon: /assets/img/designboo.png
+      icon: /assets/img/projects/thegpservice.png
       term: 2017-2018
       description: |-
         Web and mobile apps for a UK doctor-consultation platform.
         Added SSO, CI/CD, and logging; cut AWS costs by 30%.
-      technologies: [React Native, Angular, Spring Boot, AWS, Docker]
+      technologies: [Angular, Java, AWS, Docker, CI/CD]
 
     - title: Smaller Projects
       icon: /assets/img/projects/misc.svg
       term: 2016-2018
       description: |-
         TourMate (tour booking), Raven (customer satisfaction from facial emotions), Onion (point-of-sale, inventory, and payroll), MusicSchool (school management), and SQLBackup (.NET backups).
-      technologies: [JavaScript, C#, PHP, MySQL]
+      technologies: [JavaScript, C#, MySQL]
       links:
         - key: TourMate
           link: https://github.com/yasithdev/tourmate
@@ -101,7 +101,7 @@
       description: |-
         AI buyer personas that answer what-if questions.
         259M U.S. personas from real conversations, calibrated to census data.
-      technologies: [LLMs, Python, TypeScript]
+      technologies: [Large Language Models (LLMs), AI Agents, Python, TypeScript]
       links:
         - key: Website
           link: https://marketrix.ai
@@ -115,7 +115,7 @@
         A framework for real-time experiments with multimodal biosignals.
         Metadata schemas, Python APIs, a dataset curation app, and DataMux for streaming.
         The subject of my PhD dissertation.
-      technologies: [Python, WebSockets, Flask, LabStreamingLayer, JSON Schema]
+      technologies: [Python, Signal Processing, Eye Tracking, EEG, Flask]
       links:
         - key: GitHub
           link: https://github.com/nirdslab/streaminghub
@@ -128,7 +128,7 @@
       description: |-
         Culture-free detection of antimicrobial-resistant bacteria in single-cell microscopy images with capsule networks.
         Flag near-out-of-distribution inputs with permutation tests, so clinics can trust the models.
-      technologies: [Python, PyTorch, TensorFlow, SciPy]
+      technologies: [Python, Deep Learning, Computer Vision, PyTorch, TensorFlow]
       links:
         - key: Paper
           link: https://arxiv.org/abs/2403.14058
@@ -140,7 +140,7 @@
       term: 2021-2025
       description: |-
         Estimate ambient vs. focal attention and mental effort from eye movements and pupil size.
-      technologies: [Python, Eye Tracking, Pupillometry]
+      technologies: [Python, Eye Tracking, Signal Processing]
       links:
         - key: Paper
           link: https://doi.org/10.3390/jemr18060070
@@ -152,7 +152,7 @@
       term: 2022-2023
       description: |-
         Model light in multimode fibers with Neural ODEs.
-      technologies: [Python, PyTorch, Neural ODEs]
+      technologies: [Python, Deep Learning, PyTorch]
       links:
         - key: Paper
           link: https://doi.org/10.1109/ipc57732.2023.10360586
@@ -162,7 +162,7 @@
       term: 2020
       description: |-
         Multi-user eye tracking from webcams, in the browser. A collaborative project.
-      technologies: [MediaPipe, TF.js, Node]
+      technologies: [JavaScript, Node.js, Computer Vision, Eye Tracking, TensorFlow]
       links:
         - key: GitHub
           link: https://github.com/nirdslab/multigazeinterations
@@ -173,7 +173,7 @@
       description: |-
         Predict autism spectrum disorder from EEG and thermography, using wavelet features.
         Won Best Student Paper at IEEE IRI 2019.
-      technologies: [Python, TensorFlow, PyWavelets, Pandas]
+      technologies: [Python, Machine Learning, EEG, Signal Processing, TensorFlow, Pandas]
       links:
         - key: GitHub
           link: https://github.com/nirdslab/asd-detection
@@ -185,7 +185,7 @@
       term: 2017
       description: |-
         Model dengue spread from weather and geographic data. Ranked #1 in a 2017 DrivenData competition.
-      technologies: [Python, Scikit-Learn, Pandas]
+      technologies: [Python, Machine Learning, Scikit-learn, Pandas]
 
 - category: Web Archiving & Information Retrieval
   projects:
@@ -195,7 +195,7 @@
       description: |-
         Archive the URLs cited in PDFs, so references survive link rot and content drift.
         Built at Los Alamos National Laboratory.
-      technologies: [Python, PDFMiner, Flask, Linked Data]
+      technologies: [Python, Flask, Information Retrieval]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/pdf-links-service
@@ -205,7 +205,7 @@
       term: 2019-2020
       description: |-
         Model how often academic web pages change, from Internet Archive copies.
-      technologies: [Python, Internet Archive, SciPy, Pandas]
+      technologies: [Python, Statistical Modeling, Web Crawling, Pandas]
       links:
         - key: Paper
           link: https://doi.org/10.1109/bigdata50022.2020.9377796
@@ -215,7 +215,7 @@
       term: 2019
       description: |-
         A crawler, indexer, and search UI for jobs in Norfolk, VA.
-      technologies: [Python]
+      technologies: [Python, Web Crawling, Information Retrieval]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/job-search-engine
@@ -225,7 +225,7 @@
       term: 2017
       description: |-
         A chatbot for WSO2 support questions, built on crawlers, Elasticsearch, and a learned relevance model.
-      technologies: [Python, Elasticsearch, TensorFlow, DialogFlow]
+      technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Web Crawling]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/semantic-kb

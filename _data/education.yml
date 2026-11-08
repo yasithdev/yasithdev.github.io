@@ -1,6 +1,6 @@
-- name: Old Dominion University, USA
+- name: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
-  degree: PhD
+  degree: Doctor of Philosophy (PhD)
   major: Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
@@ -16,9 +16,9 @@
     - key: Key Courses
       value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
 
-- name: University of Moratuwa, Sri Lanka
+- name: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
-  degree: BSc
+  degree: Bachelor of Science (BSc)
   major: Computer Science and Engineering
   term: Jan 2015 - Dec 2018
   description: |-

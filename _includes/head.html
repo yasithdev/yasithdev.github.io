@@ -7,4 +7,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- assign info = site.data.info -%}
+  {%- assign s = info.social -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": {{ info.name | split: ", " | first | jsonify }},
+    "honorificSuffix": "PhD",
+    "jobTitle": {{ site.data.experience[0].designation | split: ", " | first | jsonify }},
+    "worksFor": {"@type": "Organization", "name": {{ info.affiliation | jsonify }}},
+    "alumniOf": [{% for e in site.data.education %}{"@type": "CollegeOrUniversity", "name": {{ e.name | split: ", " | first | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+    "email": {{ info.email | jsonify }},
+    "url": {{ site.url | jsonify }},
+    "image": {{ info.image | absolute_url | jsonify }},
+    "sameAs": ["https://github.com/{{ s.github_username }}", "https://www.linkedin.com/in/{{ s.linkedin_username }}", "https://scholar.google.com/citations?user={{ info.gs }}"],
+    "knowsAbout": {{ site.data.skills | map: "n" | jsonify }}
+  }
+  </script>
 </head>
