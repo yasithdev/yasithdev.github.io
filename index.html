@@ -22,8 +22,8 @@ layout: default
   <a class="button" rel="me" href="https://www.linkedin.com/in/{{ info.social.linkedin_username }}" target="_blank"><svg viewBox="0 0 16 16"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>LinkedIn</a>
 </p>
 <div class="bio">
-  <div><span class="label">As a researcher, I’ve found</span><ul>{% for x in info.research %}<li>{{ x }}</li>{% endfor %}</ul></div>
-  <div><span class="label">As an engineer, I’ve built</span><ul>{% for x in info.engineering %}<li>{{ x }}</li>{% endfor %}</ul></div>
+  <div><span class="label">I’ve researched</span><ul>{% for x in info.research %}<li>{{ x }}</li>{% endfor %}</ul></div>
+  <div><span class="label">I’ve built</span><ul>{% for x in info.engineering %}<li>{{ x }}</li>{% endfor %}</ul></div>
   <p class="hobby">{{ info.hobby }}</p>
 </div>
 </section>
