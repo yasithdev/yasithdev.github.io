@@ -11,8 +11,10 @@ title: Publications
   {%- elsif pub.arxiv -%}{%- capture url -%}https://arxiv.org/abs/{{ pub.arxiv }}{%- endcapture -%}
   {%- else -%}{%- assign url = nil -%}{%- endif -%}
   <li>
-    {% if url %}<a class="title" href="{{ url }}" target="_blank">{{ pub.title }}</a>{% else %}<span class="title">{{ pub.title }}</span>{% endif %}
-    <div class="authors meta">{{ pub.authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
+    <div class="head">{% if url %}<a href="{{ url }}" target="_blank">{{ pub.title }}</a>{% else %}<span>{{ pub.title }}</span>{% endif %}<span class="term">{{ pub.year }}</span></div>
+    {%- assign names = pub.authors | split: ", " -%}
+    {%- if names.size > 8 -%}{%- assign lead = names | slice: 0, 3 | join: ", " -%}{%- capture authors -%}{{ lead }}, …{% unless lead contains "Yasith Jayawardana" %}, Yasith Jayawardana{% endunless %} ({{ names.size }} authors){%- endcapture -%}{%- else -%}{%- assign authors = pub.authors -%}{%- endif %}
+    <div class="authors meta">{{ authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
     <div class="venue meta">{{ pub.in }}{% if pub.extra %} <span class="award">· {{ pub.extra }}</span>{% endif %}{% if pub.doi and pub.arxiv %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">arXiv</a>{% endif %}</div>
   </li>
   {% endfor %}

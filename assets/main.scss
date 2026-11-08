@@ -123,7 +123,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .plist { list-style: none; margin: 0; }
 .plist > li { display: grid; grid-template-columns: var(--logo-sm) 1fr; gap: var(--sp-3); padding: var(--sp-3) 0; border-bottom: 1px solid var(--border); }
 .plist > li:last-child { border-bottom: 0; }
-.plist .head, .plist .foot { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--sp-4); }
+.plist .head, .plist .foot, .pubs .head, .timeline .head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--sp-4); }
 .plist p { margin: var(--sp-1) 0; }
 .plist .links { font-size: var(--fs-sm); font-weight: 600; }
 .plist .links a { white-space: nowrap; }
@@ -133,7 +133,6 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .timeline { list-style: none; margin: 0; padding: 0; }
 .timeline > li { display: grid; grid-template-columns: var(--logo-md) 1fr; gap: var(--sp-4); padding-bottom: var(--sp-4); position: relative; }
 .timeline > li:not(:last-child)::before { content: ""; position: absolute; left: calc(var(--logo-md) / 2 - 1px); top: calc(var(--logo-md) + var(--sp-1)); bottom: var(--sp-1); width: 2px; background: var(--border); }
-.timeline .head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--sp-4); }
 .timeline .role { margin-bottom: var(--sp-1); }
 .timeline ul { margin-bottom: var(--sp-1); list-style: disc; }
 .focus { margin: var(--sp-2) 0 0; }
@@ -150,7 +149,6 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
   $paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpath d='M14 2v6h6M8 13h8M8 17h8M8 9h2'/%3E%3C/svg%3E") center / contain no-repeat;
   -webkit-mask: $paper; mask: $paper;
 }
-.pubs .title { display: block; }
 .pubs .authors strong { color: var(--text); font-weight: 600; }
 .pubs .award { color: var(--award); font-weight: 600; }
 
