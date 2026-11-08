@@ -5,9 +5,9 @@ layout: default
 <div class="profile">
   <img src="{{ info.image | relative_url }}" alt="{{ info.name }}">
   <div>
-    <div class="name">{{ info.name }}</div>
+    <h1>{{ info.name }}</h1>
     <div class="headline">{{ site.description }}</div>
-    <address>{{ info.address | join: " · " }}</address>
+    <address class="meta">{{ info.address | join: " · " }}</address>
     <a href="mailto:{{ info.email }}">{{ info.email }}</a>
   </div>
 </div>
@@ -22,7 +22,7 @@ layout: default
 <div class="cards">
   {% for item in info.active %}
   <div class="card">
-    <h4 class="card-title">{% if item.icon %}<img class="icon" src="{{ item.icon | relative_url }}" alt="">{% endif %}<a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h4>
+    <h3 class="card-title">{% if item.icon %}<img class="logo sm" src="{{ item.icon | relative_url }}" alt="">{% endif %}<a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h3>
     <p>{{ item.description }}</p>
   </div>
   {% endfor %}

@@ -7,10 +7,10 @@ title: Education
   <li>
     <img class="logo" src="{{ e.logo | relative_url }}" alt="">
     <div>
-      <div class="head"><span class="org">{{ e.name }}</span><span class="term">{{ e.term }}</span></div>
-      <div class="role">{{ e.degree }}, {{ e.major }}</div>
+      <div class="head"><span class="item-title">{{ e.name }}</span><span class="term">{{ e.term }}</span></div>
+      <div class="role meta">{{ e.degree }}, {{ e.major }}</div>
       {{ e.description | markdownify }}
-      {% for x in e.extra %}<p class="extra"><strong>{{ x.key }}:</strong> {{ x.value }}</p>{% endfor %}
+      {% for x in e.extra %}<p class="extra meta"><strong>{{ x.key }}:</strong> {{ x.value }}</p>{% endfor %}
     </div>
   </li>
   {% endfor %}

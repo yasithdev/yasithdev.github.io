@@ -2,9 +2,9 @@
 layout: default
 title: Publications
 ---
-<p class="muted">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p>
+<p class="meta">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p>
 {% for group in site.data.publications %}
-<h3>{{ group.type }}</h3>
+<h2 class="label">{{ group.type }}</h2>
 <ul class="pubs">
   {% for pub in group.publications %}
   {%- if pub.doi -%}{%- capture url -%}https://doi.org/{{ pub.doi }}{%- endcapture -%}
@@ -12,8 +12,8 @@ title: Publications
   {%- else -%}{%- assign url = nil -%}{%- endif -%}
   <li>
     {% if url %}<a class="title" href="{{ url }}" target="_blank">{{ pub.title }}</a>{% else %}<span class="title">{{ pub.title }}</span>{% endif %}
-    <div class="authors">{{ pub.authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
-    <div class="venue">{{ pub.in }}{% if pub.extra %} <span class="award">· {{ pub.extra }}</span>{% endif %}{% if pub.doi and pub.arxiv %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">arXiv</a>{% endif %}</div>
+    <div class="authors meta">{{ pub.authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
+    <div class="venue meta">{{ pub.in }}{% if pub.extra %} <span class="award">· {{ pub.extra }}</span>{% endif %}{% if pub.doi and pub.arxiv %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">arXiv</a>{% endif %}</div>
   </li>
   {% endfor %}
 </ul>

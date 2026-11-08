@@ -4,8 +4,7 @@
       icon: /assets/img/projects/csbridge.png
       term: 2024-Present
       description: |-
-        Jupyter and VS Code on HPC compute nodes, from a browser or editor. No inbound ports.
-        Built CS Bridge, CS Jupyter, and Linkspan.
+        Built CS Bridge, CS Jupyter, and Linkspan to run Jupyter and VS Code on HPC compute nodes from a browser or editor, with no inbound ports.
       technologies: [TypeScript, Go, Python, High-Performance Computing (HPC), Slurm, Jupyter, OAuth 2.0]
       links:
         - key: GitHub
@@ -23,8 +22,7 @@
       icon: /assets/img/projects/airavata.png
       term: 2024-Present
       description: |-
-        Science gateway middleware to run experiments across HPC and cloud. Control plane for Cybershuttle.
-        290+ commits: Keycloak auth, scoped APIs, a Python SDK, Slurm fixes, and dev tooling.
+        Contributed 290+ commits to science gateway middleware for HPC and cloud, including Keycloak auth and a Python SDK.
       technologies: [Java, Python, Distributed Systems, High-Performance Computing (HPC), Slurm, Keycloak]
       links:
         - key: GitHub
@@ -34,7 +32,7 @@
       icon: /assets/img/projects/custos.svg
       term: 2026
       description: |-
-        Provision HPC accounts from federated identities, via CILogon, COmanage, and a PAM module for the OAuth2 device flow.
+        Co-built HPC account provisioning from federated identities, using CILogon, COmanage, and a PAM module for the OAuth2 device flow.
       technologies: [Go, C++, OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC)]
       links:
         - key: GitHub
@@ -46,17 +44,17 @@
       icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
-        A Dockerized Slurm 24.05 cluster with REST, plus nexusctl, a Go CLI for accounts, users, and limits.
+        Built a Dockerized Slurm 24.05 cluster with the REST daemon enabled, and nexusctl, a Go CLI to administer accounts, users, and limits.
       technologies: [Go, Slurm, REST APIs, Docker]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/slurmrest
 
-    - title: Containerized Apache OODT
+    - title: Apache OODT
       icon: /assets/img/apache.png
       term: 2019
       description: |-
-        Dockerfiles for each Apache OODT component, and a Maven archetype that generates Dockerfiles and a Compose file.
+        Wrote Dockerfiles for each Apache OODT component, and a Maven archetype that generates Dockerfiles and a Compose file.
       technologies: [Java, Docker]
       links:
         - key: GitHub
@@ -66,8 +64,7 @@
       icon: /assets/img/projects/msstack.png
       term: 2018
       description: |-
-        An event-driven Java microservices framework.
-        It generates code from business process models and handles lifecycle, partitioning, and scaling.
+        Built an event-driven Java microservices framework that generates code from business process models and handles scaling.
       technologies: [Java, Microservices, Distributed Systems]
       links:
         - key: Paper
@@ -77,7 +74,7 @@
       icon: /assets/img/projects/thegpservice.png
       term: 2017-2018
       description: |-
-        Web and mobile apps for a UK doctor-consultation platform.
+        Built web and mobile apps for a UK doctor-consultation platform.
         Added SSO, CI/CD, and logging; cut AWS costs by 30%.
       technologies: [Angular, Java, AWS, Docker, CI/CD]
 
@@ -85,7 +82,7 @@
       icon: /assets/img/projects/misc.svg
       term: 2016-2018
       description: |-
-        TourMate (tour booking), Raven (customer satisfaction from facial emotions), Onion (point-of-sale, inventory, and payroll), MusicSchool (school management), and SQLBackup (.NET backups).
+        Built TourMate (tour booking), Raven (emotion-based feedback), Onion (point-of-sale), MusicSchool, and SQLBackup (.NET backups).
       technologies: [JavaScript, C#, MySQL]
       links:
         - key: TourMate
@@ -99,8 +96,7 @@
       icon: /assets/img/projects/marketrix.png
       term: Est. 2024
       description: |-
-        AI buyer personas that answer what-if questions.
-        259M U.S. personas from real conversations, calibrated to census data.
+        Build AI buyer personas that answer what-if questions: 259M U.S. personas from real conversations, calibrated to census data.
       technologies: [Large Language Models (LLMs), AI Agents, Python, TypeScript]
       links:
         - key: Website
@@ -112,9 +108,7 @@
       icon: /assets/img/projects/streaminghub.png
       term: 2019-2024
       description: |-
-        A framework for real-time experiments with multimodal biosignals.
-        Metadata schemas, Python APIs, a dataset curation app, and DataMux for streaming.
-        The subject of my PhD dissertation.
+        Built a framework for real-time biosignal experiments: schemas, Python APIs, a curation app, and DataMux. My PhD dissertation.
       technologies: [Python, Signal Processing, Eye Tracking, EEG, Flask]
       links:
         - key: GitHub
@@ -122,12 +116,11 @@
         - key: Paper
           link: https://doi.org/10.1145/3529372.3530936
 
-    - title: Robust ML for Clinical Imaging
+    - title: Robust Clinical ML
       icon: /assets/img/harvard.png
       term: 2022-2024
       description: |-
-        Culture-free detection of antimicrobial-resistant bacteria in single-cell microscopy images with capsule networks.
-        Flag near-out-of-distribution inputs with permutation tests, so clinics can trust the models.
+        Trained capsule networks for culture-free detection of antimicrobial-resistant bacteria; flagged near-OOD inputs with permutation tests.
       technologies: [Python, Deep Learning, Computer Vision, PyTorch, TensorFlow]
       links:
         - key: Paper
@@ -135,11 +128,11 @@
         - key: CapsNet
           link: https://github.com/yasithdev/capsnet
 
-    - title: Real-Time Attention & Mental Effort
+    - title: Attention & Mental Effort
       icon: /assets/img/projects/attention.svg
       term: 2021-2025
       description: |-
-        Estimate ambient vs. focal attention and mental effort from eye movements and pupil size.
+        Developed real-time methods to estimate ambient vs. focal attention from eye movements, and mental effort from pupil size.
       technologies: [Python, Eye Tracking, Signal Processing]
       links:
         - key: Paper
@@ -147,11 +140,11 @@
         - key: ETRA '25
           link: https://doi.org/10.1145/3715669.3723111
 
-    - title: Multimode Fiber Dynamics
+    - title: Fiber Dynamics
       icon: /assets/img/projects/fiber.svg
       term: 2022-2023
       description: |-
-        Model light in multimode fibers with Neural ODEs.
+        Modeled nonlinear light propagation in multimode fibers with differentiable models and Neural ODEs, at Harvard.
       technologies: [Python, Deep Learning, PyTorch]
       links:
         - key: Paper
@@ -161,7 +154,7 @@
       icon: /assets/img/projects/mgaze.svg
       term: 2020
       description: |-
-        Multi-user eye tracking from webcams, in the browser. A collaborative project.
+        Co-built multi-user eye tracking from webcams in the browser: face and iris detection, facial landmarks, and gaze estimation.
       technologies: [JavaScript, Node.js, Computer Vision, Eye Tracking, TensorFlow]
       links:
         - key: GitHub
@@ -171,8 +164,7 @@
       icon: /assets/img/projects/asd.svg
       term: 2019
       description: |-
-        Predict autism spectrum disorder from EEG and thermography, using wavelet features.
-        Won Best Student Paper at IEEE IRI 2019.
+        Built models to predict autism from EEG and thermography with wavelet features. Won Best Student Paper at IEEE IRI 2019.
       technologies: [Python, Machine Learning, EEG, Signal Processing, TensorFlow, Pandas]
       links:
         - key: GitHub
@@ -184,7 +176,7 @@
       icon: /assets/img/projects/drivendata.png
       term: 2017
       description: |-
-        Model dengue spread from weather and geographic data. Ranked #1 in a 2017 DrivenData competition.
+        Modeled dengue spread from weather and geographic data. Ranked #1 in a 2017 DrivenData competition.
       technologies: [Python, Machine Learning, Scikit-learn, Pandas]
 
 - category: Web Archiving & Information Retrieval
@@ -193,8 +185,7 @@
       icon: /assets/img/projects/pdflinks.svg
       term: 2021-2022
       description: |-
-        Archive the URLs cited in PDFs, so references survive link rot and content drift.
-        Built at Los Alamos National Laboratory.
+        Built a service at Los Alamos National Laboratory that archives URLs cited in PDFs, so references survive link rot and content drift.
       technologies: [Python, Flask, Information Retrieval]
       links:
         - key: GitHub
@@ -204,7 +195,7 @@
       icon: /assets/img/projects/hacs.svg
       term: 2019-2020
       description: |-
-        Model how often academic web pages change, from Internet Archive copies.
+        Modeled how often academic web pages change with a Poisson process over Internet Archive copies, to schedule crawls efficiently.
       technologies: [Python, Statistical Modeling, Web Crawling, Pandas]
       links:
         - key: Paper
@@ -214,7 +205,7 @@
       icon: /assets/img/projects/search.svg
       term: 2019
       description: |-
-        A crawler, indexer, and search UI for jobs in Norfolk, VA.
+        Built a vertical search engine for jobs in Norfolk, VA, with a crawler, an indexer, and a search interface over local listings.
       technologies: [Python, Web Crawling, Information Retrieval]
       links:
         - key: GitHub
@@ -224,7 +215,7 @@
       icon: /assets/img/projects/chatbot.svg
       term: 2017
       description: |-
-        A chatbot for WSO2 support questions, built on crawlers, Elasticsearch, and a learned relevance model.
+        Built a chatbot for WSO2 support questions on crawlers, Elasticsearch, and a learned relevance model.
       technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Web Crawling]
       links:
         - key: GitHub

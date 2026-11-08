@@ -7,8 +7,8 @@ title: Experience
   <li>
     <img class="logo" src="{{ e.logo | relative_url }}" alt="">
     <div>
-      <div class="head"><span class="org">{{ e.affiliation }}</span><span class="term">{{ e.term }}</span></div>
-      <div class="role">{{ e.designation }}</div>
+      <div class="head"><span class="item-title">{{ e.affiliation }}</span><span class="term">{{ e.term }}</span></div>
+      <div class="role meta">{{ e.designation }}</div>
       {{ e.description | markdownify }}
     </div>
   </li>
