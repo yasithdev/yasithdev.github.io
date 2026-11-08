@@ -21,7 +21,7 @@
   term: Jan 2015 - Dec 2018
   description: |-
     - Focus: distributed systems, software engineering, mathematics.
-    - Final-year project: MSstack, a microservice framework that turns business models into Java code.
+    - Final-year project: MSstack, Java microservices generated from business process models.
   extra:
     - key: GPA
       value: 3.84
