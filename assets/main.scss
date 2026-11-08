@@ -50,7 +50,11 @@ ul { margin-left: 1.2em; }
 .site-nav .menu-icon > svg { fill: var(--muted); }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); }
 .footer-col-wrapper, .contact-list { color: var(--muted); font-size: var(--fs-sm); }
-@media screen and (min-width: 601px) { .footer-col-2 { text-align: center; } .footer-col-3 { text-align: right; } }
+@media screen and (min-width: 801px) {
+  .footer-col-1, .footer-col-2, .footer-col-3 { width: calc(100% / 3 - #{$spacing-unit} / 2); }
+  .footer-col-2 { text-align: center; }
+  .footer-col-3 { text-align: right; }
+}
 .svg-icon { fill: var(--muted); }
 
 .muted { color: var(--muted); }
