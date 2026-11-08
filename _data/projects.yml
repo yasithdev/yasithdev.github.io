@@ -164,7 +164,8 @@
       icon: /assets/img/projects/asd.svg
       term: 2019
       description: |-
-        Trained models that predict autism from EEG and thermography. Best Student Paper, IEEE IRI 2019.
+        Trained models that predict autism from EEG and thermography.
+      award: Best Student Paper, IEEE IRI 2019
       technologies: [Machine Learning, EEG, Signal Processing, TensorFlow, Python]
       links:
         - key: GitHub
@@ -176,7 +177,8 @@
       icon: /assets/img/projects/drivendata.png
       term: 2017
       description: |-
-        Trained models that forecast dengue cases from weather data. Ranked #1 on DrivenData (2017).
+        Trained models that forecast dengue cases from weather data.
+      award: "#1 on DrivenData, 2017"
       technologies: [Machine Learning, Data Analysis, Scikit-learn, Pandas, Python]
 
 - category: Web Archiving & Information Retrieval

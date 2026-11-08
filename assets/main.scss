@@ -151,10 +151,10 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
   -webkit-mask: $paper; mask: $paper;
 }
 .pubs .authors strong { color: var(--text); font-weight: 600; }
-/* Paper awards: a gold pill with a trophy so they stand out in the list */
-.pubs .award {
+/* Awards (papers, projects): a gold pill with a trophy; size and weight follow the row it sits in */
+.award {
   display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap;
-  color: var(--award); font-weight: 700; border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
+  color: var(--award); border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
   &::before { content: "🏆 "; }
 }
 .pubs-top .stats { color: var(--muted); font-size: var(--fs-sm); strong { color: var(--text); font-weight: 600; } }
