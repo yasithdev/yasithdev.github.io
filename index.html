@@ -20,7 +20,11 @@ layout: default
   <a class="button" rel="me" href="https://www.linkedin.com/in/{{ info.social.linkedin_username }}" target="_blank">LinkedIn</a>
 </p>
 
-<h2>Recent Projects</h2>
+<div class="flipcard">
+<div class="flipcard-inner">
+<section class="face front">
+<span class="side">Side A</span>
+<h2>Open Source</h2>
 <div class="cards">
   {% for item in info.active %}
   <div class="card">
@@ -29,17 +33,63 @@ layout: default
   </div>
   {% endfor %}
 </div>
-<p class="meta"><a href="{{ "/projects.html" | relative_url }}">All projects →</a></p>
-
-<h2>Skills</h2>
-<p class="cloud">
-  {% for s in site.data.skills %}<span style="--y:{{ s.y }}" title="{{ s.y }} yr">{{ s.n }}</span> {% endfor %}
-</p>
-
+</section>
+<section class="face back" inert>
+<span class="side">Side B</span>
 <h2>Music</h2>
 {% for hobby in site.data.hobbies %}
 <p>
   {% for l in hobby.links %}<a class="button" href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}
 </p>
+<div id="player" class="player" data-uri="spotify:track:{{ hobby.songs.first.id }}"></div>
+<ul class="songs">
+  {% for t in hobby.songs %}<li><a href="https://open.spotify.com/track/{{ t.id }}" data-uri="spotify:track:{{ t.id }}" target="_blank" rel="noopener">{{ t.title }}</a><span class="term">{{ t.time }}</span></li>{% endfor %}
+</ul>
 {% endfor %}
-<iframe class="embed" src="https://open.spotify.com/embed/artist/13QNJSaGuciwzHPaIMjqOj" width="100%" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" title="Yasith Jayawardana on Spotify"></iframe>
+</section>
+</div>
+</div>
+<script>
+  // Flip card: research on the front, music on the back. It turns over on click, and every 10 s until the first click. The card takes the height of the side facing up.
+  (() => {
+    const card = document.querySelector(".flipcard"), inner = card.querySelector(".flipcard-inner");
+    const [front, back] = card.querySelectorAll(".face");
+    const fit = () => { inner.style.height = (card.classList.contains("flipped") ? back : front).offsetHeight + "px"; };
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const flip = () => {
+      if (card.classList.contains("turning")) return;
+      const flipped = card.classList.toggle("flipped");
+      front.inert = flipped; back.inert = !flipped;
+      fit();
+      if (still) return;
+      (flipped ? back : front).classList.add("incoming");
+      card.classList.add("turning");
+    };
+    inner.addEventListener("animationend", () => { card.classList.remove("turning"); front.classList.remove("incoming"); back.classList.remove("incoming"); });
+    // Any click stops the auto-turn for good; only clicks outside links turn the card.
+    card.addEventListener("click", (e) => { clearInterval(timer); if (!e.target.closest("a")) flip(); });
+    // Clicks inside the Spotify player never reach the page; the window losing focus to it is the signal.
+    addEventListener("blur", () => { if (card.contains(document.activeElement)) clearInterval(timer); });
+    // Songs play in the page: one Spotify player (its iFrame API) that each song in the list loads and plays.
+    // Without JavaScript the song links still open on Spotify.
+    const player = document.getElementById("player");
+    window.onSpotifyIframeApiReady = (api) => api.createController(player, { uri: player.dataset.uri, width: "100%", height: 80 }, (spotify) => {
+      spotify.addListener("ready", fit);
+      // The song playing shows a pause button; clicking it pauses or resumes, clicking another song switches to it.
+      spotify.addListener("playback_update", (e) => card.querySelector(".songs .playing")?.classList.toggle("paused", e.data.isPaused));
+      card.querySelectorAll(".songs a").forEach((a) => a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const li = a.parentElement;
+        if (li.classList.contains("playing")) return spotify.togglePlay();
+        card.querySelector(".songs .playing")?.classList.remove("playing", "paused");
+        li.classList.add("playing");
+        spotify.loadUri(a.dataset.uri); spotify.play();
+      }));
+    });
+    // Auto-turn every 10 s until the first click; skipped while hovered, focused, mid-turn, or in a background tab.
+    const timer = still ? 0 : setInterval(() => { if (!document.hidden && !card.matches(":hover, :focus-within, .turning")) flip(); }, 10000);
+    addEventListener("resize", fit); addEventListener("load", fit); fit();
+  })();
+</script>
+
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>

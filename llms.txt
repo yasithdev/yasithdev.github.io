@@ -23,7 +23,7 @@ layout: null
 - [Projects]({{ "/projects.html" | absolute_url }})
 - [Publications]({{ "/publications.html" | absolute_url }})
 
-## Recent projects
+## Open source
 {% for p in info.active %}
 - [{{ p.name }}]({{ p.link }}): {{ p.description }}
 {%- endfor %}

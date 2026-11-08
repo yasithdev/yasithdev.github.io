@@ -15,6 +15,9 @@ address:
 email: yasith@gatech.edu
 image: /assets/img/dp.jpg
 gs: tY4R8rYAAAAJ
+# Google Scholar on 2026-11-07 (786 citations, h-index 11); citations shown as a floor so it stays true
+citations: "780+"
+h_index: 11
 cv: /assets/cv.pdf
 active:
   - name: CS Bridge
@@ -36,11 +39,11 @@ active:
   - name: Airavata Custos
     icon: /assets/img/projects/custos.svg
     link: https://github.com/apache/airavata-custos
-    description: Get HPC accounts by signing in with your university account.
-  - name: Persona OS
-    icon: /assets/img/projects/marketrix.png
-    link: https://marketrix.ai
-    description: Chat with AI buyer personas and test what-if questions on products and messaging.
+    description: Keep HPC accounts, allocations, and Slurm access in sync.
+  - name: StreamingHub
+    icon: /assets/img/projects/streaminghub.png
+    link: https://github.com/nirdslab/streaminghub
+    description: Stream, replay, and simulate biosignals in real time from Python.
 social:
   facebook_username: yasithdev
   github_username: yasithdev

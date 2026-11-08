@@ -23,8 +23,10 @@
 
   {%- include footer.html -%}
 
-  <canvas id="particles" aria-hidden="true"></canvas>
-  <script src="{{ "/assets/js/particles.js" | relative_url }}" defer></script>
+  <div class="skyline" aria-label="Skills">
+    {% for s in site.data.skills %}{% if s.i %}<img src="{{ s.i | prepend: "/assets/img/skills/" | append: ".svg" | relative_url }}" alt="{{ s.n }}" style="--y:{{ s.y }}">{% else %}<span style="--y:{{ s.y }}">{{ s.n }}</span>{% endif %} {% endfor %}
+  </div>
+  <script src="{{ "/assets/js/skyline.js" | relative_url }}" defer></script>
 
 </body>
 

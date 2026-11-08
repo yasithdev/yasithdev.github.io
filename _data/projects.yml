@@ -10,12 +10,6 @@
       links:
         - key: GitHub
           link: https://github.com/cyber-shuttle
-        - key: CS Bridge
-          link: https://github.com/cyber-shuttle/cs-bridge
-        - key: CS Jupyter
-          link: https://github.com/cyber-shuttle/cs-jupyter
-        - key: Linkspan
-          link: https://github.com/cyber-shuttle/linkspan
         - key: Paper
           link: https://doi.org/10.1145/3626203.3670623
 
@@ -35,8 +29,8 @@
       term: 2026
       commits: "70+"
       description: |-
-        Built HPC account provisioning from university sign-ins, with OAuth2 device-flow login via PAM.
-      technologies: [OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC), Go, C++, PostgreSQL]
+        Built middleware that keeps HPC accounts, allocations, and Slurm access in sync.
+      technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
       links:
         - key: GitHub
           link: https://github.com/apache/airavata-custos
@@ -99,10 +93,9 @@
     - title: Persona OS
       icon: /assets/img/projects/marketrix.png
       term: Est. 2024
-      commits: "420+"
       description: |-
         Build AI buyer personas from real conversations, calibrated to census data. 259M so far.
-      technologies: [Large Language Models (LLMs), AI Agents, Retrieval-Augmented Generation (RAG), Next.js, TypeScript, Python]
+      technologies: [Large Language Models (LLMs), AI Agents, Next.js, TypeScript, Python]
       links:
         - key: Website
           link: https://marketrix.ai

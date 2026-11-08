@@ -4,7 +4,7 @@
   term: Sep 2024 - Present
   description: |-
     - Build Cybershuttle's VS Code and Jupyter tools that run IDEs on Slurm nodes (TypeScript, Go).
-    - Build Custos, which provisions HPC accounts and Slurm users from university sign-ins (Go).
+    - Build Custos, which keeps HPC accounts, allocations, and Slurm access in sync (Go).
     - Built Keycloak token auth and a generated Python SDK for Apache Airavata (Java).
     - Built an OpenFold port to current PyTorch and Lightning; trained it on NCSA Delta.
     - Published Cybershuttle and Custos at PEARC '24 and '26.

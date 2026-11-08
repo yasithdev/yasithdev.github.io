@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 ---
-<p class="meta">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p>
+<div class="pubs-top"><p class="meta">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p><p class="stats"><strong>{{ site.data.info.citations }}</strong> citations · h-index <strong>{{ site.data.info.h_index }}</strong></p></div>
 {% for group in site.data.publications %}
 <h2 class="label">{{ group.type }}</h2>
 <ul class="pubs">
@@ -15,7 +15,7 @@ title: Publications
     {%- assign names = pub.authors | split: ", " -%}
     {%- if names.size > 8 -%}{%- assign lead = names | slice: 0, 3 | join: ", " -%}{%- capture authors -%}{{ lead }}, …{% unless lead contains "Yasith Jayawardana" %}, Yasith Jayawardana{% endunless %} ({{ names.size }} authors){%- endcapture -%}{%- else -%}{%- assign authors = pub.authors -%}{%- endif %}
     <div class="authors meta">{{ authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
-    <div class="venue meta">{{ pub.in }}{% if pub.extra %} <span class="award">· {{ pub.extra }}</span>{% endif %}{% if pub.doi and pub.arxiv %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">arXiv</a>{% endif %}</div>
+    <div class="venue meta">{{ pub.in }}{% if pub.extra %} <span class="award">{{ pub.extra }}</span>{% endif %}</div>
   </li>
   {% endfor %}
 </ul>

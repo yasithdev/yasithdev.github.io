@@ -68,7 +68,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .site-nav .page-link:hover { color: var(--accent); }
 @media screen and (max-width: 600px) { .site-nav { background: var(--bg); border-color: var(--border); } }
 .site-nav .menu-icon > svg { fill: var(--muted); }
-.site-footer { border-top: 1px solid var(--border); color: var(--muted); }
+.site-footer { border-top: 1px solid var(--border); color: var(--muted); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); background: color-mix(in srgb, var(--bg) 80%, transparent); }
 .footer-col-wrapper, .contact-list { color: var(--muted); font-size: var(--fs-sm); }
 @media screen and (min-width: 801px) {
   .footer-col-1, .footer-col-2, .footer-col-3 { width: calc(100% / 3 - #{$spacing-unit} / 2); }
@@ -91,14 +91,14 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .logo { width: var(--logo-md); height: var(--logo-md); flex-shrink: 0; object-fit: contain; box-sizing: border-box; padding: 3px; border-radius: var(--r-sm); background: #fff; border: 1px solid var(--border); }
 .logo.sm { width: var(--logo-sm); height: var(--logo-sm); padding: 2px; }
 
-/* Skill cloud: size and color grow with years of use (--y) */
-.cloud { text-align: center; line-height: 1.6; }
-.cloud span {
-  display: inline-block;
-  margin: 0 0.15em;
-  font-size: calc(0.7rem + var(--y) * 0.12rem);
-  color: color-mix(in srgb, var(--accent) calc(var(--y) * 11%), var(--muted));
-}
+/* Skill cloud: faint logos (alt = skill name) and labels scattered in the page margins behind the content
+   (assets/js/skyline.js). Size grows with years of use (--y). */
+.skyline { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.skyline > * { position: absolute; visibility: hidden; opacity: 0.08; }
+.skyline > .placed { visibility: visible; }
+.skyline img { width: calc(1rem + var(--y) * 0.2rem); height: calc(1rem + var(--y) * 0.2rem); }
+.skyline span { white-space: nowrap; line-height: 1; color: var(--muted); font-size: calc(0.7rem + var(--y) * 0.08rem); }
+@media (prefers-color-scheme: dark) { .skyline img { filter: invert(1); } }
 
 /* Home */
 .profile { display: flex; flex-wrap: wrap; gap: var(--sp-4); align-items: center; margin-bottom: var(--sp-4); }
@@ -123,7 +123,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .plist { list-style: none; margin: 0; }
 .plist > li { display: grid; grid-template-columns: var(--logo-sm) 1fr; gap: var(--sp-3); padding: var(--sp-3) 0; border-bottom: 1px solid var(--border); }
 .plist > li:last-child { border-bottom: 0; }
-.plist .head, .plist .foot, .pubs .head, .timeline .head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--sp-4); }
+.plist .head, .plist .foot, .pubs .head, .timeline .head, .pubs-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 0 var(--sp-4); }
 .plist p { margin: var(--sp-1) 0; }
 .plist .links { font-size: var(--fs-sm); font-weight: 600; }
 .plist .links a { white-space: nowrap; }
@@ -151,9 +151,48 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
   -webkit-mask: $paper; mask: $paper;
 }
 .pubs .authors strong { color: var(--text); font-weight: 600; }
-.pubs .award { color: var(--award); font-weight: 600; }
+/* Paper awards: a gold pill with a trophy so they stand out in the list */
+.pubs .award {
+  display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap;
+  color: var(--award); font-weight: 700; border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
+  &::before { content: "🏆 "; }
+}
+.pubs-top .stats { color: var(--muted); font-size: var(--fs-sm); strong { color: var(--text); font-weight: 600; } }
 
-/* Background particle network (assets/js/particles.js) */
-#particles { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+/* Home: a card with research on the front and music on the back.
+   It sits flat (crisp text) and goes 3D only while turning over. */
+.flipcard { margin-top: var(--sp-6); }
+.flipcard-inner { display: grid; align-items: start; transition: height 0.4s ease; }
+.face {
+  grid-area: 1 / 1; position: relative; padding: var(--sp-4) var(--sp-4) var(--sp-6); cursor: pointer;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 12px 32px rgba(0, 0, 0, 0.12); transition: box-shadow 0.2s;
+  .card { background: var(--bg); cursor: auto; }
+  > h2:first-of-type { margin-top: 0; }
+}
+.face .side { position: absolute; top: var(--sp-4); right: var(--sp-4); color: var(--muted); font-size: var(--fs-sm); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.face:hover { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 18px 40px rgba(0, 0, 0, 0.2); }
+.flipcard:not(.flipped) .back, .flipcard.flipped .front { visibility: hidden; }
+.flipcard.turning { perspective: 1800px; }
+.flipcard.turning .flipcard-inner { transform-style: preserve-3d; animation: turn 0.7s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.flipcard.turning .face { visibility: visible; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flipcard.turning .incoming { transform: rotateY(180deg); }
+@keyframes turn { from { transform: rotateY(0); } to { transform: rotateY(180deg); } }
+@media (prefers-reduced-motion: reduce) { .flipcard-inner { transition: none; } }
 
-.embed { border: 0; border-radius: var(--r-md); margin-top: var(--sp-2); }
+/* Song list on the music side: a play button per song; the song playing now shows pause */
+.songs { list-style: none; margin: var(--sp-2) 0 0; }
+.songs li { padding: var(--sp-1) 0; border-bottom: 1px solid var(--border); }
+.songs li:last-child { border-bottom: 0; }
+.songs a::before {
+  content: ""; display: inline-block; width: 0.75em; height: 0.75em; margin-right: var(--sp-2); background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 3l15 9-15 9z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 3l15 9-15 9z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.songs .playing a { font-weight: 700; }
+.songs .playing:not(.paused) a::before {
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 3h5v18H5zM14 3h5v18h-5z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 3h5v18H5zM14 3h5v18h-5z'/%3E%3C/svg%3E");
+}
+.player { border: 0; border-radius: var(--r-md); margin-top: var(--sp-2); display: block; }
+.songs .term { float: right; margin-left: var(--sp-4); }
