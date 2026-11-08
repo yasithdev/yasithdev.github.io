@@ -43,6 +43,7 @@
           link: https://doi.org/10.1145/3785462.3815896
 
     - title: slurmrest
+      icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
         A Dockerized Slurm 24.05 cluster with the REST daemon exposed, plus a Go CLI (nexusctl) to administer accounts, users, and limits.
@@ -52,6 +53,7 @@
           link: https://github.com/yasithdev/slurmrest
 
     - title: CyberComp
+      icon: /assets/img/projects/cybershuttle.png
       term: 2024
       description: |-
         Define computational experiments by coupling models with execution engines, compose them into larger experiments, and compare their observables.
@@ -76,6 +78,7 @@
 - category: Human Sensing & Machine Learning
   projects:
     - title: StreamingHub
+      icon: /assets/img/projects/streaminghub.svg
       term: 2019-2024
       description: |-
         A framework to build real-time experiments with multimodal biosignals.
@@ -89,6 +92,7 @@
           link: https://doi.org/10.1145/3529372.3530936
 
     - title: Robust ML for Clinical Imaging
+      icon: /assets/img/harvard.png
       term: 2022-2024
       description: |-
         Culture-free, early detection of antimicrobial-resistant bacteria from single-cell quantitative phase microscopy (QPM) images, using interpretable capsule networks.
@@ -101,6 +105,7 @@
           link: https://github.com/yasithdev/capsnet
 
     - title: Real-Time Attention & Mental Effort
+      icon: /assets/img/projects/attention.svg
       term: 2021-2025
       description: |-
         Algorithms to estimate visual attention (ambient vs. focal) and mental effort from eye movements and pupil size, in real time.
@@ -112,6 +117,7 @@
           link: https://doi.org/10.1145/3715669.3723111
 
     - title: Multimode Fiber Dynamics
+      icon: /assets/img/projects/fiber.svg
       term: 2022-2023
       description: |-
         Approximate wave propagation in multimode fibers with differentiable models and Neural ODEs.
@@ -121,6 +127,7 @@
           link: https://doi.org/10.1109/ipc57732.2023.10360586
 
     - title: MGaze
+      icon: /assets/img/projects/mgaze.svg
       term: 2020
       description: |-
         Collaborative project: webcam-based, multi-user eye tracking in the browser: face detection, landmarks, iris detection, and gaze estimation, without extra hardware.
@@ -130,6 +137,7 @@
           link: https://github.com/nirdslab/multigazeinterations
 
     - title: ASD Detection
+      icon: /assets/img/projects/asd.svg
       term: 2019
       description: |-
         Predict autism spectrum disorder from EEG and thermography: wavelet features from EEG, then neural models trained on them.
@@ -144,6 +152,7 @@
 - category: Web Archiving & Information Retrieval
   projects:
     - title: Robust PDFLinks
+      icon: /assets/img/projects/pdflinks.svg
       term: 2021-2022
       description: |-
         Extract URLs from PDFs, archive their content in web archives, and generate robust links that survive link rot and content drift.
@@ -154,6 +163,7 @@
           link: https://github.com/yasithdev/pdf-links-service
 
     - title: HACS
+      icon: /assets/img/projects/hacs.svg
       term: 2019-2020
       description: |-
         Model how often academic web pages change, using archived copies from the Internet Archive and a Poisson process.
@@ -163,6 +173,7 @@
           link: https://doi.org/10.1109/bigdata50022.2020.9377796
 
     - title: Job Search Engine
+      icon: /assets/img/projects/search.svg
       term: 2019
       description: |-
         A specialized search engine for jobs in Norfolk, VA, with a crawler, indexer, and search interface.
@@ -174,6 +185,7 @@
 - category: Earlier Work
   projects:
     - title: Containerized Apache OODT
+      icon: /assets/img/apache.png
       term: 2019
       description: |-
         Dockerfiles for each Apache OODT component, and a Maven archetype that generates Dockerfiles and a Compose file for new projects.
@@ -183,6 +195,7 @@
           link: https://github.com/yasithdev/oodt-dmb
 
     - title: MSstack
+      icon: /assets/img/projects/msstack.svg
       term: 2018
       description: |-
         An event-driven microservices framework for Java that generates boilerplate code from business process models, and handles lifecycle, data partitioning, and auto-scaling.
@@ -192,12 +205,14 @@
           link: https://doi.org/10.1109/icter.2018.8615473
 
     - title: TheGPService
+      icon: /assets/img/designboo.png
       term: 2017-2018
       description: |-
         Mobile and web apps for a UK doctor-consultation platform. Added single sign-on, set up CI/CD and logging, and cut AWS costs by 30%.
       technologies: [React Native, Angular, Spring Boot, AWS, Docker]
 
     - title: Semantic-KB (WSO2 Suzy)
+      icon: /assets/img/projects/chatbot.svg
       term: 2017
       description: |-
         A chatbot to answer WSO2 support questions, with crawlers, an Elasticsearch index, and a learned relevance model.
@@ -207,12 +222,14 @@
           link: https://github.com/yasithdev/semantic-kb
 
     - title: DengAI
+      icon: /assets/img/projects/drivendata.png
       term: 2017
       description: |-
         Model the spread of dengue from weather and geographic data, in a DrivenData competition. Ranked #1 in 2017.
       technologies: [Python, Scikit-Learn, Pandas]
 
     - title: Smaller Projects
+      icon: /assets/img/projects/misc.svg
       term: 2016-2018
       description: |-
         TourMate (tour reservations), Raven (customer satisfaction from facial emotions), Onion (point-of-sale, inventory, loans, and payroll for Dambulla Dedicated Economic Centre), MusicSchool (school management), and SQLBackup (.NET backup toolkit).
