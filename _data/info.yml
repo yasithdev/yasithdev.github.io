@@ -23,27 +23,27 @@ active:
   - name: CS Bridge
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/cs-bridge
-    description: Launch VS Code in Slurm jobs from your local editor.
+    description: Launch VS Code in Slurm jobs from your local editor
   - name: CS Jupyter
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/cs-jupyter
-    description: Run JupyterLab in Slurm jobs from your browser.
+    description: Run JupyterLab in Slurm jobs from your browser
   - name: Linkspan
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/linkspan
-    description: Reach Jupyter, VS Code, and terminals in a Slurm job from your laptop.
+    description: Reach Jupyter, VS Code, and terminals in a Slurm job from your laptop
   - name: Apache Airavata
     icon: /assets/img/projects/airavata.png
     link: https://github.com/apache/airavata
-    description: Run experiments across HPC and cloud. Control plane for Cybershuttle.
+    description: Run experiments across HPC and cloud. Control plane for Cybershuttle
   - name: Airavata Custos
     icon: /assets/img/projects/custos.svg
     link: https://github.com/apache/airavata-custos
-    description: Automate HPC account management, from approval to Slurm access.
+    description: Automate HPC account management, from approval to Slurm access
   - name: StreamingHub
     icon: /assets/img/projects/streaminghub.png
     link: https://github.com/nirdslab/streaminghub
-    description: Stream, replay, and simulate biosignals in real time from Python.
+    description: Stream, replay, and simulate biosignals in real time from Python
 social:
   facebook_username: yasithdev
   github_username: yasithdev
