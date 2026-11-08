@@ -15,7 +15,7 @@ title: Education
         <dt>Advisor</dt><dd><a href="{{ e.advisor.link }}" target="_blank" rel="noopener">{{ e.advisor.value }}</a></dd>
         {% if e.committee %}<dt>Committee</dt><dd>{{ e.committee }}</dd>{% endif %}
         <dt>GPA</dt><dd>{{ e.gpa }}</dd>
-        <dt>Awards</dt><dd>{{ e.awards | join: " · " }}</dd>
+        <dt>Awards</dt><dd>{{ e.awards | join: "<br>" }}</dd>
       </dl>
     </div>
   </li>
