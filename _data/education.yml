@@ -1,34 +1,19 @@
 - name: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
-  degree: Doctor of Philosophy (PhD)
-  major: Computer Science
+  degree: PhD, Computer Science
   term: Jan 2019 - Aug 2024
-  description: |-
-    - Focus: biosensors, signal processing, deep learning, streaming analytics.
-    - Dissertation: StreamingHub, real-time experiments with multimodal biosignals.
-  extra:
-    - key: GPA
-      value: 4.0
-    - key: Awards
-      value: Dominion Graduate Scholar (2019)
-    - key: Advisor
-      value: Dr. Sampath Jayarathna
-      link: https://www.cs.odu.edu/~sampath/
+  thesis: {key: Dissertation, value: "StreamingHub: real-time experiments with multimodal biosignals", link: https://github.com/nirdslab/streaminghub}
+  advisor: {value: Dr. Sampath Jayarathna, link: https://www.cs.odu.edu/~sampath/}
+  focus: Studied biosensors, signal processing, deep learning, and streaming analytics.
+  gpa: 4.0 / 4.0
+  awards: Dominion Graduate Scholar (2019)
 
 - name: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
-  degree: Bachelor of Science (BSc)
-  major: Computer Science and Engineering
+  degree: BSc, Computer Science and Engineering
   term: Jan 2015 - Dec 2018
-  description: |-
-    - Focus: distributed systems, software engineering, mathematics.
-    - Thesis: MSstack, Java microservices generated from business process models.
-  extra:
-    - key: GPA
-      value: 3.84
-    - key: Awards
-      value: Dean’s List (6 of 8 semesters)
-    - key: Advisor
-      value: Dr. Indika Perera
-      link: https://uom.lk/staff/Perera.GIUS
-
+  thesis: {key: Thesis, value: "MSstack: Java microservices generated from business process models", link: https://doi.org/10.1109/icter.2018.8615473}
+  advisor: {value: Dr. Indika Perera, link: https://uom.lk/staff/Perera.GIUS}
+  focus: Studied distributed systems, software engineering, and mathematics.
+  gpa: 3.84 / 4.0
+  awards: Dean’s List (6 of 8 semesters)
