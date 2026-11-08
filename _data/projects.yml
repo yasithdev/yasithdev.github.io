@@ -3,6 +3,7 @@
     - title: Cybershuttle
       icon: /assets/img/projects/csbridge.png
       term: 2024-Present
+      commits: "490+"
       description: |-
         Built CS Bridge, CS Jupyter, Linkspan, and cs-plane: IDEs on Slurm nodes, no inbound ports.
       technologies: [High-Performance Computing (HPC), Slurm, Jupyter, TypeScript, Go, WebSockets]
@@ -21,8 +22,9 @@
     - title: Apache Airavata
       icon: /assets/img/projects/airavata.png
       term: 2024-Present
+      commits: "280+"
       description: |-
-        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways (290+ commits).
+        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways.
       technologies: [Distributed Systems, High-Performance Computing (HPC), Java, Python, Apache Thrift, Keycloak]
       links:
         - key: GitHub
@@ -31,6 +33,7 @@
     - title: Airavata Custos
       icon: /assets/img/projects/custos.svg
       term: 2026
+      commits: "70+"
       description: |-
         Built HPC account provisioning from university sign-ins, with OAuth2 device-flow login via PAM.
       technologies: [OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC), Go, C++, PostgreSQL]
@@ -96,6 +99,7 @@
     - title: Persona OS
       icon: /assets/img/projects/marketrix.png
       term: Est. 2024
+      commits: "420+"
       description: |-
         Build AI buyer personas from real conversations, calibrated to census data. 259M so far.
       technologies: [Large Language Models (LLMs), AI Agents, Retrieval-Augmented Generation (RAG), Next.js, TypeScript, Python]
@@ -108,6 +112,7 @@
     - title: StreamingHub
       icon: /assets/img/projects/streaminghub.png
       term: 2019-2024
+      commits: "500+"
       description: |-
         Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation.
       technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
@@ -120,6 +125,7 @@
     - title: Robust Clinical ML
       icon: /assets/img/harvard.png
       term: 2022-2024
+      commits: "300+"
       description: |-
         Trained capsule networks to detect antimicrobial-resistant bacteria. Proposed an unfamiliar-input test.
       technologies: [Deep Learning, Computer Vision, Statistical Modeling, PyTorch, TensorFlow, Python]

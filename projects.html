@@ -9,7 +9,7 @@ title: Projects
   <li>
     {% if p.icon %}<img class="logo sm" src="{{ p.icon | relative_url }}" alt="">{% else %}<span></span>{% endif %}
     <div>
-      <div class="head"><h3>{{ p.title }}</h3><span class="term">{{ p.term }}</span></div>
+      <div class="head"><h3>{{ p.title }}</h3><span class="term">{% if p.commits %}{{ p.commits }} commits · {% endif %}{{ p.term }}</span></div>
       {{ p.description | markdownify }}
       <div class="foot"><span class="meta">{{ p.technologies | join: " · " }}</span>{% if p.links %}<span class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}</span>{% endif %}</div>
     </div>
