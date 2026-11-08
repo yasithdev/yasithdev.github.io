@@ -216,7 +216,7 @@
       term: 2017
       description: |-
         Built a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
-      technologies: [Python, Natural Language Processing (NLP), Elasticsearch, Scrapy, Flask, Web Crawling]
+      technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Scrapy, Web Crawling]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/semantic-kb
