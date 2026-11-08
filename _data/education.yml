@@ -4,6 +4,7 @@
   term: Jan 2019 - Aug 2024
   thesis: {key: Dissertation, value: "StreamingHub: real-time experiments with multimodal biosignals", link: https://github.com/nirdslab/streaminghub}
   advisor: {value: Dr. Sampath Jayarathna, link: https://www.cs.odu.edu/~sampath/}
+  committee: Dr. Jian Wu, Dr. Vikas G. Ashok, Dr. Yi He, Dr. Keerthi Nawarathna
   focus: Studied biosensors, signal processing, deep learning, and streaming analytics.
   gpa: 4.0 / 4.0
   awards: Dominion Graduate Scholar (2019)
@@ -15,5 +16,5 @@
   thesis: {key: Thesis, value: "MSstack: Java microservices generated from business process models", link: https://doi.org/10.1109/icter.2018.8615473}
   advisor: {value: Dr. Indika Perera, link: https://uom.lk/staff/Perera.GIUS}
   focus: Studied distributed systems, software engineering, and mathematics.
-  gpa: 3.84 / 4.0
+  gpa: 3.84 / 4.2
   awards: Dean’s List (6 of 8 semesters)

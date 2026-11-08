@@ -13,6 +13,7 @@ title: Education
       <dl class="facts">
         <dt>{{ e.thesis.key }}</dt><dd><a href="{{ e.thesis.link }}" target="_blank" rel="noopener">{{ e.thesis.value }}</a></dd>
         <dt>Advisor</dt><dd><a href="{{ e.advisor.link }}" target="_blank" rel="noopener">{{ e.advisor.value }}</a></dd>
+        {% if e.committee %}<dt>Committee</dt><dd>{{ e.committee }}</dd>{% endif %}
         <dt>GPA</dt><dd>{{ e.gpa }}</dd>
         <dt>Awards</dt><dd>{{ e.awards }}</dd>
       </dl>
