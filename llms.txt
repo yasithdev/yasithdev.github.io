@@ -1,0 +1,29 @@
+---
+layout: null
+---
+{%- assign info = site.data.info -%}
+# {{ info.name }}
+
+> {{ site.description }}
+
+{{ info.about }}
+
+## Links
+
+- [CV (PDF)]({{ info.cv | absolute_url }})
+- [Google Scholar](https://scholar.google.com/citations?user={{ info.gs }})
+- [GitHub](https://github.com/{{ info.social.github_username }})
+- [LinkedIn](https://www.linkedin.com/in/{{ info.social.linkedin_username }})
+- Email: {{ info.email }}
+
+## Pages
+
+- [Experience]({{ "/experience.html" | absolute_url }})
+- [Education]({{ "/education.html" | absolute_url }})
+- [Projects]({{ "/projects.html" | absolute_url }})
+- [Publications]({{ "/publications.html" | absolute_url }})
+
+## Open source
+{% for p in info.active %}
+- [{{ p.name }}]({{ p.link }}): {{ p.description }}
+{%- endfor %}

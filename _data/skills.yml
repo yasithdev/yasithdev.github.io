@@ -1,0 +1,72 @@
+# Standard (ATS) skill names. y = years of hands-on use, from experience and projects. i = logo in assets/img/skills (Simple Icons).
+- {n: Bash, y: 8, i: gnubash}
+- {n: Eye Tracking, y: 6}
+- {n: EEG, y: 2}
+- {n: Next.js, y: 3, i: nextdotjs}
+- {n: PyTorch Lightning, y: 2, i: lightning}
+- {n: React Native, y: 1}
+- {n: Large Language Models (LLMs), y: 3}
+- {n: Data Analysis, y: 7}
+- {n: Stripe, y: 1, i: stripe}
+- {n: Node.js, y: 4, i: nodedotjs}
+- {n: Microservices, y: 3}
+- {n: .NET, y: 3, i: dotnet}
+- {n: React, y: 4, i: react}
+- {n: TensorFlow, y: 4, i: tensorflow}
+- {n: JavaScript, y: 6, i: javascript}
+- {n: PostgreSQL, y: 3, i: postgresql}
+- {n: Express.js, y: 1, i: express}
+- {n: Computer Vision, y: 3}
+- {n: MySQL, y: 2, i: mysql}
+- {n: Retrieval-Augmented Generation (RAG), y: 1}
+- {n: Microsoft Azure, y: 3}
+- {n: Tailwind CSS, y: 1, i: tailwindcss}
+- {n: OAuth 2.0, y: 2}
+- {n: Elasticsearch, y: 1, i: elasticsearch}
+- {n: NumPy, y: 7, i: numpy}
+- {n: OpenID Connect (OIDC), y: 2, i: openid}
+- {n: Helm, y: 2, i: helm}
+- {n: Distributed Systems, y: 3}
+- {n: Docker, y: 7, i: docker}
+- {n: Deep Learning, y: 5}
+- {n: Java, y: 5, i: openjdk}
+- {n: OpenCV, y: 3, i: opencv}
+- {n: gRPC, y: 2}
+- {n: AI Agents, y: 3}
+- {n: Jupyter, y: 2, i: jupyter}
+- {n: Linux, y: 8, i: linux}
+- {n: SciPy, y: 5, i: scipy}
+- {n: Flask, y: 3, i: flask}
+- {n: Statistical Modeling, y: 3}
+- {n: Go, y: 3, i: go}
+- {n: PyTorch, y: 4, i: pytorch}
+- {n: Matplotlib, y: 6}
+- {n: AWS, y: 1, i: amazonwebservices}
+- {n: Kubernetes, y: 2, i: kubernetes}
+- {n: C#, y: 2}
+- {n: Scikit-learn, y: 4, i: scikitlearn}
+- {n: Scrapy, y: 2, i: scrapy}
+- {n: Python, y: 9, i: python}
+- {n: C++, y: 1, i: cplusplus}
+- {n: Terraform, y: 1, i: terraform}
+- {n: Angular, y: 1, i: angular}
+- {n: Playwright, y: 1}
+- {n: High-Performance Computing (HPC), y: 2}
+- {n: Git, y: 9, i: git}
+- {n: Web Crawling, y: 3}
+- {n: Redis, y: 2, i: redis}
+- {n: WebSockets, y: 2}
+- {n: GitHub Actions, y: 2, i: githubactions}
+- {n: Machine Learning, y: 8}
+- {n: Slurm, y: 2}
+- {n: Natural Language Processing (NLP), y: 2}
+- {n: WebRTC, y: 1, i: webrtc}
+- {n: REST APIs, y: 6}
+- {n: Keycloak, y: 1, i: keycloak}
+- {n: Signal Processing, y: 5}
+- {n: Pandas, y: 7, i: pandas}
+- {n: Apache Thrift, y: 2}
+- {n: SQL, y: 5}
+- {n: Information Retrieval, y: 3}
+- {n: TypeScript, y: 3, i: typescript}
+- {n: CI/CD, y: 4}

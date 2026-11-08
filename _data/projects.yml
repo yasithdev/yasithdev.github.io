@@ -1,211 +1,213 @@
-- title: Robust-ML
-  term: 2022-2024
-  description: |-
-    Building interpretable deep learning algorithms for culture-free early detection of antibiotic drug resistant bacteria using Computer Vision and Quantitative Phase Microscopy (QPM).
-    Microscopic images of different bacteria strains are used to train Capsule-Network models with a smooth latent space representation.
-  technologies:
-    - Python
-    - TensorFlow
-    - SciPy
-    - NumPy
+- category: Research Computing & Systems
+  projects:
+    - title: Cybershuttle
+      icon: /assets/img/projects/csbridge.png
+      term: 2024-Present
+      commits: "490+"
+      description: |-
+        Built CS Bridge, CS Jupyter, Linkspan, and cs-plane: IDEs on Slurm nodes, no inbound ports.
+      technologies: [High-Performance Computing (HPC), Slurm, Jupyter, TypeScript, Go, WebSockets]
+      links:
+        - key: GitHub
+          link: https://github.com/cyber-shuttle
+        - key: Paper
+          link: https://doi.org/10.1145/3626203.3670623
 
-- title: StreamingHub
-  term: 2019-2024
-  description: |-
-    A data access framework to simplify the development of real-time bio-signal analysis workflows.
-    It provides (1) a metadata schema to describe datasets and streams, (2) language-bindings to parse metadata, (3) a web app to package datasets with metadata, and (4) a unified API to stream data from bio-sensors, datasets, and simulations alike.
-    Streaminghub was succesfully used to develop eye movement analysis workflows and EEG analysis workflows.
-  technologies:
-    - Python
-    - Node
-    - WebSockets
-    - Flask
-    - LabStreamingLayer
-    - JSON Schema
-    - HTML/JS/CSS
+    - title: Apache Airavata
+      icon: /assets/img/projects/airavata.png
+      term: 2024-Present
+      commits: "280+"
+      description: |-
+        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways.
+      technologies: [Distributed Systems, High-Performance Computing (HPC), Java, Python, Apache Thrift, Keycloak]
+      links:
+        - key: GitHub
+          link: https://github.com/apache/airavata
 
-- title: Robust PDFLinks
-  term: 2021
-  description: |-
-    A web service to generate robust links for web  resources.
-    It allows to upload PDF documents, extract URLs from PDF annotations/text, invoke the Robust Links Service on URLs to preserve their content in web archives, and thereby generate robust links.
-    Upon generating robust links, their availability can be announced to external systems via Linked Data Notifications.
-    It also allows to view PDF documents side-by-side with robust links.
-  technologies:
-    - Python
-    - PyPDF2
-    - PDFIUM
-    - GRPBiD
-    - PDFMiner
-    - Flask
-    - Linked Data
-    - HTML/JS/CSS
+    - title: Airavata Custos
+      icon: /assets/img/projects/custos.svg
+      term: 2026
+      commits: "70+"
+      description: |-
+        Built middleware that keeps HPC accounts, allocations, and Slurm access in sync.
+      technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
+      links:
+        - key: GitHub
+          link: https://github.com/apache/airavata-custos
+        - key: Paper
+          link: https://doi.org/10.1145/3785462.3815896
 
-- title: MGaze
-  term: 2020
-  description: |-
-    Collaborative project for webcam-based, multi-user eye tracking on the browser.
-    It eliminates the need for additional eye-tracking equipment by performing facial detection, facial landmarks detection, iris detection, and gaze estimation through webcam feeds.
-  technologies:
-    - MediaPipe
-    - TF.js
-    - Node
-    - Parcel
-    - HTML/JS/CSS
+    - title: Slurm REST
+      icon: /assets/img/projects/slurm.png
+      term: 2026
+      description: |-
+        Built a Dockerized Slurm 24.05 cluster with REST, and nexusctl, a Go admin CLI.
+      technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
+      links:
+        - key: GitHub
+          link: https://github.com/yasithdev/slurmrest
 
-- title: ASDetection
-  term: 2019
-  description: |-
-    Using EEG and Thermography data to predict a diagnosis of ASD.
-    Here, EEG signals were first pre-processed.
-    Simultaneously, features were extracted from Thermography data.
-    Next, a wavelet transformation was applied on each EEG signal to generate features.
-    Machine learning models were then trained from these features to predict a diagnosis of ASD.
-  technologies:
-    - TensorFlow
-    - Python
-    - Numpy
-    - Pandas
-    - PyWavelets
+    - title: Apache OODT
+      icon: /assets/img/apache.png
+      term: 2019
+      description: |-
+        Built Dockerfiles for every OODT component, and a Maven archetype that generates them.
+      technologies: [Docker, Java]
+      links:
+        - key: GitHub
+          link: https://github.com/yasithdev/oodt-dmb
 
-- title: HACS
-  term: 2019
-  description: |-
-    Estimating the rate of change of the academic web using archived copies of web pages.
-    Here, archived copies are first obtained from the Internet Archive through its CDX Server API.
-    Next, for each web page, archived copies are analyzed to detect when changes have occurred.
-    These changes are then modeled as a poisson process, and used to predict when a page is likely to change in the future.
-  technologies:
-    - Python
-    - Internet Archive
-    - SciPy
-    - NumPy
-    - Pandas
+    - title: MSstack
+      icon: /assets/img/projects/msstack.png
+      term: 2018
+      description: |-
+        Built a Java framework that generates microservices from business models. BSc thesis.
+      technologies: [Microservices, Distributed Systems, Java]
+      links:
+        - key: Paper
+          link: https://doi.org/10.1109/icter.2018.8615473
 
-- title: TheGPService
-  term: 2017
-  description: |-
-    Built a mobile application for making doctor consultations.
-    Re-structured cloud infrastructure on AWS to reduce costs.
-    Set up unified logging using AWS CloudWatch.
-    Created Dockerfiles and BitBucket Pipelines to build, test, and push build artifacts into AWS.
-    Provided development and production support for the web apps of The GP Service (UK) Ltd.
-      * Added single-sign-on capability to web portal.
-      * Upgraded web portal from Angular 2.x to 4.x.
-  technologies:
-    - React Native
-    - AWS
-    - Docker
-    - Docker-Compose
-    - Angular
-    - Spring Boot
-    - PostgreSQL
-    - OpenID-Connect
-    - OAuth2
-    - BitBucket
-    - HTML/JS/CSS
+    - title: TheGPService
+      icon: /assets/img/projects/thegpservice.png
+      term: 2018
+      description: |-
+        Built UK telehealth web and mobile apps, SSO, and CI/CD; cut AWS costs 30%.
+      technologies: [React Native, Angular, Java, AWS, CI/CD, Docker]
 
-- title: Containerized Deployment of Apache OODT
-  term: 2019
-  description: |-
-    Created Dockerfiles for each core component in Apache OODT.
-    Added a Maven Archetype to auto-generate Dockerfiles and a Docker-Compose file when creating a new Apache OODT project.
-    Issue tracking was handled using JIRA, and documentation was written using Confluence.
-  technologies:
-    - Java
-    - Maven
-    - Docker
-    - Docker-Compose
-    - Avro
-    - Solr
-    - SLF4J
-    - JIRA
-    - Confluence
+    - title: Mini Projects
+      icon: /assets/img/projects/misc.svg
+      term: 2016-2019
+      description: |-
+        Built tour booking, feedback, point-of-sale, music school, backup, and job search apps.
+      technologies: [JavaScript, React, C#, .NET, MySQL, Elasticsearch]
+      links:
+        - key: TourMate
+          link: https://github.com/yasithdev/tourmate
+        - key: SQLBackup
+          link: https://github.com/yasithdev/SQLBackup
+        - key: Job Search
+          link: https://github.com/yasithdev/job-search-engine
 
-- title: MSstack
-  term: 2018
-  description: |-
-    A full-stack, event-driven, microservices framework for Java, with business modeling.
-    It abstracts away the complexities of microservices architecture by providing interfaces to write business logic.
-    The framework internally handles microservice lifecycle, data partitioning, and auto-scaling.
-    It also facilitates generating boilerplate code from Business Process Models.
-  technologies:
-    - Java
-    - Netty
-    - Kafka
-    - Zookeeper
-    - Curator
-    - Git
+- category: AI Agents & Human Behavior
+  projects:
+    - title: Persona OS
+      icon: /assets/img/projects/marketrix.png
+      term: Est. 2024
+      description: |-
+        Build AI buyer personas from real conversations, calibrated to census data. 259M so far.
+      technologies: [Large Language Models (LLMs), AI Agents, Next.js, TypeScript, Python]
+      links:
+        - key: Website
+          link: https://marketrix.ai
 
-- title: Semantic-KB
-  term: 2017
-  description: |-
-    Internship project at WSO2 Lanka (PVT) Ltd to automate question answering in WSO2 Support portal.
-    Created a document index using ElasticSearch, a reinforcement learning model using TensorFlow to predict document-query relevance, and a search interface using HTML, JS, and CSS.
-  technologies:
-    - ElasticSearch
-    - TensorFlow
-    - PostgreSQL
-    - NLTK
-    - Scrapy
-    - Flask
-    - Python
-    - DialogFlow
-    - HTML/JS/CSS
+- category: Human Sensing & Machine Learning
+  projects:
+    - title: StreamingHub
+      icon: /assets/img/projects/streaminghub.png
+      term: 2019-2024
+      commits: "500+"
+      description: |-
+        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation.
+      technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
+      links:
+        - key: GitHub
+          link: https://github.com/nirdslab/streaminghub
+        - key: Paper
+          link: https://doi.org/10.1145/3529372.3530936
 
-- title: DengAI
-  term: 2017
-  description: |-
-    A competition hosted by DrivenData, to model the spread of Dengue using weather and geographical information.
-    Built a machine learning model that ranked #1 in 2017.
-  technologies:
-    - Python
-    - Scikit-Learn
-    - Pandas
-    - WEKA
+    - title: Robust Clinical ML
+      icon: /assets/img/harvard.png
+      term: 2022-2024
+      commits: "300+"
+      description: |-
+        Trained capsule networks to detect antimicrobial-resistant bacteria. Proposed an unfamiliar-input test.
+      technologies: [Deep Learning, Computer Vision, Statistical Modeling, PyTorch, TensorFlow, Python]
+      links:
+        - key: Paper
+          link: https://arxiv.org/abs/2403.14058
+        - key: CapsNet
+          link: https://github.com/yasithdev/capsnet
 
-- title: TourMate
-  term: 2017
-  description: |-
-    A web platform aimed at tourists and tour providers.
-    Tourists can discover tour services and make reservations, while tour providers can post and advertise their services.
-  technologies:
-    - Express.JS
-    - Node
-    - MongoDB
-    - React
-    - Git
-    - HTML/JS/CSS
+    - title: Attention & Mental Effort
+      icon: /assets/img/projects/attention.svg
+      term: 2021-2025
+      description: |-
+        Proposed real-time measures of attention from eye movements and mental effort from pupil size.
+      technologies: [Eye Tracking, Signal Processing, Statistical Modeling, Python, NumPy]
+      links:
+        - key: Paper
+          link: https://doi.org/10.3390/jemr18060070
+        - key: ETRA '25
+          link: https://doi.org/10.1145/3715669.3723111
 
-- title: Raven
-  term: 2016
-  description: |-
-    A real-time customer satisfaction monitoring framework for the hospitality industry.
-    It uses camera feeds to detect customer faces, analyze their emotions, and provide satisfaction ratings and dissatisfaction alerts in real-time.
-  technologies:
-    - Microsoft Emotion API
-    - C#
-    - Git
+    - title: Fiber Dynamics
+      icon: /assets/img/projects/fiber.svg
+      term: 2022-2023
+      description: |-
+        Modeled light in multimode fibers with differentiable models and Neural ODEs.
+      technologies: [Deep Learning, PyTorch, Python]
+      links:
+        - key: Paper
+          link: https://doi.org/10.1109/ipc57732.2023.10360586
 
-- title: Onion
-  term: 2016
-  description: |-
-    A Point-of-Sales, Inventory, Reporting, Loan, and Payroll System for Dambulla Dedicated Economic Centre, Sri Lanka
-  technologies:
-    - C#
-    - WPF
-    - MySQL
-    - Dapper ORM
-    - VSTS
+    - title: MGaze
+      icon: /assets/img/projects/mgaze.svg
+      term: 2020
+      description: |-
+        Built multi-user webcam eye tracking in the browser for UCSD.
+      technologies: [Eye Tracking, Computer Vision, OpenCV, TensorFlow, JavaScript, Python]
+      links:
+        - key: GitHub
+          link: https://github.com/nirdslab/multigazeinterations
 
-- title: MusicSchool
-  term: 2016
-  description: |-
-    A web platform to manage information of a medium sized music school.
-    It supports classroom management, progress tracking, attendance, and payroll.
-  technologies:
-    - PHP
-    - Laravel
-    - jQuery
-    - MySQL
-    - HTML/JS/CSS
+    - title: ASD Detection
+      icon: /assets/img/projects/asd.svg
+      term: 2019
+      description: |-
+        Trained models that predict autism from EEG and thermography. Best Student Paper, IEEE IRI 2019.
+      technologies: [Machine Learning, EEG, Signal Processing, TensorFlow, Python]
+      links:
+        - key: GitHub
+          link: https://github.com/nirdslab/asd-detection
+        - key: Paper
+          link: https://doi.org/10.1109/iri.2019.00035
+
+    - title: DengAI
+      icon: /assets/img/projects/drivendata.png
+      term: 2017
+      description: |-
+        Trained models that forecast dengue cases from weather data. Ranked #1 on DrivenData (2017).
+      technologies: [Machine Learning, Data Analysis, Scikit-learn, Pandas, Python]
+
+- category: Web Archiving & Information Retrieval
+  projects:
+    - title: Robust PDF Links
+      icon: /assets/img/projects/wayback.svg
+      term: 2021-2022
+      description: |-
+        Built a service at Los Alamos that archives URLs cited in PDFs, before they break.
+      technologies: [Information Retrieval, Web Crawling, REST APIs, Flask, Python]
+      links:
+        - key: GitHub
+          link: https://github.com/yasithdev/pdf-links-service
+
+    - title: HACS
+      icon: /assets/img/projects/wayback.svg
+      term: 2019-2020
+      description: |-
+        Modeled how often academic pages change, to schedule web crawls efficiently.
+      technologies: [Web Crawling, Statistical Modeling, Data Analysis, Pandas, Python]
+      links:
+        - key: Paper
+          link: https://doi.org/10.1109/bigdata50022.2020.9377796
+
+
+    - title: WSO2 Semantic KB
+      icon: /assets/img/wso2.png
+      term: 2017
+      description: |-
+        Built Suzy, a chatbot that answers WSO2 support questions from the docs.
+      technologies: [Natural Language Processing (NLP), Information Retrieval, Elasticsearch, TensorFlow, Scrapy, Python]
+      links:
+        - key: GitHub
+          link: https://github.com/yasithdev/semantic-kb

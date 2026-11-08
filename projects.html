@@ -2,24 +2,18 @@
 layout: default
 title: Projects
 ---
-{% for project in site.data.projects %}
-<table>
-  <tbody>
-    <tr class="header">
-      <td>
-        <strong>{{ project.title }}</strong>
-        <span style="font-weight: 400;"><small>({{ project.term }})</small></span>
-        <br />
-        {% for t in project.technologies %}
-        <code class="language-plaintext" style="font-size: smaller; letter-spacing: -0.5px;">{{ t }}</code>
-        {% endfor %}
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: justify">
-        {{ project.description | markdownify }}
-      </td>
-    </tr>
-  </tbody>
-</table>
+{% for group in site.data.projects %}
+<h2 class="label">{{ group.category }}</h2>
+<ul class="plist">
+  {% for p in group.projects %}
+  <li>
+    {% if p.icon %}<img class="logo sm" src="{{ p.icon | relative_url }}" alt="">{% else %}<span></span>{% endif %}
+    <div>
+      <div class="head"><h3>{{ p.title }}</h3><span class="term">{% if p.commits %}{{ p.commits }} commits · {% endif %}{{ p.term }}</span></div>
+      {{ p.description | markdownify }}
+      <div class="foot"><span class="meta">{{ p.technologies | join: " · " }}</span>{% if p.links %}<span class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}</span>{% endif %}</div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
 {% endfor %}

@@ -1,36 +1,20 @@
-- name: Old Dominion University, USA
+- name: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
-  degree: PhD
-  major: Computer Science
+  degree: PhD, Computer Science
   term: Jan 2019 - Aug 2024
-  description: |-
-    Studied Biosensors, Digital Signal Processing, Deep Learning, and Streaming Analytics.
-    Developed StreamingHub, a framework to build realtime experiments with multimodal biosignal streams.
-  extra:
-    - key: GPA
-      value: 4.0
-    - key: Awards
-      value: Dominion Graduate Scholar (2019)
-    - key: Advisor
-      value: Dr. Sampath Jayarathna
-    - key: Key Courses
-      value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
+  thesis: {key: Dissertation, value: "StreamingHub: real-time experiments with multimodal biosignals", link: https://github.com/nirdslab/streaminghub}
+  advisor: {value: Dr. Sampath Jayarathna, link: https://www.cs.odu.edu/~sampath/}
+  committee: Dr. Jian Wu, Dr. Vikas G. Ashok, Dr. Yi He, Dr. Keerthi Nawarathna
+  focus: [Biosensors, Signal processing, Deep learning, Streaming analytics]
+  gpa: 4.00 / 4.00
+  awards: [Outstanding Teaching Assistant (2022), Sigma Xi Grant in Aid of Research (2020), Dominion Graduate Scholar (2019)]
 
-- name: University of Moratuwa, Sri Lanka
+- name: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
-  degree: BSc
-  major: Computer Science and Engineering
+  degree: BSc, Computer Science and Engineering
   term: Jan 2015 - Dec 2018
-  description: |-
-    Studied Distributed Systems, Software Development, and Mathematics.
-    Developed MSstack, an event-driven microservice framework to transform business models to boilerplate Java code.
-  extra:
-    - key: GPA
-      value: 3.84
-    - key: Awards
-      value: Dean’s List (Semester 1,2,4,6-8)
-    - key: Advisor
-      value: Dr. Indika Perera
-    - key: Key Courses
-      value: Human Computer Interaction, Machine Learning, Advanced Algorithms, Data Mining & Information Retrieval, Distributed Systems
-
+  thesis: {key: Thesis, value: "MSstack: Java microservices generated from business process models", link: https://doi.org/10.1109/icter.2018.8615473}
+  advisor: {value: Dr. Indika Perera, link: https://uom.lk/staff/Perera.GIUS}
+  focus: [Distributed systems, Software engineering, Machine learning]
+  gpa: 3.84 / 4.20
+  awards: [First Class Honors (2018), Dean’s List (6 of 8 semesters)]

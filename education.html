@@ -2,26 +2,22 @@
 layout: default
 title: Education
 ---
-{% for education in site.data.education %}
-<table>
-  <tbody>
-    <tr class="header">
-      <td width="40px"><img style="width: 40px; height: 40px; object-fit: contain;" src="{{education.logo | relative_url}}"></td>
-      <td>
-        <strong>{{ education.name }}</strong>
-        <span style="font-weight: 400;"><small>({{ education.term }})</small></span>
-        <br />
-        <small><strong>{{ education.degree }} - {{ education.major }}</strong></small>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: justify" colspan="2">
-        {{ education.description | markdownify }}
-        {%- for extra in education.extra -%}
-        <small style="letter-spacing: -0.5px;"><strong>{{ extra.key }}</strong> - {{ extra.value }}.</small>
-        {% endfor %}
-      </td>
-    </tr>
-  </tbody>
-</table>
-{% endfor %}
+<ul class="timeline">
+  {% for e in site.data.education %}
+  <li>
+    <img class="logo" src="{{ e.logo | relative_url }}" alt="">
+    <div>
+      <div class="head"><h2 class="item-title">{{ e.degree }}</h2><span class="term">{{ e.term }}</span></div>
+      <div class="role">{{ e.name }}</div>
+      <p class="focus">{{ e.focus | join: " · " }}</p>
+      <dl class="facts">
+        <dt>{{ e.thesis.key }}</dt><dd><a href="{{ e.thesis.link }}" target="_blank" rel="noopener">{{ e.thesis.value }}</a></dd>
+        <dt>Advisor</dt><dd><a href="{{ e.advisor.link }}" target="_blank" rel="noopener">{{ e.advisor.value }}</a></dd>
+        {% if e.committee %}<dt>Committee</dt><dd>{{ e.committee }}</dd>{% endif %}
+        <dt>GPA</dt><dd>{{ e.gpa }}</dd>
+        <dt>Awards</dt><dd>{{ e.awards | join: " · " }}</dd>
+      </dl>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
