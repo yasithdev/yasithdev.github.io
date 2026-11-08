@@ -20,7 +20,7 @@
   term: Jan 2019 - Aug 2024
   description: |-
     - Proposed eye-tracking methods to detect ADHD and estimate attention and mental effort.
-    - Built webcam eye trackers for UCSD, using computer vision.
+    - Co-built webcam eye trackers for UCSD, using computer vision.
     - Built ASDtect, a 90%-accurate EEG machine learning model for autism, for IUPUC.
     - Built StreamingHub, Python SDKs for real-time biosignal processing.
     - Built HACS, a web crawl scheduler for academic pages.
@@ -31,7 +31,7 @@
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    - Built an outlier detector so clinics can trust ML models.
+    - Built an out-of-distribution detector for clinical ML models.
     - Trained deep learning models to spot antimicrobial-resistant bacteria in single-cell images.
     - Modeled light in multimode fibers with Neural ODEs.
 

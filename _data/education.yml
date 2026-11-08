@@ -13,8 +13,6 @@
       value: Dominion Graduate Scholar (2019)
     - key: Advisor
       value: Dr. Sampath Jayarathna
-    - key: Key Courses
-      value: Data Science & Analytics, Information Retrieval, Machine Learning, Data Structures & Algorithms, Computer Architecture, DevOps Containers & Cloud
 
 - name: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
@@ -31,6 +29,4 @@
       value: Dean’s List (Semester 1,2,4,6-8)
     - key: Advisor
       value: Dr. Indika Perera
-    - key: Key Courses
-      value: Human Computer Interaction, Machine Learning, Advanced Algorithms, Data Mining & Information Retrieval, Distributed Systems
 

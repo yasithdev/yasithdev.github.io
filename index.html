@@ -16,6 +16,8 @@ layout: default
 <p>
   <a class="button" href="{{ info.cv | relative_url }}" target="_blank">CV</a>
   <a class="button" href="https://scholar.google.com/citations?user={{ info.gs }}" target="_blank">Google Scholar</a>
+  <a class="button" rel="me" href="https://github.com/{{ info.social.github_username }}" target="_blank">GitHub</a>
+  <a class="button" rel="me" href="https://www.linkedin.com/in/{{ info.social.linkedin_username }}" target="_blank">LinkedIn</a>
 </p>
 
 <h2>Recent Projects</h2>
@@ -27,6 +29,7 @@ layout: default
   </div>
   {% endfor %}
 </div>
+<p class="meta"><a href="{{ "/projects.html" | relative_url }}">All projects →</a></p>
 
 <h2>Skills</h2>
 <p class="cloud">
