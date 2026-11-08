@@ -3,7 +3,8 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Build Cybershuttle, a research computing platform (TypeScript, Go, Python) to run experiments on HPC, cloud, or local compute.
+    - Build Cybershuttle, a research computing platform to run experiments on HPC, cloud, or local compute.
+    - Build CS Bridge, CS Jupyter, and Linkspan (TypeScript, Go, Python).
     - Build and maintain Apache Airavata and Custos (Java, Go, Keycloak, OAuth 2.0).
 
 - affiliation: Marketrix AI, USA
@@ -40,14 +41,14 @@
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    - Built a Python service that archives web pages cited in PDFs, before links break or content changes.
+    - Built a Python service that archives web pages cited in PDFs.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    - Built web and mobile apps for TheGPService, a UK doctor-consultation platform (React Native, Angular, Java, AWS).
+    - Built web and mobile apps for TheGPService, a UK telehealth service (React Native, Angular, Java, AWS).
     - Set up CI/CD and log monitoring.
     - Cut AWS costs by 30%.
 

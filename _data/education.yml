@@ -13,6 +13,7 @@
       value: Dominion Graduate Scholar (2019)
     - key: Advisor
       value: Dr. Sampath Jayarathna
+      link: https://www.cs.odu.edu/~sampath/
 
 - name: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
@@ -29,4 +30,5 @@
       value: Dean’s List (Semester 1,2,4,6-8)
     - key: Advisor
       value: Dr. Indika Perera
+      link: https://uom.lk/staff/Perera.GIUS
 

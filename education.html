@@ -10,7 +10,7 @@ title: Education
       <div class="head"><span class="item-title">{{ e.name }}</span><span class="term">{{ e.term }}</span></div>
       <div class="role meta">{{ e.degree }}, {{ e.major }}</div>
       {{ e.description | markdownify }}
-      {% for x in e.extra %}<p class="extra meta"><strong>{{ x.key }}:</strong> {{ x.value }}</p>{% endfor %}
+      {% for x in e.extra %}<p class="extra meta"><strong>{{ x.key }}:</strong> {% if x.link %}<a href="{{ x.link }}" target="_blank" rel="noopener">{{ x.value }}</a>{% else %}{{ x.value }}{% endif %}</p>{% endfor %}
     </div>
   </li>
   {% endfor %}
