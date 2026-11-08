@@ -211,11 +211,11 @@
         - key: GitHub
           link: https://github.com/yasithdev/job-search-engine
 
-    - title: Semantic-KB (WSO2 Suzy)
+    - title: WSO2 Semantic KB
       icon: /assets/img/projects/chatbot.svg
       term: 2017
       description: |-
-        Built a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
+        Built Suzy, a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
       technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Scrapy, Web Crawling]
       links:
         - key: GitHub
