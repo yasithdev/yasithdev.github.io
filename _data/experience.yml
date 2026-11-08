@@ -15,7 +15,6 @@
   term: Est. 2024
   description: |-
     - Build 259M U.S. buyer personas from real conversations, calibrated to census data.
-    - Build an embeddable support widget that explains, shows, or does tasks inside web apps.
     - Build LLM browser agents that run simulations, QA flows, and user studies on real apps.
     - Run the platform on Azure Kubernetes with Terraform, Argo CD, and GitHub Actions.
 
