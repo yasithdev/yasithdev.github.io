@@ -3,9 +3,10 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Build Cybershuttle, a research computing platform to run experiments on HPC, cloud, or local compute.
+    - Build Cybershuttle, which runs experiments on HPC, cloud, or local compute.
     - Build CS Bridge, CS Jupyter, and Linkspan (TypeScript, Go, Python).
     - Build and maintain Apache Airavata and Custos (Java, Go, Keycloak, OAuth 2.0).
+    - Published Cybershuttle and Custos at PEARC '24 and '26.
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
@@ -13,17 +14,17 @@
   term: Est. 2024
   description: |-
     - Build AI buyer personas that answer what-if questions, using LLMs and AI agents.
-    - 259M U.S. personas from real conversations, calibrated to census data.
+    - Generate 259M U.S. personas from real conversations, calibrated to census data.
 
 - affiliation: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
+    - Built StreamingHub, Python SDKs for real-time biosignal processing (PhD dissertation).
     - Proposed eye-tracking methods to detect ADHD and estimate attention and mental effort.
-    - Co-built webcam eye trackers for UCSD, using computer vision.
     - Built ASDtect, a 90%-accurate EEG machine learning model for autism, for IUPUC.
-    - Built StreamingHub, Python SDKs for real-time biosignal processing.
+    - Co-built webcam eye trackers for UCSD, using computer vision.
     - Built HACS, a web crawl scheduler for academic pages.
     - Taught core CS courses as a TA.
 
@@ -48,7 +49,7 @@
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    - Built web and mobile apps for TheGPService, a UK telehealth service (React Native, Angular, Java, AWS).
+    - Built TheGPService's UK telehealth web and mobile apps (React Native, Angular, Java, AWS).
     - Set up CI/CD and log monitoring.
     - Cut AWS costs by 30%.
 
