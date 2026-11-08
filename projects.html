@@ -9,10 +9,11 @@ title: Projects
   <li>
     {% if p.icon %}<img class="logo sm" src="{{ p.icon | relative_url }}" alt="">{% else %}<span></span>{% endif %}
     <div>
-      <div class="head"><h3>{{ p.title }}{% if p.commits %} <span class="award commits">{{ p.commits }} commits</span>{% endif %}{% if p.award %} <span class="award">{{ p.award }}</span>{% endif %}</h3><span class="term">{{ p.term }}</span></div>
+      <h3>{{ p.title }}{% if p.commits %} <span class="award commits">{{ p.commits }} commits</span>{% endif %}{% if p.award %} <span class="award">{{ p.award }}</span>{% endif %}</h3>
       {{ p.description | markdownify }}
-      <div class="foot"><span class="meta">{{ p.technologies | join: " · " }}</span>{% if p.links %}<span class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}</span>{% endif %}</div>
+      <div><span class="meta">{{ p.technologies | join: " · " }}</span>{% if p.links %}<span class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}</span>{% endif %}</div>
     </div>
+    <span class="term">{{ p.term }}</span>
   </li>
   {% endfor %}
 </ul>
