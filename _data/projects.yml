@@ -212,7 +212,7 @@
           link: https://github.com/yasithdev/job-search-engine
 
     - title: WSO2 Semantic KB
-      icon: /assets/img/projects/chatbot.svg
+      icon: /assets/img/wso2.png
       term: 2017
       description: |-
         Built Suzy, a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
