@@ -3,72 +3,72 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Build Cybershuttle tools that run VS Code, Jupyter, and terminals in Slurm jobs (TypeScript, Go).
-    - Build Custos, which automates HPC account management (Go).
-    - Built Keycloak token auth and a generated Python SDK for Apache Airavata (Java).
-    - Built an OpenFold port to current PyTorch and Lightning; trained it on NCSA Delta.
-    - Published Cybershuttle and Custos at PEARC '24 and '26.
+    - Build Cybershuttle tools that run VS Code, Jupyter, and terminals in Slurm jobs (TypeScript, Go)
+    - Build Custos, which automates HPC account management (Go)
+    - Built Keycloak token auth and a generated Python SDK for Apache Airavata (Java)
+    - Built an OpenFold port to current PyTorch and Lightning; trained it on NCSA Delta
+    - Published Cybershuttle and Custos at PEARC '24 and '26
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
   designation: Co-founder
   term: Est. 2024
   description: |-
-    - Build 259M U.S. buyer personas from real conversations, calibrated to census data.
-    - Build LLM browser agents that run simulations, QA flows, and user studies on real apps.
-    - Run the platform on Azure Kubernetes with Terraform, Argo CD, and GitHub Actions.
+    - Build 259M U.S. buyer personas from real conversations, calibrated to census data
+    - Build LLM browser agents that run simulations, QA flows, and user studies on real apps
+    - Run the platform on Azure Kubernetes with Terraform, Argo CD, and GitHub Actions
 
 - affiliation: Old Dominion University, Norfolk, VA
   logo: /assets/img/odu.png
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    - Built StreamingHub to stream, replay, and simulate biosignals in real time (PhD).
-    - Proposed eye-tracking measures of ADHD, attention, and mental effort.
-    - Built webcam eye trackers for UCSD, using computer vision.
-    - Trained ASDtect, a 90%-accurate EEG model for autism, for IUPUC.
-    - Modeled how often academic pages change (HACS), to schedule web crawls.
-    - Published 12 papers (JCDL, Frontiers, IEEE IRI, KES); Best Student Paper at IEEE IRI '19.
-    - Taught core CS courses as a TA.
+    - Built StreamingHub to stream, replay, and simulate biosignals in real time (PhD)
+    - Proposed eye-tracking measures of ADHD, attention, and mental effort
+    - Built webcam eye trackers for UCSD, using computer vision
+    - Trained ASDtect, a 90%-accurate EEG model for autism, for IUPUC
+    - Modeled how often academic pages change (HACS), to schedule web crawls
+    - Published 12 papers (JCDL, Frontiers, IEEE IRI, KES); Best Student Paper at IEEE IRI '19
+    - Taught core CS courses as a TA
 
 - affiliation: Harvard University, Cambridge, MA
   logo: /assets/img/harvard.png
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    - Trained deep learning models to spot antimicrobial-resistant bacteria in single-cell images.
-    - Proposed an out-of-distribution detector for clinical ML models.
-    - Modeled light in multimode fibers with Neural ODEs.
-    - Published it at IEEE IPC '23.
+    - Trained deep learning models to spot antimicrobial-resistant bacteria in single-cell images
+    - Proposed an out-of-distribution detector for clinical ML models
+    - Modeled light in multimode fibers with Neural ODEs
+    - Published it at IEEE IPC '23
 
 - affiliation: Los Alamos National Laboratory, Los Alamos, NM
   logo: /assets/img/lanl.png
   designation: Summer Graduate Research Intern
   term: Summer 2021, 2022
   description: |-
-    - Built PDF Server for the LANL Research Library, archiving URLs cited in PDFs against link rot.
-    - Published a LANL technical report on it.
+    - Built PDF Server for the LANL Research Library, archiving URLs cited in PDFs against link rot
+    - Published a LANL technical report on it
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
   designation: Freelance Developer
   term: Jan 2018 - Dec 2018
   description: |-
-    - Built TheGPService's UK telehealth web and mobile apps (React Native, Angular, Java, AWS).
-    - Built CI/CD and log monitoring.
-    - Cut AWS costs by 30%.
+    - Built TheGPService's UK telehealth web and mobile apps (React Native, Angular, Java, AWS)
+    - Built CI/CD and log monitoring
+    - Cut AWS costs by 30%
 
 - affiliation: University of Moratuwa, Moratuwa, Sri Lanka
   logo: /assets/img/uom.png
   designation: Teaching Assistant, Department of Computer Science and Engineering
   term: Jan 2018 - Jun 2018
   description: |-
-    - Taught CSE courses: prepared materials, lectured, and graded.
+    - Taught CSE courses: prepared materials, lectured, and graded
 
 - affiliation: WSO2, Colombo, Sri Lanka
   logo: /assets/img/wso2.png
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    - Built crawlers, vectorizers, and Elasticsearch indexers for the docs.
-    - Built Suzy, an NLP chatbot for support questions, on Facebook Chat via DialogFlow.
+    - Built crawlers, vectorizers, and Elasticsearch indexers for the docs
+    - Built Suzy, an NLP chatbot for support questions, on Facebook Chat via DialogFlow
