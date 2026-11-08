@@ -106,6 +106,14 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .profile h1 { margin: 0; }
 .profile .headline { color: var(--accent); font-weight: 600; margin-bottom: var(--sp-1); }
 .profile address { font-style: normal; }
+.button svg { width: 1em; height: 1em; margin-right: 0.35em; vertical-align: -0.125em; fill: currentColor; }
+.lead { margin-bottom: var(--sp-2); }
+.bio { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-4); margin-top: var(--sp-6);
+  ul { margin: 0 0 0 1.1rem; color: var(--muted); font-size: var(--fs-sm); }
+  .label { display: block; margin: 0 0 var(--sp-1); color: var(--muted); font-size: 0.7rem; font-weight: 700; }
+  .hobby { grid-column: 1 / -1; margin: 0; color: var(--muted); font-style: italic; }
+}
+@media (max-width: 600px) { .bio { grid-template-columns: 1fr; } }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(16rem, 100%), 1fr)); gap: var(--sp-3); margin-bottom: var(--sp-2); }
@@ -137,7 +145,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .timeline .role { margin-bottom: var(--sp-1); font-weight: 500; }
 .timeline .role .meta { font-weight: 400; }
 .timeline ul { margin-bottom: var(--sp-1); list-style: disc; }
-.focus { margin: var(--sp-2) 0 0; }
+.focus { margin: 0; }
 .facts { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: var(--sp-1) var(--sp-4); margin: var(--sp-2) 0 0; }
 .facts dt { color: var(--muted); font-size: var(--fs-sm); line-height: 1.5rem; }
 .facts dd { margin: 0; }
@@ -145,19 +153,18 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 /* Publications (Google Scholar style) */
 .pubs { list-style: none; margin: 0 0 var(--sp-2); }
 /* Two columns: title, authors and venue wrap in the first; the year sits in the second */
-.pubs li { display: grid; grid-template-columns: 1fr auto; gap: 0 var(--sp-4); padding: var(--sp-1) 0 var(--sp-1) 1.75rem; line-height: 1.35; position: relative; }
-/* Paper icon: a page with a folded corner and text lines, tinted by the theme */
+.pubs li { display: grid; grid-template-columns: 1fr auto; gap: 0 var(--sp-4); padding: var(--sp-1) 0 var(--sp-1) 2.25rem; line-height: 1.35; position: relative; }
+/* My author position, as a numbered badge */
 .pubs li::before {
-  content: ""; position: absolute; left: 0; top: calc(var(--sp-1) + 0.1rem); width: 1.1rem; height: 1.1rem; background: var(--muted);
-  $paper: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpath d='M14 2v6h6M8 13h8M8 17h8M8 9h2'/%3E%3C/svg%3E") center / contain no-repeat;
-  -webkit-mask: $paper; mask: $paper;
+  content: "#" attr(data-pos); position: absolute; left: 0; top: calc(var(--sp-1) + 0.1rem); min-width: 1.4rem; height: 1.2rem; padding: 0 0.2rem; display: grid; place-items: center;
+  border-radius: var(--r-pill); background: var(--border); color: var(--muted); font-size: 0.7rem; font-weight: 600;
 }
-.pubs .authors strong { color: var(--text); font-weight: 600; }
 /* Awards (papers, projects): a gold pill with a trophy, in small regular text wherever it sits */
 .award {
   display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap; font-size: var(--fs-sm); font-weight: 400;
   color: var(--award); border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
   &::before { content: "🏆 "; }
+  &.thesis::before { content: "🎓 "; }
   /* Commit counts: a git-branch glyph in the pill's gold, not a prize */
   &.commits::before {
     content: ""; display: inline-block; width: 1em; height: 1em; margin-right: 0.3em; vertical-align: -0.15em; background: currentColor;
@@ -165,18 +172,30 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
     -webkit-mask: $commit; mask: $commit;
   }
 }
+.paper-pop {
+  max-width: min(40rem, calc(100vw - 2rem)); padding: 0;
+  > div { padding: var(--sp-4); } border: 1px solid var(--border); border-radius: var(--r-md);
+  background: var(--surface); color: var(--text); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  &::backdrop { background: rgba(0, 0, 0, 0.4); }
+  h2 { margin: 0 var(--sp-6) var(--sp-1) 0; font-size: 1.15rem; line-height: 1.35; }
+  .body p { margin: var(--sp-2) 0 0; }
+  .close { position: absolute; top: var(--sp-2); right: var(--sp-2); border: 0; background: none; color: var(--muted); font-size: 1.5rem; line-height: 1; cursor: pointer; }
+}
 .pubs-top .stats { color: var(--muted); font-size: var(--fs-sm); strong { color: var(--text); font-weight: 600; } }
 
 /* Home: a card with research on the front and music on the back.
    It sits flat (crisp text) and goes 3D only while turning over. */
 .flipcard { margin-top: var(--sp-6); }
 .flipcard-inner { display: grid; align-items: start; transition: height 0.4s ease; }
-.face {
-  grid-area: 1 / 1; position: relative; padding: var(--sp-4) var(--sp-4) var(--sp-6); cursor: pointer;
+.panel, .face {
+  padding: var(--sp-4) var(--sp-4) var(--sp-6);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 12px 32px rgba(0, 0, 0, 0.12); transition: box-shadow 0.2s;
-  .card { background: var(--bg); cursor: auto; }
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 12px 32px rgba(0, 0, 0, 0.12);
   > h2:first-of-type { margin-top: 0; }
+}
+.face {
+  grid-area: 1 / 1; position: relative; cursor: pointer; transition: box-shadow 0.2s;
+  .card { background: var(--bg); cursor: auto; }
 }
 .face .side { position: absolute; top: var(--sp-4); right: var(--sp-4); color: var(--muted); font-size: var(--fs-sm); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 .face:hover { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 18px 40px rgba(0, 0, 0, 0.2); }

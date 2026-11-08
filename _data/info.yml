@@ -1,12 +1,16 @@
 name: Yasith Jayawardana, PhD
-about: |-
-  Human sensing researcher (PhD, CS) and systems engineer (BSc, CSE).
-
-  As a researcher, I've estimated attention and effort from eye movements, found EEG markers of autistic traits, and compressed signals into ODEs. I've also detected distribution shift and turned real conversations into AI buyer personas.
-
-  As an engineer, I've built tools that stream biosignals in real time, bring HPC to local editors and browsers, and automate HPC account management.
-
-  I make music in my spare time.
+lead: Human sensing researcher (PhD, CS) and systems engineer (BSc, CSE)
+research:
+  - Eye-movement measures of attention and effort
+  - EEG markers of autistic traits
+  - Reliability tests for AI models on unseen data
+  - AI buyer personas grounded in real conversations
+engineering:
+  - Research tools to sync, merge, and analyze biosignals
+  - Plugins to access HPC from VS Code and Jupyter
+  - Platforms to automate HPC account management
+  - Services to snapshot web pages cited in papers
+hobby: In my spare time, I make music
 affiliation: Georgia Institute of Technology
 address:
   - Center for AI in Science and Engineering (ARTISAN)
@@ -23,27 +27,27 @@ active:
   - name: CS Bridge
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/cs-bridge
-    description: Launch VS Code in Slurm jobs from your local editor
+    description: Run VS Code in Slurm jobs from your editor
   - name: CS Jupyter
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/cs-jupyter
-    description: Run JupyterLab in Slurm jobs from your browser
+    description: Run Jupyter in Slurm jobs from your browser
   - name: Linkspan
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/linkspan
-    description: "Control plane for Slurm jobs: reach Jupyter, VS Code, and terminals from your laptop"
+    description: "Control plane for Slurm jobs: open Jupyter, VS Code, or a terminal"
   - name: Apache Airavata
     icon: /assets/img/projects/airavata.png
     link: https://github.com/apache/airavata
-    description: Run experiments across HPC and cloud. Control plane for Cybershuttle
+    description: Run experiments on HPC and cloud. Control plane for Cybershuttle
   - name: Airavata Custos
     icon: /assets/img/projects/custos.svg
     link: https://github.com/apache/airavata-custos
-    description: Automate HPC account management, from approval to Slurm access
+    description: Automate HPC accounts, from approval to Slurm access
   - name: StreamingHub
     icon: /assets/img/projects/streaminghub.png
     link: https://github.com/nirdslab/streaminghub
-    description: Stream, replay, and simulate biosignals in real time from Python
+    description: Stream, replay, and simulate biosignals in real time
 social:
   facebook_username: yasithdev
   github_username: yasithdev

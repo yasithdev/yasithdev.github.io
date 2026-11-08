@@ -5,7 +5,7 @@
       term: 2026
       commits: "70+"
       description: |-
-        Built middleware that automates HPC account management, from approval to Slurm access
+        Built middleware that automates HPC accounts, from approval to Slurm access
       technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
       links:
         - key: GitHub
@@ -17,7 +17,7 @@
       icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
-        Built a Slurm cluster with REST in Docker, plus nexusctl, a Go admin CLI
+        Built a Slurm cluster in Docker, with a REST API and a Go admin CLI
       technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
       links:
         - key: GitHub
@@ -61,7 +61,8 @@
       icon: /assets/img/projects/msstack.png
       term: 2018
       description: |-
-        Built a Java framework that generates microservices from business models. BSc thesis
+        Built a Java framework that generates microservices from business models
+      thesis: BSc thesis
       technologies: [Microservices, Distributed Systems, Java]
       links:
         - key: Paper
@@ -151,7 +152,8 @@
       term: 2019-2024
       commits: "500+"
       description: |-
-        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation
+        Built a framework to stream, replay, and simulate biosignals in real time
+      thesis: PhD dissertation
       technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
       links:
         - key: GitHub
