@@ -80,15 +80,17 @@
 
     - title: Smaller Projects
       icon: /assets/img/projects/misc.svg
-      term: 2016-2018
+      term: 2016-2019
       description: |-
-        Built TourMate (tour booking), Raven (emotion-based feedback), Onion (point-of-sale), MusicSchool, and SQLBackup (.NET backups).
-      technologies: [JavaScript, React, C#, .NET, MySQL]
+        Built TourMate (tour booking), Raven (feedback), Onion (point-of-sale), MusicSchool, SQLBackup (.NET backups), and a job search engine.
+      technologies: [JavaScript, React, C#, .NET, MySQL, Python, Elasticsearch]
       links:
         - key: TourMate
           link: https://github.com/yasithdev/tourmate
         - key: SQLBackup
           link: https://github.com/yasithdev/SQLBackup
+        - key: Job Search
+          link: https://github.com/yasithdev/job-search-engine
 
 - category: AI Agents & Human Behavior
   projects:
@@ -182,7 +184,7 @@
 - category: Web Archiving & Information Retrieval
   projects:
     - title: Robust PDF Links
-      icon: /assets/img/projects/pdflinks.svg
+      icon: /assets/img/projects/wayback.svg
       term: 2021-2022
       description: |-
         Built a service at Los Alamos National Laboratory that archives URLs cited in PDFs, so references survive link rot and content drift.
@@ -192,7 +194,7 @@
           link: https://github.com/yasithdev/pdf-links-service
 
     - title: HACS
-      icon: /assets/img/projects/hacs.svg
+      icon: /assets/img/projects/wayback.svg
       term: 2019-2020
       description: |-
         Modeled how often academic web pages change with a Poisson process over Internet Archive copies, to schedule crawls efficiently.
@@ -201,15 +203,6 @@
         - key: Paper
           link: https://doi.org/10.1109/bigdata50022.2020.9377796
 
-    - title: Job Search Engine
-      icon: /assets/img/projects/search.svg
-      term: 2019
-      description: |-
-        Built a vertical search engine for jobs in Norfolk, VA, with a crawler, an indexer, and a search interface over local listings.
-      technologies: [Python, Scrapy, Elasticsearch, React, Information Retrieval]
-      links:
-        - key: GitHub
-          link: https://github.com/yasithdev/job-search-engine
 
     - title: WSO2 Semantic KB
       icon: /assets/img/wso2.png
