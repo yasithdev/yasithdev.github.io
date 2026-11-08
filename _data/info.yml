@@ -35,7 +35,7 @@ active:
     icon: /assets/img/projects/custos.svg
     link: https://github.com/apache/airavata-custos
     description: Provision HPC accounts from federated identities with CILogon, COmanage, and OAuth2.
-  - name: PersonaOS
+  - name: Persona OS
     icon: /assets/img/projects/marketrix.png
     link: https://marketrix.ai
     description: Generate AI buyer personas and chat with them.
