@@ -4,7 +4,7 @@
       icon: /assets/img/projects/csbridge.png
       term: 2024-Present
       description: |-
-        Built CS Bridge, CS Jupyter, and Linkspan to run Jupyter and VS Code on HPC compute nodes from a browser or editor, with no inbound ports.
+        Build CS Bridge, CS Jupyter, and Linkspan to run Jupyter and VS Code on HPC compute nodes from a browser or editor, with no inbound ports.
       technologies: [TypeScript, Go, Python, High-Performance Computing (HPC), Slurm, Jupyter, OAuth 2.0]
       links:
         - key: GitHub
@@ -72,7 +72,7 @@
 
     - title: TheGPService
       icon: /assets/img/projects/thegpservice.png
-      term: 2017-2018
+      term: 2018
       description: |-
         Built web and mobile apps for a UK doctor-consultation platform.
         Added SSO, CI/CD, and logging; cut AWS costs by 30%.
@@ -215,7 +215,7 @@
       icon: /assets/img/projects/chatbot.svg
       term: 2017
       description: |-
-        Built a chatbot for WSO2 support questions on crawlers, Elasticsearch, and a learned relevance model.
+        Built a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
       technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Web Crawling]
       links:
         - key: GitHub

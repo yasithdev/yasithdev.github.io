@@ -1,8 +1,8 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  Human sensing researcher (PhD, CS) and systems engineer (BS, CSE).
+  Human sensing researcher (PhD, CS) and systems engineer (BSc, CSE).
   As a researcher, I've estimated attention and effort from eye movements, found EEG markers of autistic traits, compressed signals into ODEs, detected distribution shift, and turned real conversations into AI buyer personas.
-  As an engineer, I've built biosignal libraries and research computing platforms.
+  As an engineer, I've streamed biosignals in real time, brought HPC to local editors and browsers, and let researchers sign in to HPC with their university accounts.
   I make music in my spare time.
 affiliation: Georgia Institute of Technology
 address:
@@ -21,7 +21,7 @@ active:
   - name: CS Jupyter
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/cs-jupyter
-    description: Run JupyterLab on a Slurm compute node, from your browser.
+    description: Run JupyterLab on Slurm compute nodes from your browser.
   - name: Linkspan
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/linkspan
@@ -33,11 +33,11 @@ active:
   - name: Airavata Custos
     icon: /assets/img/projects/custos.svg
     link: https://github.com/apache/airavata-custos
-    description: Provision HPC accounts from federated sign-in via CILogon, COmanage, and OAuth2.
+    description: Get HPC accounts by signing in with your university account.
   - name: Persona OS
     icon: /assets/img/projects/marketrix.png
     link: https://marketrix.ai
-    description: Chat with AI Buyer Personas built from real conversations, and test what-if questions.
+    description: Chat with AI buyer personas and test what-if questions on products and messaging.
 social:
   facebook_username: yasithdev
   github_username: yasithdev
