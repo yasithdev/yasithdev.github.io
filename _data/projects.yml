@@ -5,7 +5,7 @@
       term: 2026
       commits: "70+"
       description: |-
-        Built middleware that automates HPC account management, from approval to Slurm access.
+        Built middleware that automates HPC account management, from approval to Slurm access
       technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
       links:
         - key: GitHub
@@ -17,7 +17,7 @@
       icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
-        Built a Slurm cluster with REST in Docker, plus nexusctl, a Go admin CLI.
+        Built a Slurm cluster with REST in Docker, plus nexusctl, a Go admin CLI
       technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
       links:
         - key: GitHub
@@ -28,7 +28,7 @@
       term: 2024-Present
       commits: "490+"
       description: |-
-        Built tools that run VS Code, Jupyter, and terminals in Slurm jobs from your laptop.
+        Built tools that run VS Code, Jupyter, and terminals in Slurm jobs from your laptop
       technologies: [High-Performance Computing (HPC), Slurm, Jupyter, TypeScript, Go, WebSockets]
       links:
         - key: GitHub
@@ -41,7 +41,7 @@
       term: 2024-Present
       commits: "280+"
       description: |-
-        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways.
+        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways
       technologies: [Distributed Systems, High-Performance Computing (HPC), Java, Python, Apache Thrift, Keycloak]
       links:
         - key: GitHub
@@ -51,7 +51,7 @@
       icon: /assets/img/apache.png
       term: 2019
       description: |-
-        Built Dockerfiles for every OODT component, and a Maven archetype that generates them.
+        Built Dockerfiles for every OODT component, and a Maven archetype that generates them
       technologies: [Docker, Java]
       links:
         - key: GitHub
@@ -61,7 +61,7 @@
       icon: /assets/img/projects/msstack.png
       term: 2018
       description: |-
-        Built a Java framework that generates microservices from business models. BSc thesis.
+        Built a Java framework that generates microservices from business models. BSc thesis
       technologies: [Microservices, Distributed Systems, Java]
       links:
         - key: Paper
@@ -71,14 +71,14 @@
       icon: /assets/img/projects/thegpservice.png
       term: 2018
       description: |-
-        Built UK telehealth web and mobile apps, SSO, and CI/CD; cut AWS costs 30%.
+        Built UK telehealth web and mobile apps, SSO, and CI/CD; cut AWS costs 30%
       technologies: [React Native, Angular, Java, AWS, CI/CD, Docker]
 
     - title: Mini Projects
       icon: /assets/img/projects/misc.svg
       term: 2016-2019
       description: |-
-        Built tour booking, feedback, point-of-sale, music school, backup, and job search apps.
+        Built tour booking, feedback, point-of-sale, music school, backup, and job search apps
       technologies: [JavaScript, React, C#, .NET, MySQL, Elasticsearch]
       links:
         - key: TourMate
@@ -94,7 +94,7 @@
       icon: /assets/img/projects/marketrix.png
       term: Est. 2024
       description: |-
-        Build AI buyer personas from real conversations, calibrated to census data. 259M so far.
+        Build AI buyer personas from real conversations, calibrated to census data. 259M so far
       technologies: [Large Language Models (LLMs), AI Agents, Next.js, TypeScript, Python]
       links:
         - key: Website
@@ -106,7 +106,7 @@
       icon: /assets/img/harvard.png
       term: 2022-2024
       description: |-
-        Trained capsule networks to detect antimicrobial-resistant bacteria. Proposed an unfamiliar-input test.
+        Trained capsule networks to detect drug-resistant bacteria; proposed an OOD test
       technologies: [Deep Learning, Computer Vision, Statistical Modeling, PyTorch, TensorFlow, Python]
       links:
         - key: Paper
@@ -118,7 +118,7 @@
       icon: /assets/img/projects/fiber.svg
       term: 2022-2023
       description: |-
-        Modeled light in multimode fibers with differentiable models and Neural ODEs.
+        Modeled light in multimode fibers with differentiable models and Neural ODEs
       technologies: [Deep Learning, PyTorch, Python]
       links:
         - key: Paper
@@ -128,7 +128,7 @@
       icon: /assets/img/projects/attention.svg
       term: 2021-2025
       description: |-
-        Proposed real-time measures of attention from eye movements and mental effort from pupil size.
+        Proposed real-time measures of attention (eye movements) and mental effort (pupil size)
       technologies: [Eye Tracking, Signal Processing, Statistical Modeling, Python, NumPy]
       links:
         - key: Paper
@@ -140,7 +140,7 @@
       icon: /assets/img/projects/mgaze.svg
       term: 2020
       description: |-
-        Built multi-user webcam eye tracking in the browser for UCSD.
+        Built multi-user webcam eye tracking in the browser for UCSD
       technologies: [Eye Tracking, Computer Vision, OpenCV, TensorFlow, JavaScript, Python]
       links:
         - key: GitHub
@@ -151,7 +151,7 @@
       term: 2019-2024
       commits: "500+"
       description: |-
-        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation.
+        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation
       technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
       links:
         - key: GitHub
@@ -163,7 +163,7 @@
       icon: /assets/img/projects/asd.svg
       term: 2019
       description: |-
-        Trained models that predict autism from EEG and thermography.
+        Trained models that predict autism from EEG and thermography
       award: Best Student Paper, IEEE IRI 2019
       technologies: [Machine Learning, EEG, Signal Processing, TensorFlow, Python]
       links:
@@ -176,7 +176,7 @@
       icon: /assets/img/projects/drivendata.png
       term: 2017
       description: |-
-        Trained models that forecast dengue cases from weather data.
+        Trained models that forecast dengue cases from weather data
       award: "#1 on DrivenData, 2017"
       technologies: [Machine Learning, Data Analysis, Scikit-learn, Pandas, Python]
 
@@ -186,7 +186,7 @@
       icon: /assets/img/projects/wayback.svg
       term: 2021-2022
       description: |-
-        Built a service at Los Alamos that archives URLs cited in PDFs, before they break.
+        Built a service at Los Alamos that archives URLs cited in PDFs, before they break
       technologies: [Information Retrieval, Web Crawling, REST APIs, Flask, Python]
       links:
         - key: GitHub
@@ -196,7 +196,7 @@
       icon: /assets/img/projects/wayback.svg
       term: 2019-2020
       description: |-
-        Modeled how often academic pages change, to schedule web crawls efficiently.
+        Modeled how often academic pages change, to schedule web crawls efficiently
       technologies: [Web Crawling, Statistical Modeling, Data Analysis, Pandas, Python]
       links:
         - key: Paper
@@ -206,7 +206,7 @@
       icon: /assets/img/wso2.png
       term: 2017
       description: |-
-        Built Suzy, a chatbot that answers WSO2 support questions from the docs.
+        Built Suzy, a chatbot that answers WSO2 support questions from the docs
       technologies: [Natural Language Processing (NLP), Information Retrieval, Elasticsearch, TensorFlow, Scrapy, Python]
       links:
         - key: GitHub
