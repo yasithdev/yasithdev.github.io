@@ -1,5 +1,28 @@
 - category: Research Computing & Systems
   projects:
+    - title: Airavata Custos
+      icon: /assets/img/projects/custos.svg
+      term: 2026
+      commits: "70+"
+      description: |-
+        Built middleware that keeps HPC accounts, allocations, and Slurm access in sync.
+      technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
+      links:
+        - key: GitHub
+          link: https://github.com/apache/airavata-custos
+        - key: Paper
+          link: https://doi.org/10.1145/3785462.3815896
+
+    - title: Slurm REST
+      icon: /assets/img/projects/slurm.png
+      term: 2026
+      description: |-
+        Built a Dockerized Slurm 24.05 cluster with REST, and nexusctl, a Go admin CLI.
+      technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
+      links:
+        - key: GitHub
+          link: https://github.com/yasithdev/slurmrest
+
     - title: Cybershuttle
       icon: /assets/img/projects/csbridge.png
       term: 2024-Present
@@ -23,29 +46,6 @@
       links:
         - key: GitHub
           link: https://github.com/apache/airavata
-
-    - title: Airavata Custos
-      icon: /assets/img/projects/custos.svg
-      term: 2026
-      commits: "70+"
-      description: |-
-        Built middleware that keeps HPC accounts, allocations, and Slurm access in sync.
-      technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
-      links:
-        - key: GitHub
-          link: https://github.com/apache/airavata-custos
-        - key: Paper
-          link: https://doi.org/10.1145/3785462.3815896
-
-    - title: Slurm REST
-      icon: /assets/img/projects/slurm.png
-      term: 2026
-      description: |-
-        Built a Dockerized Slurm 24.05 cluster with REST, and nexusctl, a Go admin CLI.
-      technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
-      links:
-        - key: GitHub
-          link: https://github.com/yasithdev/slurmrest
 
     - title: Apache OODT
       icon: /assets/img/apache.png
@@ -102,19 +102,6 @@
 
 - category: Human Sensing & Machine Learning
   projects:
-    - title: StreamingHub
-      icon: /assets/img/projects/streaminghub.png
-      term: 2019-2024
-      commits: "500+"
-      description: |-
-        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation.
-      technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
-      links:
-        - key: GitHub
-          link: https://github.com/nirdslab/streaminghub
-        - key: Paper
-          link: https://doi.org/10.1145/3529372.3530936
-
     - title: Robust Clinical ML
       icon: /assets/img/harvard.png
       term: 2022-2024
@@ -128,6 +115,16 @@
         - key: CapsNet
           link: https://github.com/yasithdev/capsnet
 
+    - title: Fiber Dynamics
+      icon: /assets/img/projects/fiber.svg
+      term: 2022-2023
+      description: |-
+        Modeled light in multimode fibers with differentiable models and Neural ODEs.
+      technologies: [Deep Learning, PyTorch, Python]
+      links:
+        - key: Paper
+          link: https://doi.org/10.1109/ipc57732.2023.10360586
+
     - title: Attention & Mental Effort
       icon: /assets/img/projects/attention.svg
       term: 2021-2025
@@ -140,16 +137,6 @@
         - key: ETRA '25
           link: https://doi.org/10.1145/3715669.3723111
 
-    - title: Fiber Dynamics
-      icon: /assets/img/projects/fiber.svg
-      term: 2022-2023
-      description: |-
-        Modeled light in multimode fibers with differentiable models and Neural ODEs.
-      technologies: [Deep Learning, PyTorch, Python]
-      links:
-        - key: Paper
-          link: https://doi.org/10.1109/ipc57732.2023.10360586
-
     - title: MGaze
       icon: /assets/img/projects/mgaze.svg
       term: 2020
@@ -159,6 +146,19 @@
       links:
         - key: GitHub
           link: https://github.com/nirdslab/multigazeinterations
+
+    - title: StreamingHub
+      icon: /assets/img/projects/streaminghub.png
+      term: 2019-2024
+      commits: "500+"
+      description: |-
+        Built a framework to stream, replay, and simulate biosignals in real time. PhD dissertation.
+      technologies: [Signal Processing, Eye Tracking, EEG, Python, Flask]
+      links:
+        - key: GitHub
+          link: https://github.com/nirdslab/streaminghub
+        - key: Paper
+          link: https://doi.org/10.1145/3529372.3530936
 
     - title: ASD Detection
       icon: /assets/img/projects/asd.svg
@@ -200,7 +200,6 @@
       links:
         - key: Paper
           link: https://doi.org/10.1109/bigdata50022.2020.9377796
-
 
     - title: WSO2 Semantic KB
       icon: /assets/img/wso2.png
