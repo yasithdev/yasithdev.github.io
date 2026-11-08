@@ -8,10 +8,10 @@ layout: null
 
 {{ info.lead }}
 
-As a researcher, I've found:
+I've researched:
 {% for x in info.research %}- {{ x }}
 {% endfor %}
-As an engineer, I've built:
+I've built:
 {% for x in info.engineering %}- {{ x }}
 {% endfor %}
 {{ info.hobby }}
