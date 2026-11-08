@@ -133,7 +133,8 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .timeline { list-style: none; margin: 0; padding: 0; }
 .timeline > li { display: grid; grid-template-columns: var(--logo-md) 1fr; gap: var(--sp-4); padding-bottom: var(--sp-4); position: relative; }
 .timeline > li:not(:last-child)::before { content: ""; position: absolute; left: calc(var(--logo-md) / 2 - 1px); top: calc(var(--logo-md) + var(--sp-1)); bottom: var(--sp-1); width: 2px; background: var(--border); }
-.timeline .role { margin-bottom: var(--sp-1); }
+.timeline .role { margin-bottom: var(--sp-1); font-weight: 500; }
+.timeline .role .meta { font-weight: 400; }
 .timeline ul { margin-bottom: var(--sp-1); list-style: disc; }
 .focus { margin: var(--sp-2) 0 0; }
 .facts { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: var(--sp-1) var(--sp-4); margin: var(--sp-2) 0 0; }

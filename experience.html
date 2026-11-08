@@ -9,7 +9,7 @@ title: Experience
     <div>
       {%- assign parts = e.designation | split: ", " %}
       <div class="head"><h2 class="item-title">{{ parts[0] }}</h2><span class="term">{{ e.term }}</span></div>
-      <div class="role meta">{{ e.affiliation }}{% if parts.size > 1 %} · {{ e.designation | remove_first: parts[0] | remove_first: ", " }}{% endif %}</div>
+      <div class="role">{{ e.affiliation }}{% if parts.size > 1 %} <span class="meta">· {{ e.designation | remove_first: parts[0] | remove_first: ", " }}</span>{% endif %}</div>
       {{ e.description | markdownify }}
     </div>
   </li>
