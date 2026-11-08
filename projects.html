@@ -4,14 +4,16 @@ title: Projects
 ---
 {% for group in site.data.projects %}
 <h2 class="label">{{ group.category }}</h2>
-<div class="cards wide">
+<ul class="plist">
   {% for p in group.projects %}
-  <div class="card">
-    <div class="card-head"><h3 class="card-title">{% if p.icon %}<img class="logo sm" src="{{ p.icon | relative_url }}" alt="">{% endif %}{{ p.title }}</h3><span class="term">{{ p.term }}</span></div>
-    {{ p.description | markdownify }}
-    <div class="tags">{% for t in p.technologies %}<span class="tag">{{ t }}</span>{% endfor %}</div>
-    {% if p.links %}<div class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }} &rarr;</a>{% endfor %}</div>{% endif %}
-  </div>
+  <li>
+    {% if p.icon %}<img class="logo sm" src="{{ p.icon | relative_url }}" alt="">{% else %}<span></span>{% endif %}
+    <div>
+      <div class="head"><h3>{{ p.title }}</h3><span class="term">{{ p.term }}</span></div>
+      {{ p.description | markdownify }}
+      <div class="foot"><span class="meta">{{ p.technologies | join: " · " }}</span>{% if p.links %}<span class="links">{% for l in p.links %}<a href="{{ l.link }}" target="_blank">{{ l.key }}</a>{% endfor %}</span>{% endif %}</div>
+    </div>
+  </li>
   {% endfor %}
-</div>
+</ul>
 {% endfor %}
