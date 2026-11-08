@@ -157,6 +157,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
   display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap; font-size: var(--fs-sm); font-weight: 400;
   color: var(--award); border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
   &::before { content: "🏆 "; }
+  &.commits::before { content: "🔨 "; } /* commit counts: work done, not a prize */
 }
 .pubs-top .stats { color: var(--muted); font-size: var(--fs-sm); strong { color: var(--text); font-weight: 600; } }
 
