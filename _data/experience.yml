@@ -46,7 +46,7 @@
   designation: Summer Graduate Research Intern
   term: Summer 2021, 2022
   description: |-
-    - Built a Python service that archives web pages cited in PDFs.
+    - Built PDF Server for the LANL Research Library, archiving URLs cited in PDFs against link rot.
     - Published a LANL technical report on it.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
