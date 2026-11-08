@@ -3,8 +3,8 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Building Cybershuttle: connect data and code to HPC, cloud, and local compute, and run experiments from anywhere.
-    - Build and maintain Apache Airavata and Custos with the ARTISAN team.
+    - Building Cybershuttle, to run experiments on HPC, cloud, or local compute from anywhere.
+    - Build and maintain Apache Airavata and Custos.
 
 - affiliation: Marketrix AI, USA
   logo: /assets/img/marketrix.jpg
@@ -12,7 +12,7 @@
   term: Est. 2024
   description: |-
     - Building AI buyer personas that answer what-if questions.
-    - 259M U.S. personas, built from real conversations and calibrated to census data.
+    - 259M U.S. personas from real conversations, calibrated to census data.
 
 - affiliation: Old Dominion University, USA
   logo: /assets/img/odu.png
@@ -23,7 +23,7 @@
     - Built webcam eye trackers for UCSD.
     - Built ASDtect, a 90%-accurate EEG autism detector, for IUPUC.
     - Built StreamingHub, Python SDKs for real-time biosignals.
-    - Built HACS, an efficient crawl scheduler for academic web pages.
+    - Built HACS, a crawl scheduler for academic web pages.
     - Taught core CS courses as a TA.
 
 - affiliation: Harvard University, USA
@@ -31,7 +31,7 @@
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    - Built an outlier detector so ML models can be trusted in clinics.
+    - Built an outlier detector so clinics can trust ML models.
     - Trained models to spot antimicrobial-resistant bacteria in single-cell images.
     - Modeled light in multimode fibers with Neural ODEs.
 
@@ -40,7 +40,7 @@
   designation: Summer Graduate Research Intern
   term: Jun 2021 - Aug 2021
   description: |-
-    - Built a PDF archiver that saves cited web pages, so references survive broken links and content changes.
+    - Built a PDF archiver that saves cited web pages before links break or content changes.
 
 - affiliation: DesignBoo (PVT) Ltd, Sri Lanka
   logo: /assets/img/designboo.png
@@ -63,6 +63,6 @@
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    - Built Suzy, an AI chatbot for WSO2 support questions.
-    - Built crawlers, vectorizers, and indexers for WSO2 docs.
+    - Built Suzy, an AI chatbot for support questions.
+    - Built crawlers, vectorizers, and indexers for the docs.
     - Connected Suzy to Facebook Chat via DialogFlow.
