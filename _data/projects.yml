@@ -22,7 +22,7 @@
       icon: /assets/img/projects/airavata.png
       term: 2024-Present
       description: |-
-        290+ commits to science gateway middleware: Keycloak sign-in, Python SDK, unified database.
+        Built Keycloak sign-in, a Python SDK, and a unified database for science gateways (290+ commits).
       technologies: [Distributed Systems, High-Performance Computing (HPC), Java, Python, Apache Thrift, Keycloak]
       links:
         - key: GitHub
@@ -32,7 +32,7 @@
       icon: /assets/img/projects/custos.svg
       term: 2026
       description: |-
-        Co-built HPC account provisioning from university sign-ins. Added OAuth2 device-flow login via PAM.
+        Built HPC account provisioning from university sign-ins, with OAuth2 device-flow login via PAM.
       technologies: [OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC), Go, C++, PostgreSQL]
       links:
         - key: GitHub
@@ -54,7 +54,7 @@
       icon: /assets/img/apache.png
       term: 2019
       description: |-
-        Wrote Dockerfiles for every OODT component, and a Maven archetype that generates them.
+        Built Dockerfiles for every OODT component, and a Maven archetype that generates them.
       technologies: [Docker, Java]
       links:
         - key: GitHub
@@ -74,10 +74,10 @@
       icon: /assets/img/projects/thegpservice.png
       term: 2018
       description: |-
-        Built UK telehealth web and mobile apps. Added SSO and CI/CD; cut AWS costs 30%.
+        Built UK telehealth web and mobile apps, SSO, and CI/CD; cut AWS costs 30%.
       technologies: [React Native, Angular, Java, AWS, CI/CD, Docker]
 
-    - title: Smaller Projects
+    - title: Mini Projects
       icon: /assets/img/projects/misc.svg
       term: 2016-2019
       description: |-
@@ -121,7 +121,7 @@
       icon: /assets/img/harvard.png
       term: 2022-2024
       description: |-
-        Detected antibiotic-resistant bacteria with capsule networks; flagged unfamiliar inputs.
+        Trained capsule networks to detect antimicrobial-resistant bacteria. Proposed an unfamiliar-input test.
       technologies: [Deep Learning, Computer Vision, Statistical Modeling, PyTorch, TensorFlow, Python]
       links:
         - key: Paper
@@ -133,7 +133,7 @@
       icon: /assets/img/projects/attention.svg
       term: 2021-2025
       description: |-
-        Estimated attention from eye movements and mental effort from pupil size, in real time.
+        Proposed real-time measures of attention from eye movements and mental effort from pupil size.
       technologies: [Eye Tracking, Signal Processing, Statistical Modeling, Python, NumPy]
       links:
         - key: Paper
@@ -155,7 +155,7 @@
       icon: /assets/img/projects/mgaze.svg
       term: 2020
       description: |-
-        Co-built multi-user webcam eye tracking in the browser for UCSD.
+        Built multi-user webcam eye tracking in the browser for UCSD.
       technologies: [Eye Tracking, Computer Vision, OpenCV, TensorFlow, JavaScript, Python]
       links:
         - key: GitHub
@@ -165,7 +165,7 @@
       icon: /assets/img/projects/asd.svg
       term: 2019
       description: |-
-        Predicted autism from EEG and thermography. Best Student Paper, IEEE IRI 2019.
+        Trained models that predict autism from EEG and thermography. Best Student Paper, IEEE IRI 2019.
       technologies: [Machine Learning, EEG, Signal Processing, TensorFlow, Python]
       links:
         - key: GitHub
@@ -177,7 +177,7 @@
       icon: /assets/img/projects/drivendata.png
       term: 2017
       description: |-
-        Forecast dengue cases from weather data. Ranked #1 in a 2017 DrivenData competition.
+        Trained models that forecast dengue cases from weather data. Ranked #1 on DrivenData (2017).
       technologies: [Machine Learning, Data Analysis, Scikit-learn, Pandas, Python]
 
 - category: Web Archiving & Information Retrieval
