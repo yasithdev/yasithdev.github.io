@@ -1,16 +1,21 @@
 name: Yasith Jayawardana, PhD
-lead: Human sensing researcher (PhD, CS) and systems engineer (BSc, CSE)
-research:
-  - Eye-movement measures of attention and effort
-  - EEG markers of autistic traits
-  - Model reliability measures for unseen data
-  - Buyer personas built from real conversations
-engineering:
-  - Research tools to sync, merge, and analyze biosignals
-  - Plugins to access HPC from VS Code and Jupyter
-  - Platforms to automate HPC account management
-  - Services to snapshot web pages cited in papers
-hobby: In my spare time, I make music
+about:
+  title: About Me
+  lead: Human sensing researcher (PhD, CS) and systems engineer (BSc, CSE)
+  lists:
+    - label: Things I've researched
+      items:
+        - Eye-movement measures of attention and effort
+        - EEG markers of autistic traits
+        - Model reliability measures for unseen data
+        - Buyer personas built from real conversations
+    - label: Things I've built
+      items:
+        - Research tools to sync, merge, and analyze biosignals
+        - Plugins to access HPC from VS Code and Jupyter
+        - Platforms to automate HPC account management
+        - Services to snapshot web pages cited in papers
+  hobby: In my spare time, I make music
 affiliation: Georgia Institute of Technology
 address:
   - Center for AI in Science and Engineering (ARTISAN)
@@ -18,40 +23,44 @@ address:
   - Atlanta, GA
 email: yasith@gatech.edu
 image: /assets/img/dp.jpg
-gs: tY4R8rYAAAAJ
 # Google Scholar on 2026-11-07 (786 citations, h-index 11); citations shown as a floor so it stays true
 citations: "780+"
 h_index: 11
-cv: /assets/cv.pdf
-active:
-  - name: CS Bridge
-    icon: /assets/img/projects/csbridge.png
-    link: https://github.com/cyber-shuttle/cs-bridge
-    description: Run VS Code in Slurm jobs from your editor
-  - name: CS Jupyter
-    icon: /assets/img/projects/csbridge.png
-    link: https://github.com/cyber-shuttle/cs-jupyter
-    description: Run Jupyter in Slurm jobs from your browser
-  - name: Linkspan
-    icon: /assets/img/projects/csbridge.png
-    link: https://github.com/cyber-shuttle/linkspan
-    description: "Control plane for Slurm jobs: open Jupyter, VS Code, or a terminal"
-  - name: Apache Airavata
-    icon: /assets/img/projects/airavata.png
-    link: https://github.com/apache/airavata
-    description: Run experiments on HPC and cloud. Control plane for Cybershuttle
-  - name: Airavata Custos
-    icon: /assets/img/projects/custos.svg
-    link: https://github.com/apache/airavata-custos
-    description: Automate HPC accounts, from approval to Slurm access
-  - name: StreamingHub
-    icon: /assets/img/projects/streaminghub.png
-    link: https://github.com/nirdslab/streaminghub
-    description: Stream, replay, and simulate biosignals in real time
-social:
-  facebook_username: yasithdev
-  github_username: yasithdev
-  instagram_username: yasithmilinda
-  linkedin_username: yasithdev
-  twitter_username: yasithdev
-  youtube_username: '@yasithdev'
+open_source:
+  title: Open Source
+  projects:
+    - name: CS Bridge
+      icon: /assets/img/projects/csbridge.png
+      link: https://github.com/cyber-shuttle/cs-bridge
+      description: Run VS Code in Slurm jobs from your editor
+    - name: CS Jupyter
+      icon: /assets/img/projects/csbridge.png
+      link: https://github.com/cyber-shuttle/cs-jupyter
+      description: Run Jupyter in Slurm jobs from your browser
+    - name: Linkspan
+      icon: /assets/img/projects/csbridge.png
+      link: https://github.com/cyber-shuttle/linkspan
+      description: "Control plane for Slurm jobs: open Jupyter, VS Code, or a terminal"
+    - name: Apache Airavata
+      icon: /assets/img/projects/airavata.png
+      link: https://github.com/apache/airavata
+      description: Run experiments on HPC and cloud. Control plane for Cybershuttle
+    - name: Airavata Custos
+      icon: /assets/img/projects/custos.svg
+      link: https://github.com/apache/airavata-custos
+      description: Automate HPC accounts, from approval to Slurm access
+    - name: StreamingHub
+      icon: /assets/img/projects/streaminghub.png
+      link: https://github.com/nirdslab/streaminghub
+      description: Stream, replay, and simulate biosignals in real time
+# Profile links. `home` shows a button on the home page; `footer` shows an icon in the footer.
+# `icon` names an entry in _data/icons.yml or a symbol in minima-social-icons.svg.
+links:
+  - {name: CV, url: /assets/cv.pdf, icon: cv, home: true}
+  - {name: Google Scholar, url: "https://scholar.google.com/citations?user=tY4R8rYAAAAJ", icon: scholar, home: true}
+  - {name: Facebook, url: "https://www.facebook.com/yasithdev", icon: facebook, footer: true}
+  - {name: GitHub, url: "https://github.com/yasithdev", icon: github, home: true, footer: true}
+  - {name: Instagram, url: "https://instagram.com/yasithmilinda", icon: instagram, footer: true}
+  - {name: LinkedIn, url: "https://www.linkedin.com/in/yasithdev", icon: linkedin, home: true, footer: true}
+  - {name: Twitter, url: "https://www.twitter.com/yasithdev", icon: twitter, footer: true}
+  - {name: YouTube, url: "https://youtube.com/@yasithdev", icon: youtube, footer: true}

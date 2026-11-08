@@ -111,7 +111,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .bio { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--sp-4); margin-top: var(--sp-6);
   ul { margin: 0 0 0 1.1rem; color: var(--muted); font-size: var(--fs-sm); }
   .label { display: block; margin: 0 0 var(--sp-1); color: var(--muted); font-size: 0.7rem; font-weight: 700; }
-  .hobby { grid-column: 1 / -1; margin: 0; color: var(--muted); font-style: italic; }
+  .hobby { grid-column: 1 / -1; margin: 0; }
 }
 @media (max-width: 600px) { .bio { grid-template-columns: 1fr; } }
 

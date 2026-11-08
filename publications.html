@@ -2,7 +2,10 @@
 layout: default
 title: Publications
 ---
-<div class="pubs-top"><p class="meta">Full list and citations on <a href="https://scholar.google.com/citations?user={{ site.data.info.gs }}" target="_blank">Google Scholar</a>.</p><p class="stats"><strong>{{ site.data.info.citations }}</strong> citations · h-index <strong>{{ site.data.info.h_index }}</strong></p></div>
+{%- assign info = site.data.info -%}
+{%- assign scholar = info.links | where: "icon", "scholar" | first -%}
+{%- assign me = info.name | split: ", " | first -%}
+<div class="pubs-top"><p class="meta">Full list and citations on <a href="{{ scholar.url }}" target="_blank">{{ scholar.name }}</a>.</p><p class="stats"><strong>{{ info.citations }}</strong> citations · h-index <strong>{{ info.h_index }}</strong></p></div>
 {% for group in site.data.publications %}
 <h2 class="label">{{ group.type }}</h2>
 <ul class="pubs">
@@ -11,7 +14,7 @@ title: Publications
   {%- elsif pub.arxiv -%}{%- capture url -%}https://arxiv.org/abs/{{ pub.arxiv }}{%- endcapture -%}
   {%- else -%}{%- assign url = nil -%}{%- endif -%}
   {%- assign names = pub.authors | split: ", " -%}
-  {%- for n in names -%}{%- if n == "Yasith Jayawardana" -%}{%- assign pos = forloop.index -%}{%- endif -%}{%- endfor %}
+  {%- for n in names -%}{%- if n == me -%}{%- assign pos = forloop.index -%}{%- endif -%}{%- endfor %}
   <li data-pos="{{ pos }}" title="Author #{{ pos }}">
     <div>
     <div><a href="{{ url | default: "#" }}" target="_blank">{{ pub.title }}</a>{% if pub.extra %} <span class="award">{{ pub.extra }}</span>{% endif %}</div>
