@@ -151,9 +151,9 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
   -webkit-mask: $paper; mask: $paper;
 }
 .pubs .authors strong { color: var(--text); font-weight: 600; }
-/* Awards (papers, projects): a gold pill with a trophy; size and weight follow the row it sits in */
+/* Awards (papers, projects): a gold pill with a trophy, in small regular text wherever it sits */
 .award {
-  display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap;
+  display: inline-block; margin-left: var(--sp-1); padding: 0 var(--sp-2); border-radius: var(--r-pill); white-space: nowrap; font-size: var(--fs-sm); font-weight: 400;
   color: var(--award); border: 1px solid currentColor; background: color-mix(in srgb, var(--award) 12%, transparent);
   &::before { content: "🏆 "; }
 }
