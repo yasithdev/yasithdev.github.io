@@ -5,7 +5,7 @@
       term: 2024-Present
       commits: "490+"
       description: |-
-        Built CS Bridge, CS Jupyter, Linkspan, and cs-plane: IDEs on Slurm nodes, no inbound ports.
+        Built tools that run VS Code, Jupyter, and terminals in Slurm jobs from your laptop.
       technologies: [High-Performance Computing (HPC), Slurm, Jupyter, TypeScript, Go, WebSockets]
       links:
         - key: GitHub
@@ -29,7 +29,7 @@
       term: 2026
       commits: "70+"
       description: |-
-        Built middleware that keeps HPC accounts, allocations, and Slurm access in sync.
+        Built middleware that automates HPC account management, from approval to Slurm access.
       technologies: [OpenID Connect (OIDC), High-Performance Computing (HPC), Slurm, Go, Next.js, PostgreSQL]
       links:
         - key: GitHub
@@ -41,7 +41,7 @@
       icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
-        Built a Dockerized Slurm 24.05 cluster with REST, and nexusctl, a Go admin CLI.
+        Built a Slurm cluster with REST in Docker, plus nexusctl, a Go admin CLI.
       technologies: [Slurm, High-Performance Computing (HPC), REST APIs, Go, Docker]
       links:
         - key: GitHub

@@ -3,8 +3,8 @@
   designation: Research Scientist II, Center for AI in Science and Engineering (ARTISAN)
   term: Sep 2024 - Present
   description: |-
-    - Build Cybershuttle's VS Code and Jupyter tools that run IDEs on Slurm nodes (TypeScript, Go).
-    - Build Custos, which keeps HPC accounts, allocations, and Slurm access in sync (Go).
+    - Build Cybershuttle tools that run VS Code, Jupyter, and terminals in Slurm jobs (TypeScript, Go).
+    - Build Custos, which automates HPC account management (Go).
     - Built Keycloak token auth and a generated Python SDK for Apache Airavata (Java).
     - Built an OpenFold port to current PyTorch and Lightning; trained it on NCSA Delta.
     - Published Cybershuttle and Custos at PEARC '24 and '26.
@@ -23,7 +23,7 @@
   designation: Graduate Assistant, Department of Computer Science
   term: Jan 2019 - Aug 2024
   description: |-
-    - Built StreamingHub, Python SDKs for real-time biosignal processing (PhD dissertation).
+    - Built StreamingHub to stream, replay, and simulate biosignals in real time (PhD).
     - Proposed eye-tracking measures of ADHD, attention, and mental effort.
     - Built webcam eye trackers for UCSD, using computer vision.
     - Trained ASDtect, a 90%-accurate EEG model for autism, for IUPUC.
