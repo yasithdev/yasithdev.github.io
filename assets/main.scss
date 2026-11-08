@@ -141,4 +141,7 @@ h3, .item-title { font-size: var(--fs-base); font-weight: 600; margin: 0; }
 .pubs .authors strong { color: var(--text); font-weight: 600; }
 .pubs .award { color: var(--award); font-weight: 600; }
 
+/* Background particle network (assets/js/particles.js) */
+#particles { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+
 .embed { border: 0; border-radius: var(--r-md); margin-top: var(--sp-2); }
