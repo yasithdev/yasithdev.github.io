@@ -1,9 +1,10 @@
 name: Yasith Jayawardana, PhD
 about: >-
-  Research Scientist at Georgia Tech, building Cybershuttle and contributing to Apache Airavata and Custos.
-  Co-founder of Marketrix AI, where Persona OS turns what people say and do into AI buyer personas.
-  PhD in Computer Science, with research on attention and mental effort from eye movements, EEG markers of autistic traits, and distribution shift. At Harvard, I worked on compressing signals into ODEs.
-  I also make music.
+  Human sensing researcher (PhD, CS) and systems engineer (BS, CSE), now a Research Scientist at Georgia Tech.
+  As co-founder of Marketrix AI, I turn what people say and do into AI buyer personas.
+  As a researcher, I've developed algorithms to estimate attention and mental effort from eye movements, identify EEG markers of autistic traits, compress signals into ODEs, and detect distribution shift.
+  As an engineer, I've built biosignal libraries and research computing platforms.
+  I make music in my spare time.
 affiliation: Georgia Institute of Technology
 address:
   - Center for AI in Science and Engineering (ARTISAN)
