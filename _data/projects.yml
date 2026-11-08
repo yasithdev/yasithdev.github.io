@@ -118,7 +118,6 @@
     - title: Robust Clinical ML
       icon: /assets/img/harvard.png
       term: 2022-2024
-      commits: "300+"
       description: |-
         Trained capsule networks to detect antimicrobial-resistant bacteria. Proposed an unfamiliar-input test.
       technologies: [Deep Learning, Computer Vision, Statistical Modeling, PyTorch, TensorFlow, Python]
