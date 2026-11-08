@@ -9,7 +9,7 @@ title: Education
     <div>
       <div class="head"><h2 class="item-title">{{ e.degree }}</h2><span class="term">{{ e.term }}</span></div>
       <div class="role meta">{{ e.name }}</div>
-      <p class="focus">{{ e.focus }}</p>
+      <p class="focus">{{ e.focus | join: " · " }}</p>
       <dl class="facts">
         <dt>{{ e.thesis.key }}</dt><dd><a href="{{ e.thesis.link }}" target="_blank" rel="noopener">{{ e.thesis.value }}</a></dd>
         <dt>Advisor</dt><dd><a href="{{ e.advisor.link }}" target="_blank" rel="noopener">{{ e.advisor.value }}</a></dd>
