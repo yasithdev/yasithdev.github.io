@@ -31,7 +31,7 @@ active:
   - name: Linkspan
     icon: /assets/img/projects/csbridge.png
     link: https://github.com/cyber-shuttle/linkspan
-    description: Reach Jupyter, VS Code, and terminals in a Slurm job from your laptop
+    description: "Control plane for Slurm jobs: reach Jupyter, VS Code, and terminals from your laptop"
   - name: Apache Airavata
     icon: /assets/img/projects/airavata.png
     link: https://github.com/apache/airavata
