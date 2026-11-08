@@ -1,7 +1,7 @@
 - category: Research Computing
   projects:
     - title: Cybershuttle
-      icon: /assets/img/projects/cybershuttle.png
+      icon: /assets/img/projects/csbridge.png
       term: 2024-Present
       description: |-
         Run Jupyter and VS Code sessions on HPC compute nodes, reachable from a browser or editor, with no inbound ports on the cluster.
@@ -53,7 +53,7 @@
           link: https://github.com/yasithdev/slurmrest
 
     - title: CyberComp
-      icon: /assets/img/projects/cybershuttle.png
+      icon: /assets/img/projects/csbridge.png
       term: 2024
       description: |-
         Define computational experiments by coupling models with execution engines, compose them into larger experiments, and compare their observables.
@@ -78,7 +78,7 @@
 - category: Human Sensing & Machine Learning
   projects:
     - title: StreamingHub
-      icon: /assets/img/projects/streaminghub.svg
+      icon: /assets/img/projects/streaminghub.png
       term: 2019-2024
       description: |-
         A framework to build real-time experiments with multimodal biosignals.
