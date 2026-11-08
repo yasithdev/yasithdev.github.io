@@ -1,55 +1,71 @@
 # Standard (ATS) skill names. y = years of hands-on use, from experience and projects.
+- {n: Bash, y: 8}
 - {n: Eye Tracking, y: 6}
 - {n: EEG, y: 2}
-- {n: Next.js, y: 2}
-- {n: Large Language Models (LLMs), y: 2}
+- {n: Next.js, y: 3}
+- {n: PyTorch Lightning, y: 2}
+- {n: React Native, y: 1}
+- {n: Large Language Models (LLMs), y: 3}
 - {n: Data Analysis, y: 7}
+- {n: Stripe, y: 1}
 - {n: Node.js, y: 4}
 - {n: Microservices, y: 3}
-- {n: React, y: 2}
+- {n: .NET, y: 3}
+- {n: React, y: 4}
 - {n: TensorFlow, y: 4}
 - {n: JavaScript, y: 6}
-- {n: PostgreSQL, y: 2}
-- {n: Computer Vision, y: 2}
+- {n: PostgreSQL, y: 3}
+- {n: Express.js, y: 1}
+- {n: Computer Vision, y: 3}
 - {n: MySQL, y: 2}
 - {n: Retrieval-Augmented Generation (RAG), y: 1}
-- {n: Microsoft Azure, y: 2}
+- {n: Microsoft Azure, y: 3}
+- {n: Tailwind CSS, y: 1}
 - {n: OAuth 2.0, y: 2}
 - {n: Elasticsearch, y: 1}
 - {n: NumPy, y: 7}
 - {n: OpenID Connect (OIDC), y: 2}
+- {n: Helm, y: 2}
 - {n: Distributed Systems, y: 3}
 - {n: Docker, y: 7}
 - {n: Deep Learning, y: 5}
 - {n: Java, y: 5}
+- {n: OpenCV, y: 3}
 - {n: gRPC, y: 2}
-- {n: AI Agents, y: 2}
+- {n: AI Agents, y: 3}
 - {n: Jupyter, y: 2}
 - {n: Linux, y: 8}
+- {n: SciPy, y: 5}
 - {n: Flask, y: 3}
 - {n: Statistical Modeling, y: 3}
-- {n: Go, y: 2}
-- {n: PyTorch, y: 3}
+- {n: Go, y: 3}
+- {n: PyTorch, y: 4}
+- {n: Matplotlib, y: 6}
 - {n: AWS, y: 1}
 - {n: Kubernetes, y: 2}
 - {n: C#, y: 2}
 - {n: Scikit-learn, y: 4}
+- {n: Scrapy, y: 2}
 - {n: Python, y: 9}
 - {n: C++, y: 1}
 - {n: Terraform, y: 1}
 - {n: Angular, y: 1}
+- {n: Playwright, y: 1}
 - {n: High-Performance Computing (HPC), y: 2}
 - {n: Git, y: 9}
 - {n: Web Crawling, y: 3}
 - {n: Redis, y: 2}
+- {n: WebSockets, y: 2}
 - {n: GitHub Actions, y: 2}
 - {n: Machine Learning, y: 8}
 - {n: Slurm, y: 2}
 - {n: Natural Language Processing (NLP), y: 2}
+- {n: WebRTC, y: 1}
 - {n: REST APIs, y: 6}
 - {n: Keycloak, y: 1}
 - {n: Signal Processing, y: 5}
 - {n: Pandas, y: 7}
+- {n: Apache Thrift, y: 2}
 - {n: SQL, y: 5}
 - {n: Information Retrieval, y: 3}
 - {n: TypeScript, y: 3}

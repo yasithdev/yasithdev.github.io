@@ -5,7 +5,7 @@
       term: 2024-Present
       description: |-
         Build CS Bridge, CS Jupyter, and Linkspan to run Jupyter and VS Code on HPC compute nodes from a browser or editor, with no inbound ports.
-      technologies: [TypeScript, Go, Python, High-Performance Computing (HPC), Slurm, Jupyter, OAuth 2.0]
+      technologies: [TypeScript, Go, Python, High-Performance Computing (HPC), Slurm, Jupyter, WebSockets, OAuth 2.0]
       links:
         - key: GitHub
           link: https://github.com/cyber-shuttle
@@ -23,7 +23,7 @@
       term: 2024-Present
       description: |-
         Contributed 290+ commits to science gateway middleware for HPC and cloud, including Keycloak auth and a Python SDK.
-      technologies: [Java, Python, Distributed Systems, High-Performance Computing (HPC), Slurm, Keycloak]
+      technologies: [Java, Python, Go, Apache Thrift, High-Performance Computing (HPC), Slurm, Keycloak]
       links:
         - key: GitHub
           link: https://github.com/apache/airavata
@@ -33,7 +33,7 @@
       term: 2026
       description: |-
         Co-built HPC account provisioning from federated identities, using CILogon, COmanage, and a PAM module for the OAuth2 device flow.
-      technologies: [Go, C++, OAuth 2.0, OpenID Connect (OIDC), High-Performance Computing (HPC)]
+      technologies: [Go, C++, OAuth 2.0, OpenID Connect (OIDC), PostgreSQL, High-Performance Computing (HPC)]
       links:
         - key: GitHub
           link: https://github.com/apache/airavata-custos
@@ -76,14 +76,14 @@
       description: |-
         Built web and mobile apps for a UK doctor-consultation platform.
         Added SSO, CI/CD, and logging; cut AWS costs by 30%.
-      technologies: [Angular, Java, AWS, Docker, CI/CD]
+      technologies: [React Native, Angular, Java, AWS, Docker, CI/CD]
 
     - title: Smaller Projects
       icon: /assets/img/projects/misc.svg
       term: 2016-2018
       description: |-
         Built TourMate (tour booking), Raven (emotion-based feedback), Onion (point-of-sale), MusicSchool, and SQLBackup (.NET backups).
-      technologies: [JavaScript, C#, MySQL]
+      technologies: [JavaScript, React, C#, .NET, MySQL]
       links:
         - key: TourMate
           link: https://github.com/yasithdev/tourmate
@@ -97,7 +97,7 @@
       term: Est. 2024
       description: |-
         Build AI buyer personas that answer what-if questions: 259M U.S. personas from real conversations, calibrated to census data.
-      technologies: [Large Language Models (LLMs), AI Agents, Python, TypeScript]
+      technologies: [Large Language Models (LLMs), AI Agents, Retrieval-Augmented Generation (RAG), Python, TypeScript, Next.js, PostgreSQL]
       links:
         - key: Website
           link: https://marketrix.ai
@@ -121,7 +121,7 @@
       term: 2022-2024
       description: |-
         Trained capsule networks for culture-free detection of antimicrobial-resistant bacteria; flagged near-OOD inputs with permutation tests.
-      technologies: [Python, Deep Learning, Computer Vision, PyTorch, TensorFlow]
+      technologies: [Python, Deep Learning, Computer Vision, PyTorch, PyTorch Lightning, TensorFlow]
       links:
         - key: Paper
           link: https://arxiv.org/abs/2403.14058
@@ -155,7 +155,7 @@
       term: 2020
       description: |-
         Co-built multi-user eye tracking from webcams in the browser: face and iris detection, facial landmarks, and gaze estimation.
-      technologies: [JavaScript, Node.js, Computer Vision, Eye Tracking, TensorFlow]
+      technologies: [Python, JavaScript, Flask, OpenCV, Eye Tracking, TensorFlow]
       links:
         - key: GitHub
           link: https://github.com/nirdslab/multigazeinterations
@@ -206,7 +206,7 @@
       term: 2019
       description: |-
         Built a vertical search engine for jobs in Norfolk, VA, with a crawler, an indexer, and a search interface over local listings.
-      technologies: [Python, Web Crawling, Information Retrieval]
+      technologies: [Python, Scrapy, Elasticsearch, React, Information Retrieval]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/job-search-engine
@@ -216,7 +216,7 @@
       term: 2017
       description: |-
         Built a chatbot for WSO2 support questions, using crawlers, Elasticsearch, and a learned relevance model.
-      technologies: [Python, Natural Language Processing (NLP), Elasticsearch, TensorFlow, Web Crawling]
+      technologies: [Python, Natural Language Processing (NLP), Elasticsearch, Scrapy, Flask, Web Crawling]
       links:
         - key: GitHub
           link: https://github.com/yasithdev/semantic-kb
