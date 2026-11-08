@@ -1,12 +1,56 @@
-- name: AI & Agents
-  items: [LLM Agents, Model Context Protocol (MCP), LiteLLM, Retrieval-Augmented Generation (RAG), Behavior Simulation, OpenTelemetry / Arize Phoenix]
-- name: Human Sensing & ML
-  items: [Eye Tracking, Pupillometry, EEG, Computer-Aided Diagnosis, Deep Learning, PyTorch, TensorFlow, Out-of-Distribution Detection, Neural ODEs]
-- name: Research Computing
-  items: [HPC / Slurm, Science Gateways, Jupyter, VS Code Extensions, CILogon, Keycloak, OAuth2 / OIDC]
-- name: Languages
-  items: [TypeScript, Python, Java, Go, SQL]
-- name: Web & Backend
-  items: [React, Next.js, Bun, Express, oRPC, gRPC, Apache Thrift, Drizzle, PostgreSQL, Redis / Valkey, BullMQ]
-- name: Cloud & DevOps
-  items: [Kubernetes, Argo CD, Helm, Terraform, Docker, Tilt, GitHub Actions, Azure, AWS, SOPS]
+# Standard (ATS) skill names. y = years of hands-on use, from experience and projects.
+- {n: Eye Tracking, y: 6}
+- {n: EEG, y: 2}
+- {n: Next.js, y: 2}
+- {n: Large Language Models (LLMs), y: 2}
+- {n: Data Analysis, y: 7}
+- {n: Node.js, y: 4}
+- {n: Microservices, y: 3}
+- {n: React, y: 2}
+- {n: TensorFlow, y: 4}
+- {n: JavaScript, y: 6}
+- {n: PostgreSQL, y: 2}
+- {n: Computer Vision, y: 2}
+- {n: MySQL, y: 2}
+- {n: Retrieval-Augmented Generation (RAG), y: 1}
+- {n: Microsoft Azure, y: 2}
+- {n: OAuth 2.0, y: 2}
+- {n: Elasticsearch, y: 1}
+- {n: NumPy, y: 7}
+- {n: OpenID Connect (OIDC), y: 2}
+- {n: Distributed Systems, y: 3}
+- {n: Docker, y: 7}
+- {n: Deep Learning, y: 5}
+- {n: Java, y: 5}
+- {n: gRPC, y: 2}
+- {n: AI Agents, y: 2}
+- {n: Jupyter, y: 2}
+- {n: Linux, y: 8}
+- {n: Flask, y: 3}
+- {n: Statistical Modeling, y: 3}
+- {n: Go, y: 2}
+- {n: PyTorch, y: 3}
+- {n: AWS, y: 1}
+- {n: Kubernetes, y: 2}
+- {n: C#, y: 2}
+- {n: Scikit-learn, y: 4}
+- {n: Python, y: 9}
+- {n: C++, y: 1}
+- {n: Terraform, y: 1}
+- {n: Angular, y: 1}
+- {n: High-Performance Computing (HPC), y: 2}
+- {n: Git, y: 9}
+- {n: Web Crawling, y: 3}
+- {n: Redis, y: 2}
+- {n: GitHub Actions, y: 2}
+- {n: Machine Learning, y: 8}
+- {n: Slurm, y: 2}
+- {n: Natural Language Processing (NLP), y: 2}
+- {n: REST APIs, y: 6}
+- {n: Keycloak, y: 1}
+- {n: Signal Processing, y: 5}
+- {n: Pandas, y: 7}
+- {n: SQL, y: 5}
+- {n: Information Retrieval, y: 3}
+- {n: TypeScript, y: 3}
+- {n: CI/CD, y: 4}

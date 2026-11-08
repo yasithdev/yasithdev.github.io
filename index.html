@@ -29,12 +29,9 @@ layout: default
 </div>
 
 <h2>Skills</h2>
-{% for group in site.data.skills %}
-<p>
-  <strong>{{ group.name }}</strong><br />
-  {% for s in group.items %}<span class="tag">{{ s }}</span>{% endfor %}
+<p class="cloud">
+  {% for s in site.data.skills %}<span style="--y:{{ s.y }}" title="{{ s.y }} yr">{{ s.n }}</span> {% endfor %}
 </p>
-{% endfor %}
 
 <h2>Music</h2>
 {% for hobby in site.data.hobbies %}

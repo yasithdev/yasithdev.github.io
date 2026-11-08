@@ -50,6 +50,7 @@ ul { margin-left: 1.2em; }
 .site-nav .menu-icon > svg { fill: var(--muted); }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); }
 .footer-col-wrapper, .contact-list { color: var(--muted); font-size: var(--fs-sm); }
+@media screen and (min-width: 601px) { .footer-col-2 { text-align: center; } .footer-col-3 { text-align: right; } }
 .svg-icon { fill: var(--muted); }
 
 .muted { color: var(--muted); }
@@ -75,6 +76,15 @@ ul { margin-left: 1.2em; }
   background: var(--accent-soft);
   color: var(--text);
   font-size: var(--fs-sm);
+}
+
+/* Skill cloud: size and color grow with years of use (--y) */
+.cloud { text-align: center; line-height: 1.6; }
+.cloud span {
+  display: inline-block;
+  margin: 0 0.15em;
+  font-size: calc(0.7rem + var(--y) * 0.12rem);
+  color: color-mix(in srgb, var(--accent) calc(var(--y) * 11%), var(--muted));
 }
 
 /* Home */
