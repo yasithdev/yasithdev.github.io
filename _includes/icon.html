@@ -1,0 +1,2 @@
+{%- assign body = site.data.icons[include.name] -%}
+<svg {% if include.class %}class="{{ include.class }}" {% endif %}viewBox="0 0 16 16">{% if body %}{{ body }}{% else %}<use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: include.name | relative_url }}"></use>{% endif %}</svg>

@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="text/plain" title="LLM summary" href="{{ "/llms.txt" | relative_url }}">
   {%- assign info = site.data.info -%}
-  {%- assign s = info.social -%}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -22,7 +21,7 @@
     "email": {{ info.email | jsonify }},
     "url": {{ site.url | jsonify }},
     "image": {{ info.image | absolute_url | jsonify }},
-    "sameAs": ["https://github.com/{{ s.github_username }}", "https://www.linkedin.com/in/{{ s.linkedin_username }}", "https://scholar.google.com/citations?user={{ info.gs }}"],
+    "sameAs": {{ info.links | where_exp: "l", "l.url contains '://'" | map: "url" | jsonify }},
     "knowsAbout": {{ site.data.skills | map: "n" | jsonify }}
   }
   </script>

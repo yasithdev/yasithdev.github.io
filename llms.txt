@@ -6,22 +6,18 @@ layout: null
 
 > {{ site.description }}
 
-{{ info.lead }}
-
-I've researched:
-{% for x in info.research %}- {{ x }}
-{% endfor %}
-I've built:
-{% for x in info.engineering %}- {{ x }}
-{% endfor %}
-{{ info.hobby }}
+{%- assign about = info.about %}
+{{ about.lead }}
+{% for list in about.lists %}
+{{ list.label }}:
+{% for x in list.items %}- {{ x }}
+{% endfor %}{% endfor %}
+{{ about.hobby }}
 
 ## Links
-
-- [CV (PDF)]({{ info.cv | absolute_url }})
-- [Google Scholar](https://scholar.google.com/citations?user={{ info.gs }})
-- [GitHub](https://github.com/{{ info.social.github_username }})
-- [LinkedIn](https://www.linkedin.com/in/{{ info.social.linkedin_username }})
+{% for l in info.links %}
+- [{{ l.name }}]({{ l.url | absolute_url }})
+{%- endfor %}
 - Email: {{ info.email }}
 
 ## Pages
@@ -32,6 +28,6 @@ I've built:
 - [Publications]({{ "/publications.html" | absolute_url }})
 
 ## Open source
-{% for p in info.active %}
+{% for p in info.open_source.projects %}
 - [{{ p.name }}]({{ p.link }}): {{ p.description }}
 {%- endfor %}

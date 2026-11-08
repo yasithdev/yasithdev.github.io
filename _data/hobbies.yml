@@ -1,18 +1,18 @@
-- name: Amateur Music Producer
-  links:
-    - key: YouTube
-      link: https://www.youtube.com/@yasithdev
-    - key: Spotify
-      link: https://open.spotify.com/artist/13QNJSaGuciwzHPaIMjqOj
-    - key: Apple Music
-      link: https://music.apple.com/us/artist/yasith-jayawardana/1675938591
-  # Top tracks on Spotify, in Spotify's order (2026-11-07)
-  songs:
-    - {title: Raa Sihine Maa, id: 62xtD5OqiUkk8ByZioLHjm, time: "2:50"}
-    - {title: Numba Ha, id: 0s3a2cFveAwMjIjCTStI9s, time: "2:51"}
-    - {title: Pala Yanne Na Ma, id: 3B6tfODpOWNWBqjQUJn50v, time: "2:23"}
-    - {title: Deviyange Bare, id: 3fNrDAB23twRmOv3Ru7qCc, time: "5:40"}
-    - {title: Adarayak, id: 5PJyzeYwgg7u2m5QPzJpvy, time: "2:17"}
-    - {title: Maath Ekkala, id: 2uYVFm9stWGMdXctVewIGP, time: "3:16"}
-    - {title: Kalpanawe, id: 5h2QzM3DkXkHGsvUSt2peC, time: "1:59"}
-    - {title: Paata Heena, id: 173nX2AjHsE54pZk7uhLpn, time: "2:16"}
+title: Music
+links:
+  - key: YouTube
+    link: https://www.youtube.com/@yasithdev
+  - key: Spotify
+    link: https://open.spotify.com/artist/13QNJSaGuciwzHPaIMjqOj
+  - key: Apple Music
+    link: https://music.apple.com/us/artist/yasith-jayawardana/1675938591
+# Top tracks on Spotify, in Spotify's order (2026-11-07)
+songs:
+  - {title: Raa Sihine Maa, id: 62xtD5OqiUkk8ByZioLHjm, time: "2:50"}
+  - {title: Numba Ha, id: 0s3a2cFveAwMjIjCTStI9s, time: "2:51"}
+  - {title: Pala Yanne Na Ma, id: 3B6tfODpOWNWBqjQUJn50v, time: "2:23"}
+  - {title: Deviyange Bare, id: 3fNrDAB23twRmOv3Ru7qCc, time: "5:40"}
+  - {title: Adarayak, id: 5PJyzeYwgg7u2m5QPzJpvy, time: "2:17"}
+  - {title: Maath Ekkala, id: 2uYVFm9stWGMdXctVewIGP, time: "3:16"}
+  - {title: Kalpanawe, id: 5h2QzM3DkXkHGsvUSt2peC, time: "1:59"}
+  - {title: Paata Heena, id: 173nX2AjHsE54pZk7uhLpn, time: "2:16"}
