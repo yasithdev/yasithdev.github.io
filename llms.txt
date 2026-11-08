@@ -6,7 +6,15 @@ layout: null
 
 > {{ site.description }}
 
-{{ info.about }}
+{{ info.lead }}
+
+As a researcher, I've found:
+{% for x in info.research %}- {{ x }}
+{% endfor %}
+As an engineer, I've built:
+{% for x in info.engineering %}- {{ x }}
+{% endfor %}
+{{ info.hobby }}
 
 ## Links
 

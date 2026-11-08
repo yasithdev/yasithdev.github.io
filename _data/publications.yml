@@ -5,18 +5,21 @@
       in: Journal of Eye Movement Research, MDPI
       year: 2025
       doi: 10.3390/jemr18060070
+      abstract: "Mental effort, a critical factor influencing task performance, is often difficult to measure accurately and efficiently. Pupil diameter has emerged as a reliable, real-time indicator of mental effort. This study introduces RIPA2, an enhanced pupillometric index for real-time mental effort assessment. Building on the original RIPA method, RIPA2 incorporates refined Savitzky-Golay filter parameters to better isolate pupil diameter fluctuations within biologically relevant frequency bands linked to cognitive load. We validated RIPA2 across two distinct tasks: a structured N-back memory task and a naturalistic information search task involving fact-checking and decision-making scenarios. Our findings show that RIPA2 reliably tracks variations in mental effort, demonstrating improved sensitivity and consistency over the original RIPA and strong alignment with the established offline measures of pupil-based cognitive load indices, such as LHIPA. Notably, RIPA2 captured increased mental effort at higher N-back levels and successfully distinguished greater effort during decision-making tasks compared to fact-checking tasks, highlighting its applicability to real-world cognitive demands. These findings suggest that RIPA2 provides a robust, continuous, and low-latency method for assessing mental effort. It holds strong potential for broader use in educational settings, medical environments, workplaces, and adaptive user interfaces, facilitating objective monitoring of mental effort beyond laboratory conditions."
 
     - authors: Yasasi Abeysinghe, Bhanuka Mahanama, Gavindya Jayawardena, Yasith Jayawardana, Mohan Sunkara, Andrew T. Duchowski, Vikas Ashok, Sampath Jayarathna
       title: "A-DisETrac Advanced Analytic Dashboard for Distributed Eye Tracking"
       in: International Journal of Multimedia Data Engineering and Management (IJMDEM), IGI Global
       year: 2024
       doi: 10.4018/ijmdem.341792
+      abstract: "Understanding how individuals focus and perform visual searches during collaborative tasks can help improve user engagement. Eye tracking measures provide informative cues for such understanding. This article presents A-DisETrac, an advanced analytic dashboard for distributed eye tracking. It uses off-the-shelf eye trackers to monitor multiple users in parallel, compute both traditional and advanced gaze measures in real-time, and display them on an interactive dashboard. Using two pilot studies, the system was evaluated in terms of user experience and utility, and compared with existing work. Moreover, the system was used to study how advanced gaze measures such as ambient-focal coefficient K and real-time index of pupillary activity relate to collaborative behavior. It was observed that the time a group takes to complete a puzzle is related to the ambient visual scanning behavior quantified and groups that spent more time had more scanning behavior. User experience questionnaire results suggest that their dashboard provides a comparatively good user experience."
 
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sundararaman Rengarajan, Gavindya Jayawardena, Leanne Chukoskie, Joseph Snider, Sampath Jayarathna
       title: "Eye Movement and Pupil Measures: A Review"
       in: Frontiers in Computer Science, Frontiers Media
       year: 2022
       doi: 10.3389/fcomp.2021.733531
+      abstract: "Our subjective visual experiences involve complex interaction between our eyes, our brain, and the surrounding world. It gives us the sense of sight, color, stereopsis, distance, pattern recognition, motor coordination, and more. The increasing ubiquity of gaze-aware technology brings with it the ability to track gaze and pupil measures with varying degrees of fidelity. With this in mind, a review that considers the various gaze measures becomes increasingly relevant, especially considering our ability to make sense of these signals given different spatio-temporal sampling capacities. In this paper, we selectively review prior work on eye movements and pupil measures. We first describe the main oculomotor events studied in the literature, and their characteristics exploited by different measures. Next, we review various eye movement and pupil measures from prior literature. Finally, we discuss our observations based on applications of these measures, the benefits and practical challenges involving these measures, and our recommendations on future eye-tracking research directions."
       extra: Editor’s Pick
 
 - type: Book Chapters
@@ -26,6 +29,7 @@
       in: Computational Models for Biomedical Reasoning and Problem Solving, IGI Global
       year: 2019
       doi: 10.4018/978-1-5225-7467-5.ch002
+      abstract: "Autism spectrum disorder (ASD) is a developmental disorder that often impairs a child's normal development of the brain. According to CDC, it is estimated that 1 in 6 children in the US suffer from development disorders, and 1 in 68 children in the US suffer from ASD. This condition has a negative impact on a person's ability to hear, socialize, and communicate. Subjective measures often take more time, resources, and have false positives or false negatives. There is a need for efficient objective measures that can help in diagnosing this disease early as possible with less effort. EEG measures the electric signals of the brain via electrodes placed on various places on the scalp. These signals can be used to study complex neuropsychiatric issues. Studies have shown that EEG has the potential to be used as a biomarker for various neurological conditions including ASD. This chapter will outline the usage of EEG measurement for the classification of ASD using machine learning algorithms."
       arxiv: 1907.01515
 
 - type: Conference Proceedings
@@ -35,48 +39,56 @@
       in: Practice and Experience in Advanced Research Computing (PEARC), ACM
       year: 2026
       doi: 10.1145/3785462.3815896
+      abstract: "Provisioning Unix accounts on HPC systems remains a bottleneck: even after a researcher’s identity is verified, translating it into a usable account often involves manual coordination across multiple systems. We present an architecture that composes CILogon, COmanage, LDAP, SSSD, and a PAM-based OAuth 2.0 Device Authorization Grant flow into an end-to-end provisioning chain. A first-time user authenticates through their home institution and obtains a working HPC login with no pre-existing local account, no local passwords, no static SSH keys, and no custom client software. We validated the architecture on Red Hat Enterprise Linux 9 and 10 with SELinux in enforcing mode, documented three deployment pitfalls likely to affect adopting sites, and released the configuration as reusable Ansible scripts. The approach is applicable to campus, regional, and national HPC environments and preserves each institution’s authentication policy, including MFA."
 
     - authors: Gavindya Jayawardena, Yasith Jayawardana, Yasasi Abeysinghe, Bhanuka Mahanama, Sampath Jayarathna, Jacek Gwizdka
       title: "A Real-Time Approach to Capture Ambient and Focal Attention in Visual Search"
       in: ACM Symposium on Eye Tracking Research and Applications (ETRA)
       year: 2025
       doi: 10.1145/3715669.3723111
+      abstract: "During visual search, individuals’ attention shifts between ambient and focal states in response to task demands and stimuli. The ambient/focal coefficient K is a statistically validated measure of these states, computed offline from fixation duration and saccade amplitude data. While current methods compute K offline, real-time computation could enable applications such as monitoring user attention, creating attention-adaptive user interfaces, and optimizing graphics rendering. However, real-time computation of K requires stable estimates for the parameters of fixation duration and saccade amplitude distributions. Since these distributions are heavy-tailed, the real-time estimates exhibit high variance and slow convergence. To overcome this, we propose a robust parametrization and an alternative estimation method, along with two real-time measures analogous to K. Through a map viewing study involving localization and route planning tasks, we show that our proposed measures exhibit dynamics consistent with offline K."
 
     - authors: Yasith Jayawardana, Dimuthu Wannipurage, Eroma Abeysinghe, Suresh Marru
       title: "Enhancing Research Productivity: Seamless Integration of Personal Devices and HPC Resources with the Cybershuttle Notebook Gateway"
       in: Practice and Experience in Advanced Research Computing (PEARC), ACM
       year: 2024
       doi: 10.1145/3626203.3670623
+      abstract: "Scientists often utilize personal laptops and workstations for initial research stages and turn to high-performance computing (HPC) supercomputers for compute-intensive tasks. However, seamless transitions between these environments are vital for enhancing productivity and accelerating research progress. Our paper presents the Cybershuttle Notebook Gateway, an open-source framework crafted to streamline this transition, optimize resource utilization, and reduce time-to-science for researchers. Leveraging JupyterLab, the framework extends kernel mechanics for seamless provisioning and connection to remote HPC cluster kernels. We delve into its architecture, which separates user authentication, kernel provisioning, and remote file system access. Additionally, we highlight practical capabilities like analyzing network load and CPU usage across various computational workloads."
 
     - authors: H. Kariyawasam, S. Jayasinghe, Yasith Jayawardana, Dushan Wadduwage
       title: "Differentiable Modeling of Nonlinear Dynamics in Multimode Fibers"
       in: IEEE Photonics Conference (IPC)
       year: 2023
       doi: 10.1109/ipc57732.2023.10360586
+      abstract: "Optical fibers introduce complex nonlinear effects to optical fields. Differentiable modeling of fibers allows using them in optical machine learning applications. We model multimode fiber dynamics using neural ordinary differential equations for this purpose with promising results."
 
     - authors: Gavindya Jayawardena, Yasith Jayawardana, Sampath Jayarathna, Jonas Högström, Thomas Papa, Deepak Akkil, Andrew T. Duchowski, Vsevolod Peysakhovich, Izabela Krejtz, Nina Gehrer, Krzysztof Krejtz
       title: "Toward a Real-Time Index of Pupillary Activity as an Indicator of Cognitive Load"
       in: International Conference on Knowledge-Based and Intelligent Information & Engineering Systems (KES), Elsevier
       year: 2022
       doi: 10.1016/j.procs.2022.09.189
+      abstract: "The Low/High Index of Pupillary Activity (LHIPA), an eye-tracked measure of pupil diameter oscillation, is redesigned and implemented to function in real-time. The novel Real-time IPA (RIPA) is shown to discriminate cognitive load in re-streamed data from earlier experiments. Rationale for the RIPA is tied to the functioning of the human autonomic nervous system yielding a hybrid measure based on the ratio of Low/High frequencies of pupil oscillation. The paper's contribution is drawn from provision of documentation of the calculation of the RIPA. As with the LHIPA, it is possible for researchers to apply this metric to their own experiments where a measure of cognitive load is of interest."
 
     - authors: Yasith Jayawardana, Vikas G. Ashok, Sampath Jayarathna
       title: "StreamingHub: Interactive Stream Analysis Workflows"
       in: ACM/IEEE Joint Conference on Digital Libraries (JCDL)
       year: 2022
       doi: 10.1145/3529372.3530936
+      abstract: "Reusable data/code and reproducible analyses are foundational to quality research. This aspect, however, is often overlooked when designing interactive stream analysis workflows for time-series data (e.g., eye-tracking data). A mechanism to transmit informative metadata alongside data may allow such workflows to intelligently consume data, propagate metadata to downstream tasks, and thereby auto-generate reusable, reproducible analytic outputs with zero supervision. Moreover, a visual programming interface to design, develop, and execute such workflows may allow rapid prototyping for interdisciplinary research. Capitalizing on these ideas, we propose StreamingHub, a framework to build metadata propagating, interactive stream analysis workflows using visual programming. We conduct two case studies to evaluate the generalizability of our framework. Simultaneously, we use two heuristics to evaluate their computational fluidity and data growth. Results show that our framework generalizes to multiple tasks with a minimal performance overhead."
 
     - authors: Yasith Jayawardana, Gavindya Jayawardena, Andrew Duchowski, Sampath Jayarathna
       title: "Metadata-Driven Eye Tracking for Real-Time Applications"
       in: ACM Symposium on Document Engineering (DocEng)
       year: 2021
       doi: 10.1145/3469096.3474935
+      abstract: "When conducting eye tracking studies, having a mechanism to collect data, build workflows, and validate results in a FAIR (i.e., findable, accessible, interoperable, and reusable) manner, facilitates automation. Given the vast landscape of vendor-specific eye tracking software, adopting FAIR metadata standards for the eye tracking domain is one step towards this. In this paper, we propose an approach to simplify the creation, execution, and validation of eye tracking studies through metadata. Using a metadata format that we developed, we first describe two eye trackers, and two datasets collected using them. Next, we use this metadata to simulate real-time data collection by replaying each dataset. From this replayed data, we analyze eye movements in real-time, and synthesize eye movement data from analytics in real-time. Based on our results, we discuss the utility of metadata in real-time eye tracking studies, and how this idea can be generalized into other applications."
 
     - authors: Yasith Jayawardana, Alexander C. Nwala, Gavindya Jayawardena, Jian Wu, Sampath Jayarathna, Michael L. Nelson, C. Lee Giles
       title: Modeling Updates of Scholarly Webpages Using Archived Data
       in: Computational Archival Science (CAS) Workshop at IEEE BigData
       year: 2020
       doi: 10.1109/bigdata50022.2020.9377796
+      abstract: "The vastness of the web imposes a prohibitive cost on building large-scale search engines with limited resources. Crawl frontiers thus need to be optimized to improve the coverage and freshness of crawled content. In this paper, we propose an approach for modeling the dynamics of change in the web using archived copies of webpages. To evaluate its utility, we conduct a preliminary study on the scholarly web using 19,977 seed URLs of authors’ homepages obtained from their Google Scholar profiles. We first obtain archived copies of these webpages from the Internet Archive (IA), and estimate when their actual updates occurred. Next, we apply maximum likelihood to estimate their mean update frequency (λ) values. Our evaluation shows that λ values derived from a short history of archived data provide a good estimate for the true update frequency in the short-term, and that our method provides better estimations of updates at a fraction of resources compared to the baseline models. Based on this, we demonstrate the utility of archived data to optimize the crawling strategy of web crawlers, and uncover important challenges that inspire future research directions."
       arxiv: 2012.03397
 
     - authors: Bhanuka Mahanama, Yasith Jayawardana, Sampath Jayarathna
@@ -84,6 +96,7 @@
       in: Augmented Human International Conference (AH), ACM
       year: 2020
       doi: 10.1145/3396339.3396393
+      abstract: "Recent studies on appearance based gaze estimation indicate the ability of Neural Networks to decode gaze information from facial images encompassing pose information. In this paper, we propose Gaze-Net: A capsule network capable of decoding, representing, and estimating gaze information from ocular region images. We evaluate our proposed system using two publicly available datasets, MPIIGaze (200,000+ images in the wild) and Columbia Gaze (5000+ images of users with 21 gaze directions observed at 5 camera angles/positions). Our model achieves a Mean Absolute Error (MAE) of 2.84° for Combined angle error estimate within dataset for MPI-IGaze dataset. Further, model achieves a MAE of 10.04° for across dataset gaze estimation error for Columbia gaze dataset. Through transfer learning, the error is reduced to 5.9°. The results show this approach is promising with implications towards using commodity webcams to develop low-cost multi-user gaze tracking systems."
       arxiv: 2004.07777
 
     - authors: Yasith Jayawardana, Sampath Jayarathna
@@ -91,6 +104,7 @@
       in: ACM/IEEE Joint Conference on Digital Libraries (JCDL)
       year: 2020
       doi: 10.1145/3383583.3398589
+      abstract: "Researchers reuse data from past studies to avoid costly re-collection of experimental data. However, large-scale data reuse is challenging due to lack of consensus on metadata representations among research groups and disciplines. Dataset File System (DFS) is a semi-structured data description format that promotes such consensus by standardizing the semantics of data description, storage, and retrieval. In this paper, we present analytic-streams - a specification for streaming data analytics with DFS, and streaming-hub - a visual programming toolkit built on DFS to simplify data analysis workflows. Analytic-streams facilitate higher-order data analysis with less computational overhead, while streaming-hub enables storage, retrieval, manipulation, and visualization of data and analytics. We discuss how they simplify data pre-processing, aggregation, and visualization, and their implications on data analysis workflows."
       extra: Nominated for Best Poster
 
     - authors: Dilantha Haputhanthri, Gunavaran Brihadiswaran, Sahan Gunathilaka, Dulani Meedeniya, Yasith Jayawardana, Sampath Jayarathna, Mark Jaime
@@ -98,12 +112,14 @@
       in: International Multidisciplinary Engineering Research Conference (MERCon), IEEE
       year: 2019
       doi: 10.1109/mercon.2019.8818814
+      abstract: "Autism Spectrum Disorder (ASD) is a neurodevelopmental condition which affects a person's cognition and behaviour. It is a lifelong condition which cannot be cured completely using any intervention to date. However, early diagnosis and follow-up treatments have a major impact on autistic people. Unfortunately, the current diagnostic practices, which are subjective and behaviour dependent, delay the diagnosis at an early age and makes it harder to distinguish autism from other developmental disorders. Several works of literature explore the possible behaviour-independent measures to diagnose ASD. Abnormalities in EEG can be used as reliable biomarkers to diagnose ASD. This work presents a low-cost and straightforward diagnostic approach to classify ASD based on EEG signal processing and learning models. Possibilities to use a minimum number of EEG channels have been explored. Statistical features are extracted from noise filtered EEG data before and after Discrete Wavelet Transform. Relevant features and EEG channels were selected using correlation-based feature selection. Several learning models and feature vectors have been studied and possibilities to use the minimum number of EEG channels have also been explored. Using Random Forest and Correlation-based Feature Selection, an accuracy level of 93% was obtained."
 
     - authors: Yasith Jayawardana, Mark Jaime, Sampath Jayarathna
       title: Analysis of Temporal Relationships between ASD and Brain Activity through EEG and Machine Learning
       in: International Conference on Information Reuse and Integration for Data Science (IRI), IEEE
       year: 2019
       doi: 10.1109/iri.2019.00035
+      abstract: "Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that impairs normative social cognitive and communicative function. Early diagnosis is crucial for the timely and efficacious treatment of ASD. The Autism Diagnostic Observation Schedule Second Edition (ADOS-2) is the current gold standard for diagnosing ASD. In this paper, we analyse the short-term and long-term relationships between ASD and brain activity using Electroencephalography (EEG) readings taken during the administration of ADOS-2. These readings were collected from 8 children diagnosed with ASD, and 9 low risk controls. We derive power spectrums for each electrode through frequency band decomposition and through wavelet transforms relative to a baseline, and generate two sets of training data that captures long-term and short-term trends respectively. We utilize machine learning models to predict the ASD diagnosis and the ADOS-2 scores, which provide an estimate for the presence of such trends. When evaluating short-term dependencies, we obtain a maximum of 56% accuracy of classification through linear models. Non-linear models provide a classification above 92% accuracy, and predicted ADOS-2 scores within an RMSE of 4. We use a CNN model to evaluate the long-term trends, and obtain a classification accuracy above 90%. Our findings have implications for using EEG as a non-invasive bio-marker for ASD with minimal feature manipulation and computational overhead."
       extra: Best Student Paper
 
     - authors: Yasith Jayawardana, Sampath Jayarathna
@@ -111,6 +127,7 @@
       in: ACM/IEEE Joint Conference on Digital Libraries (JCDL)
       year: 2019
       doi: 10.1109/jcdl.2019.00068
+      abstract: "Many research questions can be answered quickly and efficiently using data already collected for previous research. This practice is called secondary data analysis, and has gained popularity due to lower costs and improved research efficiency. In this paper we propose DFS, a file system to standardize the metadata representation of datasets, and DDU, a scalable architecture based on DFS for semi-automated metadata generation and data recommendation on the cloud, and explores their implications on datasets stored in digital libraries."
       arxiv: 1905.13363
       extra: Nominated for Best Poster
 
@@ -119,6 +136,7 @@
       in: International Conference on Advances in ICT for Emerging Regions (ICTer), IEEE
       year: 2018
       doi: 10.1109/icter.2018.8615473
+      abstract: "Microservices architecture is widely adopted in modern systems when scalability and code maintainability is a concern. It is more flexible than monolithic architecture and ensures a smooth transition into cloud-native environments. This paper presents a novel approach to model both business processes and domain knowledge in a unified specification that could produce boilerplate code compliant with microservices architecture. It also introduces MSstack, our full-stack framework for creating business process pipelines using microservices architecture, with built-in logging, monitoring, load balancing, and scaling capabilities. Together, they enable developers to create a domain model, convert it to domain-specific boilerplate code, and implement business logic on it, while abstracting the complexities of microservices and accelerating development. To evaluate this approach, a sample business process was implemented using MSstack, Spring Boot 2.0 and MSF4J 2.4.0 respectively and tested up to a concurrency of 300 users. Results show that their peak request throughputs are 81044 s-1, 60283 s-1and 23781 s-1respectively. The maximum latency observed in MSstack is 1ms lower than MSF4J, and 6.0 ms lower than Spring Boot. Heap memory usage of MSstack is lower than the rest. Its CPU usage is on par with MSF4J, but lower than of Spring Boot."
 
 - type: Posters
   publications:
@@ -127,12 +145,14 @@
       in: Poster, Figshare
       year: 2026
       doi: 10.6084/m9.figshare.33681811
+      abstract: "Computational research increasingly relies on scientific software, data, AI models, and heterogeneous computing resources that are often fragmented across different environments. This fragmentation creates technical barriers that can limit efficient, accessible, and reproducible research. Cybershuttle reduces these barriers by simplifying how researchers conduct computational science across distributed cyberinfrastructure. By reducing the complexity of distributed cyberinfrastructure, Cybershuttle enables researchers across diverse scientific domains to focus on scientific discovery rather than the underlying computing infrastructure."
 
     - authors: Cameron Smith, Mark S. Shephard, Eroma Abeysinghe, Jason M. TenBarge, James Juno, Lahiru Jayathilake, Yasith Jayawardana
       title: "Plasma Science and Space Weather: Outreach and Software Advancements"
       in: Poster, Figshare
       year: 2026
       doi: 10.6084/m9.figshare.33438571
+      abstract: "The goal is to provide an environment to support scientists in the execution of automated, reliable, plasma and space weather analyses. Towards this, project activities include defining CI for analysis workflows on high performance computing systems, advancing key Gkeyll simulation capabilities to support these workflows, and integration and development of ML based tools to further automation. CI and outreach efforts focused on a NASA Heliophysics lab on reconnection using a Jupyter Notebook. Gkeyll developments focused on solvers, solver coupling, and embedded objects with curved surfaces. An ML based magnetic reconnection classifier is also presented."
 
 - type: Preprints, Theses, and Reports
   publications:
@@ -141,6 +161,7 @@
       in: arXiv preprint
       year: 2024
       arxiv: 2403.14058
+      abstract: "Deep neural networks (DNNs) have the potential to power many biomedical workflows, but training them on truly representative, IID datasets is often infeasible. Most models instead rely on biased or incomplete data, making them prone to out-of-distribution (OoD) inputs that closely resemble in-distribution samples. Such near-OoD cases are harder to detect than standard OOD benchmarks and can cause unreliable, even catastrophic, predictions. Biomedical assays, however, offer a unique opportunity: they often generate multiple correlated measurements per specimen through biological or technical replicates. Exploiting this insight, we introduce Homogeneous OoD (HOoD), a novel OoD detection framework for correlated data. HOoD projects groups of correlated measurements through a trained model and uses permutation-based hypothesis tests to compare them with known subpopulations. Each test yields an interpretable p-value, quantifying how well a group matches a subpopulation. By aggregating these p-values, HOoD reliably identifies OoD groups. In evaluations, HOoD consistently outperforms point-wise and ensemble-based OoD detectors, demonstrating its promise for robust real-world deployment."
 
     - authors: Yasith Jayawardana
       title: "StreamingHub: A Realtime Biosignal Processing Framework for Lab Scale Experimentation"

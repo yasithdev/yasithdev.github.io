@@ -10,13 +10,41 @@ title: Publications
   {%- if pub.doi -%}{%- capture url -%}https://doi.org/{{ pub.doi }}{%- endcapture -%}
   {%- elsif pub.arxiv -%}{%- capture url -%}https://arxiv.org/abs/{{ pub.arxiv }}{%- endcapture -%}
   {%- else -%}{%- assign url = nil -%}{%- endif -%}
-  <li>
-    <div class="head">{% if url %}<a href="{{ url }}" target="_blank">{{ pub.title }}</a>{% else %}<span>{{ pub.title }}</span>{% endif %}<span class="term">{{ pub.year }}</span></div>
-    {%- assign names = pub.authors | split: ", " -%}
-    {%- if names.size > 8 -%}{%- assign lead = names | slice: 0, 3 | join: ", " -%}{%- capture authors -%}{{ lead }}, …{% unless lead contains "Yasith Jayawardana" %}, Yasith Jayawardana{% endunless %} ({{ names.size }} authors){%- endcapture -%}{%- else -%}{%- assign authors = pub.authors -%}{%- endif %}
-    <div class="authors meta">{{ authors | replace: "Yasith Jayawardana", "<strong>Yasith Jayawardana</strong>" }}</div>
-    <div class="venue meta">{{ pub.in }}{% if pub.extra %} <span class="award">{{ pub.extra }}</span>{% endif %}</div>
+  {%- assign names = pub.authors | split: ", " -%}
+  {%- for n in names -%}{%- if n == "Yasith Jayawardana" -%}{%- assign pos = forloop.index -%}{%- endif -%}{%- endfor %}
+  <li data-pos="{{ pos }}" title="Author #{{ pos }}">
+    <div>
+    <div><a href="{{ url | default: "#" }}" target="_blank">{{ pub.title }}</a>{% if pub.extra %} <span class="award">{{ pub.extra }}</span>{% endif %}</div>
+    <div class="venue meta">{{ pub.in }}</div>
+    <template><p class="meta">{{ pub.authors }}</p>{% if pub.abstract %}<p>{{ pub.abstract }}</p>{% endif %}</template>
+    </div>
+    <span class="term">{{ pub.year }}</span>
   </li>
   {% endfor %}
 </ul>
 {% endfor %}
+
+<dialog id="paper" class="paper-pop"><div>
+  <button class="close" aria-label="Close">×</button>
+  <h2></h2>
+  <p class="venue meta"></p>
+  <div class="body"></div>
+</div></dialog>
+<script>
+  // Clicking a paper title opens a popup with its authors, venue and abstract; the popup title links to the paper.
+  const pop = document.getElementById("paper");
+  document.querySelectorAll(".pubs li").forEach((li) => {
+    const a = li.querySelector("div > div:first-child > a");
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      const h = pop.querySelector("h2");
+      if (a.getAttribute("href") === "#") h.textContent = a.textContent;
+      else { const link = Object.assign(document.createElement("a"), { href: a.href, target: "_blank", rel: "noopener", textContent: a.textContent }); h.replaceChildren(link); }
+      pop.querySelector(".venue").textContent = li.querySelector(".venue").textContent;
+      pop.querySelector(".body").replaceChildren(li.querySelector("template").content.cloneNode(true));
+      pop.showModal();
+    });
+  });
+  pop.querySelector(".close").onclick = () => pop.close();
+  pop.addEventListener("click", (e) => { if (e.target === pop) pop.close(); });
+</script>
