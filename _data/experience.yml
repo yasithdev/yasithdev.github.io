@@ -25,8 +25,8 @@
   description: |-
     - Built StreamingHub, Python SDKs for real-time biosignal processing (PhD dissertation).
     - Proposed eye-tracking measures of ADHD, attention, and mental effort.
-    - Trained ASDtect, a 90%-accurate EEG model for autism, for IUPUC.
     - Built webcam eye trackers for UCSD, using computer vision.
+    - Trained ASDtect, a 90%-accurate EEG model for autism, for IUPUC.
     - Modeled how often academic pages change (HACS), to schedule web crawls.
     - Published 12 papers (Frontiers, JCDL, KES, IEEE IRI); Best Student Paper at IEEE IRI '19.
     - Taught core CS courses as a TA.
@@ -36,8 +36,8 @@
   designation: Graduate Research Fellow, Center for Advanced Imaging
   term: Feb 2022 - Aug 2022
   description: |-
-    - Proposed an out-of-distribution detector for clinical ML models.
     - Trained deep learning models to spot antimicrobial-resistant bacteria in single-cell images.
+    - Proposed an out-of-distribution detector for clinical ML models.
     - Modeled light in multimode fibers with Neural ODEs.
     - Published it at IEEE IPC '23.
 
@@ -70,5 +70,5 @@
   designation: Software Engineering Intern
   term: Jun 2017 - Dec 2017
   description: |-
-    - Built Suzy, an NLP chatbot for support questions, on Facebook Chat via DialogFlow.
     - Built crawlers, vectorizers, and Elasticsearch indexers for the docs.
+    - Built Suzy, an NLP chatbot for support questions, on Facebook Chat via DialogFlow.
