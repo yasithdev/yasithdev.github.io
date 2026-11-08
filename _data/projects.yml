@@ -42,7 +42,7 @@
         - key: Paper
           link: https://doi.org/10.1145/3785462.3815896
 
-    - title: slurmrest
+    - title: Slurm REST
       icon: /assets/img/projects/slurm.png
       term: 2026
       description: |-
